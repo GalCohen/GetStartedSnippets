@@ -1,0 +1,5 @@
+<?
+
+echo 'you have registered.';
+
+?>

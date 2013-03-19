@@ -1,0 +1,240 @@
+TsegmentedControlsTutorial
+v7
+r0
+t302582028.045120
+cCheck dependencies
+cProcessInfoPlistFile /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/Info.plist segmentedControlsTutorial-Info.plist
+cCompileXIB /Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib
+cCompileXIB /Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib
+cProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch.gch segmentedControlsTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/main.o /Users/galchook26/Desktop/segmentedControlsTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialAppDelegate.o /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialViewController.o /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5783060000000000000132
+t1280803590
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.h
+c000000004C58D0820000000000000247
+t1280888962
+s583
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m
+c000000004C58D0820000000000000AE1
+t1280888962
+s2785
+i"segmentedControlsTutorialAppDelegate.h"
+i"segmentedControlsTutorialViewController.h"
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.h
+c000000004C58D1390000000000000296
+t1280889145
+s662
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m
+c000000004C58D1870000000000000643
+t1280889223
+s1603
+i"segmentedControlsTutorialViewController.h"
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib
+c000000004C58D0820000000000004F01
+t1280888962
+s20225
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app
+t2
+s0
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app.dSYM
+t2
+s0
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/Info.plist
+t1280889225
+s669
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/MainWindow.nib
+t1280889226
+s1159
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/PkgInfo
+t1280889225
+s8
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/segmentedControlsTutorial
+t2
+s0
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/segmentedControlsTutorialViewController.nib
+t1280889226
+s795
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/main.o
+t1280889227
+s6328
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorial.LinkFileList
+c000000004C58D1890000000000000244
+t1280889225
+s580
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialAppDelegate.o
+t1280889228
+s48972
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialViewController.o
+t2
+s0
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/main.m
+c000000004C58D0820000000000000177
+t1280888962
+s375
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib
+c000000004C58D0820000000000001A8D
+t1280888962
+s6797
+
+N/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorial_Prefix.pch
+c000000004C58D08200000000000000DB
+t1280888962
+s219
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch.gch
+t1280889227
+s15232016
+
+NsegmentedControlsTutorial-Info.plist
+c000000004C58D082000000000000038D
+t1280888962
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302582025#302582025#0(0"0(0#1#0"8612534592#0"0#
+
+CCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/main.o /Users/galchook26/Desktop/segmentedControlsTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302582027.800299
+e302582027.936238
+r1
+xCompileC
+xbuild/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/main.o
+x/Users/galchook26/Desktop/segmentedControlsTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/galchook26/Desktop/segmentedControlsTutorial/main.m302582027#302582027#0(0"0(0#0#58"/Users/galchook26/Desktop/segmentedControlsTutorial/main.m8615378368#2404"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-generated-files.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-project-headers.hmap -F/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch -c /Users/galchook26/Desktop/segmentedControlsTutorial/main.m -o /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/main.o0#
+
+CCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialAppDelegate.o /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302582027.806970
+e302582028.045022
+r1
+xCompileC
+xbuild/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialAppDelegate.o
+x/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m302582027#302582028#0(0"0(0#0#98"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m8615084992#2476"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-generated-files.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-project-headers.hmap -F/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch -c /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialAppDelegate.m -o /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialAppDelegate.o0#
+
+CCompileC build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialViewController.o /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302582027.936344
+e302582028.036843
+r0
+xCompileC
+xbuild/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialViewController.o
+x/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:16: error: type of property 'button' does not match type of ivar 'button'
+o/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: incomplete implementation of class 'segmentedControlsTutorialViewController'
+o/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-buttonPressed:' not found
+o/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-switchChanged:' not found
+o/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-mainControlSwitched:' not found
+lSLF07#2@109"Compile /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582027#302582028#0(869"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:16: error: type of property 'button' does not match type of ivar 'button'/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: incomplete implementation of class 'segmentedControlsTutorialViewController'/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-buttonPressed:' not found/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-switchChanged:' not found/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m:69: warning: method definition for '-mainControlSwitched:' not found5(4@62"Type of property 'button' does not match type of ivar 'button'302582028#0#176#0(6@101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582023#16#0#16#0#0"0(22@76"Incomplete implementation of class 'segmentedControlsTutorialViewController'302582028#176#192#0(6@101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582023#69#0#69#0#38"incomplete implementation of class '*'0(22@49"Method definition for '-buttonPressed:' not found302582028#368#165#0(6@101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582023#69#0#69#0#35"method definition for '*' not found0(22@49"Method definition for '-switchChanged:' not found302582028#533#165#0(6@101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582023#69#0#69#0#35"method definition for '*' not found0(22@55"Method definition for '-mainControlSwitched:' not found302582028#698#171#0(6@101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m302582023#69#0#69#0#35"method definition for '*' not found0(0#0#101"/Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m8614592000#2482"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-generated-files.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-project-headers.hmap -F/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch -c /Users/galchook26/Desktop/segmentedControlsTutorial/Classes/segmentedControlsTutorialViewController.m -o /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/Objects-normal/i386/segmentedControlsTutorialViewController.o1#
+
+CCompileXIB /Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib
+s302582025.957281
+e302582026.623832
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302582025#302582026#0(0"0(0#0#66"/Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib8610585152#627"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/MainWindow.nib /Users/galchook26/Desktop/segmentedControlsTutorial/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib
+s302582025.958090
+e302582026.570116
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib
+lSLF07#2@54"CompileXIB segmentedControlsTutorialViewController.xib302582025#302582026#0(0"0(0#0#95"/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib8609799168#685"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/segmentedControlsTutorialViewController.nib /Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorialViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app.dSYM /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/segmentedControlsTutorial
+r0
+
+CLd /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/segmentedControlsTutorial normal i386
+r0
+
+CProcessInfoPlistFile /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/Info.plist segmentedControlsTutorial-Info.plist
+s302582025.952587
+e302582025.957201
+r1
+xProcessInfoPlistFile
+x/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/Info.plist
+xsegmentedControlsTutorial-Info.plist
+lSLF07#2@44"Process segmentedControlsTutorial-Info.plist302582025#302582025#0(0"0(0#0#88"/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorial-Info.plist8612149728#572"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility segmentedControlsTutorial-Info.plist -genpkginfo /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app/Info.plist0#
+
+CProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch.gch segmentedControlsTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302582026.623958
+e302582027.800146
+r1
+xProcessPCH
+x/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch.gch
+xsegmentedControlsTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Precompile segmentedControlsTutorial_Prefix.pch302582026#302582027#0(0"0(0#0#88"/Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorial_Prefix.pch8600764480#2265"    cd /Users/galchook26/Desktop/segmentedControlsTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-generated-files.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/segmentedControlsTutorial-project-headers.hmap -F/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/segmentedControlsTutorial/build/segmentedControlsTutorial.build/Debug-iphonesimulator/segmentedControlsTutorial.build/DerivedSources -c /Users/galchook26/Desktop/segmentedControlsTutorial/segmentedControlsTutorial_Prefix.pch -o /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/segmentedControlsTutorial_Prefix-afwxafnkbuesjxbuujdszjhuarpm/segmentedControlsTutorial_Prefix.pch.gch0#
+
+CTouch /Users/galchook26/Desktop/segmentedControlsTutorial/build/Debug-iphonesimulator/segmentedControlsTutorial.app
+r0
+

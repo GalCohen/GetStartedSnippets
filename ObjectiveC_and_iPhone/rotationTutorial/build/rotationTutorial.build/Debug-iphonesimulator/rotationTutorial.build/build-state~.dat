@@ -1,0 +1,256 @@
+TrotationTutorial
+v7
+r0
+t302841036.948191
+cCheck dependencies
+cProcessInfoPlistFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/Info.plist" rotationTutorial-Info.plist
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib"
+cProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch.gch rotationTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/main.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialAppDelegate.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialViewController.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial" normal i386
+cGenerateDSYMFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app.dSYM" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial"
+cTouch "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5783060000000000000132
+t1280803590
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.h
+c000000004C5CC45B0000000000000211
+t1281147995
+s529
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m
+c000000004C5CC45B0000000000000AB4
+t1281147995
+s2740
+i"rotationTutorialAppDelegate.h"
+i"rotationTutorialViewController.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.h
+c000000004C5CC45B0000000000000105
+t1281147995
+s261
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m
+c000000004C5CC548000000000000038D
+t1281148232
+s909
+i"rotationTutorialViewController.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib
+c000000004C5CC45B0000000000004E95
+t1281147995
+s20117
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app
+t1281148236
+s238
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app.dSYM
+t1281148236
+s102
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/Info.plist
+t1281148234
+s633
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/MainWindow.nib
+t1281148235
+s1141
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/PkgInfo
+t1281148234
+s8
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial
+t1281148236
+s17924
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorialViewController.nib
+t1281148235
+s795
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/main.o
+t1281148236
+s6364
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorial.LinkFileList
+c000000004C5CC54A000000000000022F
+t1281148234
+s559
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialAppDelegate.o
+t1281148236
+s48304
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialViewController.o
+t1281148236
+s35208
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m
+c000000004C5CC45B000000000000016E
+t1281147995
+s366
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib
+c000000004C5CC45B0000000000001A69
+t1281147995
+s6761
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorial_Prefix.pch
+c000000004C5CC45B00000000000000C9
+t1281147995
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch.gch
+t1281148236
+s15232016
+
+NrotationTutorial-Info.plist
+c000000004C5CC45B000000000000038D
+t1281147995
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302841034#302841034#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/main.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302841036.363476
+e302841036.574236
+r1
+xCompileC
+xbuild/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/main.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m302841036#302841036#0(0"0(0#0#75"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m8611256288#2433"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/main.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialAppDelegate.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302841036.364658
+e302841036.642972
+r1
+xCompileC
+xbuild/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialAppDelegate.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m302841036#302841036#0(0"0(0#0#106"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m8611839616#2487"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialAppDelegate.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialAppDelegate.o"0#
+
+CCompileC build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialViewController.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302841036.574337
+e302841036.670708
+r1
+xCompileC
+xbuild/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialViewController.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m302841036#302841036#0(0"0(0#0#109"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m8610744032#2493"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/Classes/rotationTutorialViewController.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorialViewController.o"0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib"
+s302841034.370847
+e302841035.148072
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302841034#302841035#0(0"0(0#0#83"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib8611730912#675"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/MainWindow.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib"
+s302841034.382020
+e302841035.162029
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib
+lSLF07#2@45"CompileXIB rotationTutorialViewController.xib302841034#302841035#0(0"0(0#0#103"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib8611138688#715"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorialViewController.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorialViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app.dSYM" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial"
+s302841036.885684
+e302841036.928971
+r1
+xGenerateDSYMFile
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app.dSYM
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/rotationTutorial.app.dSYM build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial302841036#302841036#0(0"0(0#0#134"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial8612004576#506"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app.dSYM"0#
+
+CLd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial" normal i386
+s302841036.670804
+e302841036.885589
+r1
+xLd
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial
+xnormal
+xi386
+lSLF07#2@139"Link /Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial302841036#302841036#0(0"0(0#0#0"8611248512#1105"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" -filelist "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/Objects-normal/i386/rotationTutorial.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/rotationTutorial"0#
+
+CProcessInfoPlistFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/Info.plist" rotationTutorial-Info.plist
+s302841034.355619
+e302841034.370746
+r1
+xProcessInfoPlistFile
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/Info.plist
+xrotationTutorial-Info.plist
+lSLF07#2@35"Process rotationTutorial-Info.plist302841034#302841034#0(0"0(0#0#96"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorial-Info.plist7019267317254411264#602"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility rotationTutorial-Info.plist -genpkginfo "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app/Info.plist"0#
+
+CProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch.gch rotationTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302841035.162185
+e302841036.363237
+r1
+xProcessPCH
+x/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch.gch
+xrotationTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile rotationTutorial_Prefix.pch302841035#302841036#0(0"0(0#0#96"/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorial_Prefix.pch8611148864#2284"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/rotationTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/rotationTutorial.build/Debug-iphonesimulator/rotationTutorial.build/DerivedSources" -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorial_Prefix.pch" -o /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rotationTutorial_Prefix-dwrjdtorbkyukndaarnlzudxcypz/rotationTutorial_Prefix.pch.gch0#
+
+CTouch "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app"
+s302841036.929172
+e302841036.948139
+r1
+xTouch
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app
+lSLF07#2@123"Touch /Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app302841036#302841036#0(0"0(0#0#0"8611814592#351"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/build/Debug-iphonesimulator/rotationTutorial.app"0#
+

@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* rotationTutorial */ = {
+		activeExec = 0;
+		executables = (
+			EB2CED5F120CFBDC0007B20A /* rotationTutorial */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* rotationTutorialViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {909, 637}}";
+			sepNavSelRange = "{374, 0}";
+			sepNavVisRange = "{0, 731}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* rotationTutorialViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1001}}";
+			sepNavSelRange = "{516, 0}";
+			sepNavVisRange = "{276, 581}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EB2CED5F120CFBDC0007B20A /* rotationTutorial */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* rotationTutorial */;
+		codeSenseManager = EB2CED71120CFBEF0007B20A /* Code sense */;
+		executables = (
+			EB2CED5F120CFBDC0007B20A /* rotationTutorial */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					731,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302840796;
+			PBXWorkspaceStateSaveDate = 302840796;
+		};
+		perUserProjectItems = {
+			EB2CED81120D01040007B20A /* PlistBookmark */ = EB2CED81120D01040007B20A /* PlistBookmark */;
+			EB2CEDD2120D09F40007B20A /* PBXTextBookmark */ = EB2CEDD2120D09F40007B20A /* PBXTextBookmark */;
+			EB2CEDD3120D09F40007B20A /* PBXTextBookmark */ = EB2CEDD3120D09F40007B20A /* PBXTextBookmark */;
+			EB2CEDDE120D0B610007B20A /* PBXTextBookmark */ = EB2CEDDE120D0B610007B20A /* PBXTextBookmark */;
+		};
+		sourceControlManager = EB2CED70120CFBEF0007B20A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EB2CED5F120CFBDC0007B20A /* rotationTutorial */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = rotationTutorial;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EB2CED70120CFBEF0007B20A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EB2CED71120CFBEF0007B20A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EB2CED81120D01040007B20A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* rotationTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/galchook26/Desktop/Projects/iPhone Tutorials/rotationTutorial/rotationTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EB2CEDD2120D09F40007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* rotationTutorialViewController.h */;
+		name = "rotationTutorialViewController.h: 20";
+		rLen = 0;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 731;
+		vrLoc = 0;
+	};
+	EB2CEDD3120D09F40007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* rotationTutorialViewController.m */;
+		name = "rotationTutorialViewController.m: 21";
+		rLen = 0;
+		rLoc = 514;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 0;
+	};
+	EB2CEDDE120D0B610007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* rotationTutorialViewController.m */;
+		name = "rotationTutorialViewController.m: 21";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 61;
+	};
+}

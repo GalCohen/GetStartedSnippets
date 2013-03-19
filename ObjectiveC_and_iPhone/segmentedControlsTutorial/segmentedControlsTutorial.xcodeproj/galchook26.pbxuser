@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* segmentedControlsTutorialAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {785, 617}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 583}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* segmentedControlsTutorial */ = {
+		activeExec = 0;
+		executables = (
+			EB49274F1209080200594926 /* segmentedControlsTutorial */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* segmentedControlsTutorialViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 609}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 673}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* segmentedControlsTutorialViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {854, 1560}}";
+			sepNavSelRange = "{1559, 0}";
+			sepNavVisRange = "{0, 1127}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EB49274F1209080200594926 /* segmentedControlsTutorial */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* segmentedControlsTutorial */;
+		codeSenseManager = EB49276D1209082100594926 /* Code sense */;
+		executables = (
+			EB49274F1209080200594926 /* segmentedControlsTutorial */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					676,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302843424;
+			PBXWorkspaceStateSaveDate = 302843424;
+		};
+		perUserProjectItems = {
+			EB2CEDBA120D06F10007B20A /* PBXTextBookmark */ = EB2CEDBA120D06F10007B20A /* PBXTextBookmark */;
+			EB2CEDBB120D06F10007B20A /* PBXTextBookmark */ = EB2CEDBB120D06F10007B20A /* PBXTextBookmark */;
+			EB2CEDBC120D06F10007B20A /* PBXTextBookmark */ = EB2CEDBC120D06F10007B20A /* PBXTextBookmark */;
+		};
+		sourceControlManager = EB49276C1209082100594926 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EB2CEDBA120D06F10007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* segmentedControlsTutorialViewController.h */;
+		name = "segmentedControlsTutorialViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	EB2CEDBB120D06F10007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* segmentedControlsTutorialViewController.m */;
+		name = "segmentedControlsTutorialViewController.m: 61";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 0;
+	};
+	EB2CEDBC120D06F10007B20A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* segmentedControlsTutorialViewController.m */;
+		name = "segmentedControlsTutorialViewController.m: 61";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 0;
+	};
+	EB49274F1209080200594926 /* segmentedControlsTutorial */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = segmentedControlsTutorial;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EB49276C1209082100594926 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EB49276D1209082100594926 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

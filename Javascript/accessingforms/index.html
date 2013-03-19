@@ -1,0 +1,61 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+<form name= "GalsForm">
+	
+	Username: <input type = "text" name = "username"/> <br>
+	Password: <input type = "password" name= "password" /> <br>
+	<input type="submit" value="Submit!" />
+	
+	<br><br>
+	
+	<input type = "checkbox" name = "checkbox"/> 
+	<input type = "button" value = "Press Me!" onClick = "validator()"/> <br>
+	
+	
+
+</form>
+
+<script type = "text/javascript">	
+ 	
+ 	var x = document.forms[0].length;
+ 	document.write(x);
+ 	document.write("<br>");
+ 	
+ 	
+ 	
+ 	var x = document.forms[0].elements[0].name;
+ 	document.write(x);
+ 	document.write("<br>");
+ 	
+ 	var x = document.GalsForm.elements[1].name;
+ 	document.write(x);
+ 	document.write("<br>");
+ 	
+ 	var x = document.GalsForm.username.name;
+ 	document.write(x);
+ 	document.write("<br>");
+ 	
+ 	
+ 	
+ 	
+ 	function validator(){
+ 		if (document.GalsForm.checkbox.checked){
+ 			alert("box is checked");
+ 		}else{
+ 			alert("box is not checked!");
+ 		}
+ 	}
+ 	
+ 	
+ 	
+</script>
+
+
+</body>
+
+</html>

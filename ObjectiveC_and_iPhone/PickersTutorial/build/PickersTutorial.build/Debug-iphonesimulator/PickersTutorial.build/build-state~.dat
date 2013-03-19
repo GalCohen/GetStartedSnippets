@@ -1,0 +1,447 @@
+TPickersTutorial
+v7
+r0
+t302990290.740464
+cCheck dependencies
+cProcessInfoPlistFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/Info.plist" PickersTutorial-Info.plist
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib"
+cCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib"
+cProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch.gch PickersTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/main.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorialAppDelegate.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DatePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/SinglePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DoublePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DependentPicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/CustomPicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial" normal i386
+cGenerateDSYMFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app.dSYM" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial"
+cTouch "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5783060000000000000132
+t1280803590
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.h
+c000000004C5F0B3A00000000000000E0
+t1281297210
+s224
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m
+c000000004C5F0B3A0000000000000594
+t1281297210
+s1428
+i"CustomPicker.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib
+c000000004C5F0B3A000000000000185F
+t1281297210
+s6239
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.h
+c000000004C5F0AE900000000000000DC
+t1281297129
+s220
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m
+c000000004C5F0AE9000000000000058E
+t1281297129
+s1422
+i"DatePicker.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib
+c000000004C5F0AE90000000000001859
+t1281297129
+s6233
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.h
+c000000004C5F0B2C00000000000000E6
+t1281297196
+s230
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m
+c000000004C5F0B2C000000000000059D
+t1281297196
+s1437
+i"DependentPicker.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib
+c000000004C5F0B2C0000000000001868
+t1281297196
+s6248
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.h
+c000000004C5F0B1E00000000000000E0
+t1281297182
+s224
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m
+c000000004C5F0B1E0000000000000594
+t1281297182
+s1428
+i"DoublePicker.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib
+c000000004C5F0B1E000000000000185F
+t1281297182
+s6239
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.h
+c000000004C5F0BE7000000000000012E
+t1281297383
+s302
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m
+c000000004C5F0C4C00000000000002F5
+t1281297484
+s757
+i"PickersTutorialAppDelegate.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.h
+c000000004C5F0B1200000000000000E0
+t1281297170
+s224
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m
+c000000004C5F0B120000000000000594
+t1281297170
+s1428
+i"SinglePicker.h"
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib
+c000000004C5F0B13000000000000185F
+t1281297171
+s6239
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib
+c000000004C5EF1930000000000002130
+t1281290643
+s8496
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/PickersTutorial_Prefix.pch
+c000000004C5EF19300000000000000C7
+t1281290643
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app
+t1281297490
+s374
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app.dSYM
+t1281297490
+s102
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/CustomPicker.nib
+t1281297487
+s764
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DatePicker.nib
+t1281297486
+s764
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DependentPicker.nib
+t1281297487
+s764
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DoublePicker.nib
+t1281297487
+s764
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/Info.plist
+t1281297485
+s629
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/MainWindow.nib
+t1281297486
+s992
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial
+t1281297490
+s19964
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PkgInfo
+t1281297485
+s8
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/SinglePicker.nib
+t1281297487
+s764
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/CustomPicker.o
+t1281297490
+s34468
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DatePicker.o
+t1281297489
+s34424
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DependentPicker.o
+t1281297490
+s34528
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DoublePicker.o
+t1281297490
+s34468
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorial.LinkFileList
+c000000004C5F0C4D00000000000004D0
+t1281297485
+s1232
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorialAppDelegate.o
+t1281297489
+s48368
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/SinglePicker.o
+t1281297489
+s34468
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/main.o
+t1281297489
+s6360
+
+N/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m
+c000000004C5EF193000000000000016D
+t1281290643
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch.gch
+t1281297489
+s15232016
+
+NPickersTutorial-Info.plist
+c000000004C5EF193000000000000038D
+t1281290643
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302990285#302990285#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/CustomPicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990290.130939
+e302990290.246395
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/CustomPicker.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m302990290#302990290#0(0"0(0#0#90"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m8610774176#2426"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/CustomPicker.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DatePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990289.869104
+e302990289.980342
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DatePicker.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m302990289#302990289#0(0"0(0#0#88"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m8611347360#2422"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DatePicker.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DependentPicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990290.013909
+e302990290.130836
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DependentPicker.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m302990290#302990290#0(0"0(0#0#93"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m8611250496#2432"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DependentPicker.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DoublePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990289.982997
+e302990290.159145
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DoublePicker.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m302990289#302990290#0(0"0(0#0#90"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m8612535584#2426"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/DoublePicker.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorialAppDelegate.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990289.458332
+e302990289.894413
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorialAppDelegate.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m302990289#302990289#0(0"0(0#0#104"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m8611483424#2454"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/PickersTutorialAppDelegate.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorialAppDelegate.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/SinglePicker.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990289.894507
+e302990290.013785
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/SinglePicker.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m302990289#302990290#0(0"0(0#0#90"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m8611037760#2426"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/SinglePicker.o"0#
+
+CCompileC build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/main.o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990289.457015
+e302990289.868984
+r1
+xCompileC
+xbuild/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/main.o
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m302990289#302990289#0(0"0(0#0#74"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m8612079264#2402"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/main.m" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib"
+s302990287.326492
+e302990287.987751
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib
+lSLF07#2@35"CompileXIB Classes/CustomPicker.xib302990287#302990287#0(0"0(0#0#92"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib8610989920#683"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/CustomPicker.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/CustomPicker.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib"
+s302990285.793333
+e302990286.631494
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib
+lSLF07#2@33"CompileXIB Classes/DatePicker.xib302990285#302990286#0(0"0(0#0#90"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib8611574880#679"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DatePicker.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DatePicker.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib"
+s302990287.306106
+e302990287.931306
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib
+lSLF07#2@38"CompileXIB Classes/DependentPicker.xib302990287#302990287#0(0"0(0#0#95"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib8610768640#689"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DependentPicker.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DependentPicker.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib"
+s302990286.631624
+e302990287.305377
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib
+lSLF07#2@35"CompileXIB Classes/DoublePicker.xib302990286#302990287#0(0"0(0#0#92"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib8611785792#683"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/DoublePicker.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/DoublePicker.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib"
+s302990286.453395
+e302990287.326401
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib
+lSLF07#2@35"CompileXIB Classes/SinglePicker.xib302990286#302990287#0(0"0(0#0#92"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib8611169408#683"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/SinglePicker.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/Classes/SinglePicker.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib"
+s302990285.792014
+e302990286.453272
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302990285#302990286#0(0"0(0#0#82"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib8611688704#671"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/MainWindow.nib" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app.dSYM" "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial"
+s302990290.379440
+e302990290.713402
+r1
+xGenerateDSYMFile
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app.dSYM
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/PickersTutorial.app.dSYM build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial302990290#302990290#0(0"0(0#0#131"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial8610514688#500"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial" -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app.dSYM"0#
+
+CLd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial" normal i386
+s302990290.246484
+e302990290.379351
+r1
+xLd
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial
+xnormal
+xi386
+lSLF07#2@136"Link /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial302990290#302990290#0(0"0(0#0#0"8611932832#1095"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" -filelist "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/Objects-normal/i386/PickersTutorial.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PickersTutorial"0#
+
+CProcessInfoPlistFile "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/Info.plist" PickersTutorial-Info.plist
+s302990285.777344
+e302990285.791907
+r1
+xProcessInfoPlistFile
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/Info.plist
+xPickersTutorial-Info.plist
+lSLF07#2@34"Process PickersTutorial-Info.plist302990285#302990285#0(0"0(0#0#94"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/PickersTutorial-Info.plist7019267317254411264#596"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PickersTutorial-Info.plist -genpkginfo "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app/Info.plist"0#
+
+CProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch.gch PickersTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302990287.987900
+e302990289.456806
+r1
+xProcessPCH
+x/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch.gch
+xPickersTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile PickersTutorial_Prefix.pch302990287#302990289#0(0"0(0#0#94"/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/PickersTutorial_Prefix.pch8612079936#2255"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-generated-files.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-own-target-headers.hmap" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-all-target-headers.hmap" -iquote "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/PickersTutorial-project-headers.hmap" "-F/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/include" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources/i386" "-I/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/PickersTutorial.build/Debug-iphonesimulator/PickersTutorial.build/DerivedSources" -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/PickersTutorial_Prefix.pch" -o /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickersTutorial_Prefix-csebvfxzuhqqpnaqrbamioiobjzq/PickersTutorial_Prefix.pch.gch0#
+
+CTouch "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app"
+s302990290.713487
+e302990290.740409
+r1
+xTouch
+x/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app
+lSLF07#2@121"Touch /Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app302990290#302990290#0(0"0(0#0#0"8611021760#348"    cd "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/galchook26/Desktop/Projects/iPhone Tutorials/PickersTutorial/build/Debug-iphonesimulator/PickersTutorial.app"0#
+

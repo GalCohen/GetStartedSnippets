@@ -1,0 +1,283 @@
+TLoginTutorial
+v7
+r0
+t302503098.274252
+cCheck dependencies
+cProcessInfoPlistFile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/Info.plist LoginTutorial-Info.plist
+cCompileXIB /Users/galchook26/Desktop/LoginTutorial/MainWindow.xib
+cCompileXIB /Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib
+cCpResource build/Debug-iphonesimulator/LoginTutorial.app/testPic.png testPic.png
+cProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch.gch LoginTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/main.o /Users/galchook26/Desktop/LoginTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialAppDelegate.o /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialViewController.o /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial normal i386
+cGenerateDSYMFile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app.dSYM /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial
+cTouch /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5783060000000000000132
+t1280803590
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/galchook26/Desktop/LoginTutorial/../testPic.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.h
+c000000004C579A4000000000000001FF
+t1280809536
+s511
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m
+c000000004C579A400000000000000AA5
+t1280809536
+s2725
+i"LoginTutorialAppDelegate.h"
+i"LoginTutorialViewController.h"
+
+N/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.h
+c000000004C579CB3000000000000019E
+t1280810163
+s414
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m
+c000000004C579CF7000000000000029F
+t1280810231
+s671
+i"LoginTutorialViewController.h"
+
+N/Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib
+c000000004C579A400000000000001A5D
+t1280809536
+s6749
+
+N/Users/galchook26/Desktop/LoginTutorial/LoginTutorial_Prefix.pch
+c000000004C579A4000000000000000C3
+t1280809536
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/LoginTutorial/MainWindow.xib
+c000000004C579A400000000000004E71
+t1280809536
+s20081
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app
+t1280810298
+s272
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app.dSYM
+t1280810298
+s102
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/Info.plist
+t1280810294
+s615
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial
+t1280810298
+s18184
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorialViewController.nib
+t1280810295
+s795
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/MainWindow.nib
+t1280810295
+s1135
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/PkgInfo
+t1280810294
+s8
+
+N/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/testPic.png
+t1280810295
+s5510
+
+N/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorial.LinkFileList
+c000000004C579D3600000000000001C0
+t1280810294
+s448
+
+N/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialAppDelegate.o
+t1280810298
+s48144
+
+N/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialViewController.o
+t1280810298
+s37348
+
+N/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/main.o
+t1280810298
+s6304
+
+N/Users/galchook26/Desktop/LoginTutorial/main.m
+c000000004C579A40000000000000016B
+t1280809536
+s363
+i<UIKit/UIKit.h>
+
+N/Users/galchook26/Desktop/LoginTutorial/testPic.png
+c000000004C579AA90000000000001586
+t1280809641
+s5510
+
+N/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch.gch
+t1280810297
+s15232016
+
+NLoginTutorial-Info.plist
+c000000004C579A40000000000000038D
+t1280809536
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302503094#302503094#0(0"0(0#1#0"8613319872#0"0#
+
+CCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialAppDelegate.o /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302503097.869214
+e302503098.117815
+r1
+xCompileC
+xbuild/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialAppDelegate.o
+x/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m302503097#302503098#0(0"0(0#0#74"/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m8617029696#2080"    cd /Users/galchook26/Desktop/LoginTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-generated-files.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-project-headers.hmap -F/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch -c /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialAppDelegate.m -o /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialAppDelegate.o0#
+
+CCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialViewController.o /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302503098.049479
+e302503098.161141
+r1
+xCompileC
+xbuild/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialViewController.o
+x/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m302503098#302503098#0(0"0(0#0#77"/Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m8606576128#2086"    cd /Users/galchook26/Desktop/LoginTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-generated-files.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-project-headers.hmap -F/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch -c /Users/galchook26/Desktop/LoginTutorial/Classes/LoginTutorialViewController.m -o /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorialViewController.o0#
+
+CCompileC build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/main.o /Users/galchook26/Desktop/LoginTutorial/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302503097.867403
+e302503098.049307
+r1
+xCompileC
+xbuild/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/main.o
+x/Users/galchook26/Desktop/LoginTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/galchook26/Desktop/LoginTutorial/main.m302503097#302503098#0(0"0(0#0#46"/Users/galchook26/Desktop/LoginTutorial/main.m8617150656#2032"    cd /Users/galchook26/Desktop/LoginTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-generated-files.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-project-headers.hmap -F/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources -include /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch -c /Users/galchook26/Desktop/LoginTutorial/main.m -o /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib
+s302503094.602531
+e302503095.812942
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib
+lSLF07#2@42"CompileXIB LoginTutorialViewController.xib302503094#302503095#0(0"0(0#0#71"/Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib8607818976#613"    cd /Users/galchook26/Desktop/LoginTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorialViewController.nib /Users/galchook26/Desktop/LoginTutorial/LoginTutorialViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/galchook26/Desktop/LoginTutorial/MainWindow.xib
+s302503094.560484
+e302503095.728938
+r1
+xCompileXIB
+x/Users/galchook26/Desktop/LoginTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302503094#302503095#0(0"0(0#0#54"/Users/galchook26/Desktop/LoginTutorial/MainWindow.xib8607916928#579"    cd /Users/galchook26/Desktop/LoginTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/MainWindow.nib /Users/galchook26/Desktop/LoginTutorial/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/LoginTutorial.app/testPic.png ../testPic.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LoginTutorial.app/testPic.png testPic.png
+s302503095.729062
+e302503095.781000
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LoginTutorial.app/testPic.png
+xtestPic.png
+lSLF07#2@16"Copy testPic.png302503095#302503095#0(0"0(0#0#51"/Users/galchook26/Desktop/LoginTutorial/testPic.png8617066528#464"    cd /Users/galchook26/Desktop/LoginTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/galchook26/Desktop/LoginTutorial/testPic.png /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app0#
+
+CGenerateDSYMFile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app.dSYM /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial
+s302503098.235335
+e302503098.269232
+r1
+xGenerateDSYMFile
+x/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app.dSYM
+x/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/LoginTutorial.app.dSYM build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial302503098#302503098#0(0"0(0#0#99"/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial8612847712#404"    cd /Users/galchook26/Desktop/LoginTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial -o /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app.dSYM0#
+
+CLd /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial normal i386
+s302503098.161238
+e302503098.235234
+r1
+xLd
+x/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial
+xnormal
+xi386
+lSLF07#2@104"Link /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial302503098#302503098#0(0"0(0#0#0"8617177088#935"    cd /Users/galchook26/Desktop/LoginTutorial    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -F/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -filelist /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/Objects-normal/i386/LoginTutorial.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/LoginTutorial0#
+
+CProcessInfoPlistFile /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/Info.plist LoginTutorial-Info.plist
+s302503094.534577
+e302503094.560389
+r1
+xProcessInfoPlistFile
+x/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/Info.plist
+xLoginTutorial-Info.plist
+lSLF07#2@32"Process LoginTutorial-Info.plist302503094#302503094#0(0"0(0#0#64"/Users/galchook26/Desktop/LoginTutorial/LoginTutorial-Info.plist8619554176#500"    cd /Users/galchook26/Desktop/LoginTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LoginTutorial-Info.plist -genpkginfo /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app/Info.plist0#
+
+CProcessPCH /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch.gch LoginTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302503095.813077
+e302503097.867204
+r1
+xProcessPCH
+x/var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch.gch
+xLoginTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile LoginTutorial_Prefix.pch302503095#302503097#0(0"0(0#0#64"/Users/galchook26/Desktop/LoginTutorial/LoginTutorial_Prefix.pch8619281344#1917"    cd /Users/galchook26/Desktop/LoginTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-generated-files.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-own-target-headers.hmap -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-all-target-headers.hmap -iquote /Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/LoginTutorial-project-headers.hmap -F/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator -I/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/include -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources/i386 -I/Users/galchook26/Desktop/LoginTutorial/build/LoginTutorial.build/Debug-iphonesimulator/LoginTutorial.build/DerivedSources -c /Users/galchook26/Desktop/LoginTutorial/LoginTutorial_Prefix.pch -o /var/folders/kt/ktYA-M1PFgWl2ZHzpAd52k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LoginTutorial_Prefix-etmdlwbukebpctawnemzgtqksbtx/LoginTutorial_Prefix.pch.gch0#
+
+CTouch /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app
+s302503098.269338
+e302503098.274202
+r1
+xTouch
+x/Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app
+lSLF07#2@91"Touch /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app302503098#302503098#0(0"0(0#0#0"8612619680#286"    cd /Users/galchook26/Desktop/LoginTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/galchook26/Desktop/LoginTutorial/build/Debug-iphonesimulator/LoginTutorial.app0#
+

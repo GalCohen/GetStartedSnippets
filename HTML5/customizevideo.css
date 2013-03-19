@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+	
+}
+
+#skin{
+	width: 700px;
+	margin: 10px auto;
+	padding: 5px;
+	background: cyan;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+nav{
+	margin: 5px 0px;
+}
+
+#buttons{
+	float: left;
+	 width: 70px;
+	 height: 22px;
+}
+
+#buttons button{
+	height: 26px;
+	width: 50px;
+}
+
+#defaultBar{
+	position: relative;
+	float: left;
+	width: 600px;
+	height: 16px;
+	padding: 4px;
+	border: 1px solid black;
+	background: white;
+}
+
+#progressBar{
+	position: absolute;
+	width: 0px;
+	height: 16px;
+	background: lightblue;
+}

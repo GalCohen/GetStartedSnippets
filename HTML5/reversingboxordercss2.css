@@ -1,0 +1,47 @@
+#mommy{
+	
+	border: 2px solid blue;
+	display: -webkit-box;
+	-webkit-box-direction: reverse;  /* HERE */ 
+	width: 700px;
+	-webkit-box-pack: center;
+}
+
+#kid1{
+	border: 2px solid green;
+	background: green;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-ordinal-group: 3;
+	width: 60px;
+	-webkit-box-flex: 1;
+}
+
+#kid2{
+	border: 2px solid green;
+	background: yellow;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-ordinal-group: 4;
+	width: 60px;
+}
+
+#kid3{
+	border: 2px solid green;
+	background: red;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-ordinal-group: 1;
+	width: 60px;
+	
+}
+
+#kid4{
+	border: 2px solid green;
+	background: orange;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-ordinal-group: 2;
+	width: 60px;
+}
+

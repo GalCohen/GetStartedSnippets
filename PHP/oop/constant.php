@@ -1,0 +1,20 @@
+<?php
+
+class Circle {
+	const pi = 3.141;
+	
+	
+	public function Area($radius){
+		return self::pi * ($radius*$radius);
+	}
+}
+
+
+$circle = new Circle;
+
+echo $circle::pi;
+
+echo '<br>';
+echo $circle->Area(5);
+
+?>

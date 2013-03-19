@@ -1,0 +1,14 @@
+/*body > p {
+	color: green;
+}*/
+
+/*
+p.bucky + p {
+	color: blue;
+}
+*/
+
+p.bucky ~ p {
+	
+	color: yellow;
+}

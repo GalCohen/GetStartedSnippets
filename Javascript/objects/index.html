@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	
+	<script type = "text/javascript">	
+
+		function person(name, age){
+			this.name = name;
+			this.age = age;
+			this.yearsUntilRetire = yearsLeft;
+			
+			function yearsLeft(){
+				var numYears = 65- this.age;
+				return numYears;
+			}
+		}
+		
+		
+		
+		
+ 	
+	</script>
+
+</head>
+
+<body >
+
+<script type = "text/javascript">	
+
+ 	var tuna = "hello i am a tuna fish!";
+ 	document.write(tuna.length);   //example of an object 
+ 	
+ 	var dude1 = new person("Joe", 25);
+	var dude2 = new person("Jeremy", 34);
+ 	
+ 	document.write("<br> the name is "+ dude1.name + " and the age is " + dude1.age + ". Years till retirement: " + dude1.yearsUntilRetire());
+ 	
+ 	document.write("<br> the name is "+ dude2.name + " and the age is " + dude2.age + ". Years till retirement: " + dude2.yearsUntilRetire());
+</script>
+
+
+</body>
+
+</html>
