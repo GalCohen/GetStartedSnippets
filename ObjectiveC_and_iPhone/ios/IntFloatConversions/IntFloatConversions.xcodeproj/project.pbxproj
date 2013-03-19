@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6EA63216017F7100D928E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6EA63116017F7100D928E4 /* Foundation.framework */; };
+		EB6EA63516017F7100D928E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EA63416017F7100D928E4 /* main.m */; };
+		EB6EA63916017F7100D928E4 /* IntFloatConversions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB6EA63816017F7100D928E4 /* IntFloatConversions.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB6EA62B16017F7100D928E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EB6EA63916017F7100D928E4 /* IntFloatConversions.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB6EA62D16017F7100D928E4 /* IntFloatConversions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntFloatConversions; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6EA63116017F7100D928E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB6EA63416017F7100D928E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB6EA63716017F7100D928E4 /* IntFloatConversions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntFloatConversions-Prefix.pch"; sourceTree = "<group>"; };
+		EB6EA63816017F7100D928E4 /* IntFloatConversions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IntFloatConversions.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6EA62A16017F7100D928E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6EA63216017F7100D928E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6EA62216017F7100D928E4 = {
+			isa = PBXGroup;
+			children = (
+				EB6EA63316017F7100D928E4 /* IntFloatConversions */,
+				EB6EA63016017F7100D928E4 /* Frameworks */,
+				EB6EA62E16017F7100D928E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6EA62E16017F7100D928E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6EA62D16017F7100D928E4 /* IntFloatConversions */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6EA63016017F7100D928E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6EA63116017F7100D928E4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6EA63316017F7100D928E4 /* IntFloatConversions */ = {
+			isa = PBXGroup;
+			children = (
+				EB6EA63416017F7100D928E4 /* main.m */,
+				EB6EA63816017F7100D928E4 /* IntFloatConversions.1 */,
+				EB6EA63616017F7100D928E4 /* Supporting Files */,
+			);
+			path = IntFloatConversions;
+			sourceTree = "<group>";
+		};
+		EB6EA63616017F7100D928E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB6EA63716017F7100D928E4 /* IntFloatConversions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6EA62C16017F7100D928E4 /* IntFloatConversions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6EA63C16017F7100D928E4 /* Build configuration list for PBXNativeTarget "IntFloatConversions" */;
+			buildPhases = (
+				EB6EA62916017F7100D928E4 /* Sources */,
+				EB6EA62A16017F7100D928E4 /* Frameworks */,
+				EB6EA62B16017F7100D928E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntFloatConversions;
+			productName = IntFloatConversions;
+			productReference = EB6EA62D16017F7100D928E4 /* IntFloatConversions */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6EA62416017F7100D928E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gal Cohen";
+			};
+			buildConfigurationList = EB6EA62716017F7100D928E4 /* Build configuration list for PBXProject "IntFloatConversions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB6EA62216017F7100D928E4;
+			productRefGroup = EB6EA62E16017F7100D928E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6EA62C16017F7100D928E4 /* IntFloatConversions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6EA62916017F7100D928E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6EA63516017F7100D928E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB6EA63A16017F7100D928E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB6EA63B16017F7100D928E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB6EA63D16017F7100D928E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntFloatConversions/IntFloatConversions-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB6EA63E16017F7100D928E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntFloatConversions/IntFloatConversions-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6EA62716017F7100D928E4 /* Build configuration list for PBXProject "IntFloatConversions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6EA63A16017F7100D928E4 /* Debug */,
+				EB6EA63B16017F7100D928E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6EA63C16017F7100D928E4 /* Build configuration list for PBXNativeTarget "IntFloatConversions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6EA63D16017F7100D928E4 /* Debug */,
+				EB6EA63E16017F7100D928E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6EA62416017F7100D928E4 /* Project object */;
+}

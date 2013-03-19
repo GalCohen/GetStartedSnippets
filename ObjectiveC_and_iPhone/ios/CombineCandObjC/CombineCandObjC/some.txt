@@ -1,0 +1,20 @@
+nclude <stdio.h>
+
+int main(void)
+{
+        char buffer[256];
+            FILE * myfile;
+            
+                myfile = fopen("some.txt","r");
+                
+                    while (!feof(myfile))
+                            {
+                                              fgets(buffer,256,myfile);
+                                                          printf("%s",buffer);
+                                                              }
+                                                              
+                                                                  fclose(myfile);
+                                                                      
+                                                                          return 0;
+}
+

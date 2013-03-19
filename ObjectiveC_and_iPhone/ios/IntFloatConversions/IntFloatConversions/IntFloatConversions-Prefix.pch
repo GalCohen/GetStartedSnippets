@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IntFloatConversions' target in the 'IntFloatConversions' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

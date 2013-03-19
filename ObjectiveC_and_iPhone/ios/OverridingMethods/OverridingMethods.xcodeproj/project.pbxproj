@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD9CB121603CBF900DE75A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD9CB111603CBF900DE75A7 /* Foundation.framework */; };
+		EBD9CB151603CBF900DE75A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB141603CBF900DE75A7 /* main.m */; };
+		EBD9CB191603CBF900DE75A7 /* OverridingMethods.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBD9CB181603CBF900DE75A7 /* OverridingMethods.1 */; };
+		EBD9CB211603CC3300DE75A7 /* Mom.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB201603CC3300DE75A7 /* Mom.m */; };
+		EBD9CB241603CD2E00DE75A7 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB231603CD2E00DE75A7 /* Son.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBD9CB0B1603CBF900DE75A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EBD9CB191603CBF900DE75A7 /* OverridingMethods.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EBD9CB0D1603CBF900DE75A7 /* OverridingMethods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OverridingMethods; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD9CB111603CBF900DE75A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBD9CB141603CBF900DE75A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD9CB171603CBF900DE75A7 /* OverridingMethods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverridingMethods-Prefix.pch"; sourceTree = "<group>"; };
+		EBD9CB181603CBF900DE75A7 /* OverridingMethods.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OverridingMethods.1; sourceTree = "<group>"; };
+		EBD9CB1F1603CC3300DE75A7 /* Mom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mom.h; sourceTree = "<group>"; };
+		EBD9CB201603CC3300DE75A7 /* Mom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mom.m; sourceTree = "<group>"; };
+		EBD9CB221603CD2E00DE75A7 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		EBD9CB231603CD2E00DE75A7 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD9CB0A1603CBF900DE75A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CB121603CBF900DE75A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD9CB021603CBF900DE75A7 = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB131603CBF900DE75A7 /* OverridingMethods */,
+				EBD9CB101603CBF900DE75A7 /* Frameworks */,
+				EBD9CB0E1603CBF900DE75A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD9CB0E1603CBF900DE75A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB0D1603CBF900DE75A7 /* OverridingMethods */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD9CB101603CBF900DE75A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB111603CBF900DE75A7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD9CB131603CBF900DE75A7 /* OverridingMethods */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB141603CBF900DE75A7 /* main.m */,
+				EBD9CB1F1603CC3300DE75A7 /* Mom.h */,
+				EBD9CB201603CC3300DE75A7 /* Mom.m */,
+				EBD9CB181603CBF900DE75A7 /* OverridingMethods.1 */,
+				EBD9CB161603CBF900DE75A7 /* Supporting Files */,
+				EBD9CB221603CD2E00DE75A7 /* Son.h */,
+				EBD9CB231603CD2E00DE75A7 /* Son.m */,
+			);
+			path = OverridingMethods;
+			sourceTree = "<group>";
+		};
+		EBD9CB161603CBF900DE75A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB171603CBF900DE75A7 /* OverridingMethods-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD9CB0C1603CBF900DE75A7 /* OverridingMethods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD9CB1C1603CBF900DE75A7 /* Build configuration list for PBXNativeTarget "OverridingMethods" */;
+			buildPhases = (
+				EBD9CB091603CBF900DE75A7 /* Sources */,
+				EBD9CB0A1603CBF900DE75A7 /* Frameworks */,
+				EBD9CB0B1603CBF900DE75A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverridingMethods;
+			productName = OverridingMethods;
+			productReference = EBD9CB0D1603CBF900DE75A7 /* OverridingMethods */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD9CB041603CBF900DE75A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gal Cohen";
+			};
+			buildConfigurationList = EBD9CB071603CBF900DE75A7 /* Build configuration list for PBXProject "OverridingMethods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBD9CB021603CBF900DE75A7;
+			productRefGroup = EBD9CB0E1603CBF900DE75A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD9CB0C1603CBF900DE75A7 /* OverridingMethods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD9CB091603CBF900DE75A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CB151603CBF900DE75A7 /* main.m in Sources */,
+				EBD9CB211603CC3300DE75A7 /* Mom.m in Sources */,
+				EBD9CB241603CD2E00DE75A7 /* Son.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBD9CB1A1603CBF900DE75A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBD9CB1B1603CBF900DE75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBD9CB1D1603CBF900DE75A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingMethods/OverridingMethods-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD9CB1E1603CBF900DE75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingMethods/OverridingMethods-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD9CB071603CBF900DE75A7 /* Build configuration list for PBXProject "OverridingMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CB1A1603CBF900DE75A7 /* Debug */,
+				EBD9CB1B1603CBF900DE75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD9CB1C1603CBF900DE75A7 /* Build configuration list for PBXNativeTarget "OverridingMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CB1D1603CBF900DE75A7 /* Debug */,
+				EBD9CB1E1603CBF900DE75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD9CB041603CBF900DE75A7 /* Project object */;
+}

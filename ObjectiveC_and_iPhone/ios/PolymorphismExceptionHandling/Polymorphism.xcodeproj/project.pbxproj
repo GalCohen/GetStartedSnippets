@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD9CB351603D0E900DE75A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD9CB341603D0E900DE75A7 /* Foundation.framework */; };
+		EBD9CB381603D0E900DE75A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB371603D0E900DE75A7 /* main.m */; };
+		EBD9CB3C1603D0E900DE75A7 /* Polymorphism.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBD9CB3B1603D0E900DE75A7 /* Polymorphism.1 */; };
+		EBD9CB441603D11F00DE75A7 /* Numz.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB431603D11F00DE75A7 /* Numz.m */; };
+		EBD9CB471603D1E800DE75A7 /* Charz.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CB461603D1E800DE75A7 /* Charz.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBD9CB2E1603D0E900DE75A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EBD9CB3C1603D0E900DE75A7 /* Polymorphism.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EBD9CB301603D0E900DE75A7 /* Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD9CB341603D0E900DE75A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBD9CB371603D0E900DE75A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD9CB3A1603D0E900DE75A7 /* Polymorphism-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polymorphism-Prefix.pch"; sourceTree = "<group>"; };
+		EBD9CB3B1603D0E900DE75A7 /* Polymorphism.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Polymorphism.1; sourceTree = "<group>"; };
+		EBD9CB421603D11F00DE75A7 /* Numz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Numz.h; sourceTree = "<group>"; };
+		EBD9CB431603D11F00DE75A7 /* Numz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Numz.m; sourceTree = "<group>"; };
+		EBD9CB451603D1E700DE75A7 /* Charz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charz.h; sourceTree = "<group>"; };
+		EBD9CB461603D1E800DE75A7 /* Charz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Charz.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD9CB2D1603D0E900DE75A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CB351603D0E900DE75A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD9CB251603D0E900DE75A7 = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB361603D0E900DE75A7 /* Polymorphism */,
+				EBD9CB331603D0E900DE75A7 /* Frameworks */,
+				EBD9CB311603D0E900DE75A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD9CB311603D0E900DE75A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB301603D0E900DE75A7 /* Polymorphism */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD9CB331603D0E900DE75A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB341603D0E900DE75A7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD9CB361603D0E900DE75A7 /* Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB371603D0E900DE75A7 /* main.m */,
+				EBD9CB421603D11F00DE75A7 /* Numz.h */,
+				EBD9CB431603D11F00DE75A7 /* Numz.m */,
+				EBD9CB451603D1E700DE75A7 /* Charz.h */,
+				EBD9CB461603D1E800DE75A7 /* Charz.m */,
+				EBD9CB3B1603D0E900DE75A7 /* Polymorphism.1 */,
+				EBD9CB391603D0E900DE75A7 /* Supporting Files */,
+			);
+			path = Polymorphism;
+			sourceTree = "<group>";
+		};
+		EBD9CB391603D0E900DE75A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CB3A1603D0E900DE75A7 /* Polymorphism-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD9CB2F1603D0E900DE75A7 /* Polymorphism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD9CB3F1603D0E900DE75A7 /* Build configuration list for PBXNativeTarget "Polymorphism" */;
+			buildPhases = (
+				EBD9CB2C1603D0E900DE75A7 /* Sources */,
+				EBD9CB2D1603D0E900DE75A7 /* Frameworks */,
+				EBD9CB2E1603D0E900DE75A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymorphism;
+			productName = Polymorphism;
+			productReference = EBD9CB301603D0E900DE75A7 /* Polymorphism */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD9CB271603D0E900DE75A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gal Cohen";
+			};
+			buildConfigurationList = EBD9CB2A1603D0E900DE75A7 /* Build configuration list for PBXProject "Polymorphism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBD9CB251603D0E900DE75A7;
+			productRefGroup = EBD9CB311603D0E900DE75A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD9CB2F1603D0E900DE75A7 /* Polymorphism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD9CB2C1603D0E900DE75A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9CB381603D0E900DE75A7 /* main.m in Sources */,
+				EBD9CB441603D11F00DE75A7 /* Numz.m in Sources */,
+				EBD9CB471603D1E800DE75A7 /* Charz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBD9CB3D1603D0E900DE75A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBD9CB3E1603D0E900DE75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBD9CB401603D0E900DE75A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polymorphism/Polymorphism-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD9CB411603D0E900DE75A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polymorphism/Polymorphism-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD9CB2A1603D0E900DE75A7 /* Build configuration list for PBXProject "Polymorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CB3D1603D0E900DE75A7 /* Debug */,
+				EBD9CB3E1603D0E900DE75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD9CB3F1603D0E900DE75A7 /* Build configuration list for PBXNativeTarget "Polymorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD9CB401603D0E900DE75A7 /* Debug */,
+				EBD9CB411603D0E900DE75A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD9CB271603D0E900DE75A7 /* Project object */;
+}
