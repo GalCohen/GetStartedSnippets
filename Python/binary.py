@@ -59,5 +59,21 @@ check_bit4(0b11011) # ==> "on"
 check_bit4(0b1010) # ==> "on"
 
 
+a = 0b10111011
+mask = 0b111
+print bin(a | mask)
+
+
+a = 0b11101110
+mask = 0b11111111
+print bin(a ^ mask)
+
+
+
+def flip_bit(number, n):
+	mask = (0b1 << n-1)
+	 res = bin(number ^ mask)
+	 print rereturn res
+
 
 
