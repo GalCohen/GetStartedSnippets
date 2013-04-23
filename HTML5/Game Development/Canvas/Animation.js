@@ -69,7 +69,7 @@ var animate = function(){
     context.clearRect(0,0,canvas.width, canvas.height);
     context.drawImage(frames[frameIndex], 0, 0);
     frameIndex++;
-    frameIndex = frameIndex % assets.length
+    frameIndex = frameIndex % assets.length;
 	
 };
 
