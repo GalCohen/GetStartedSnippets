@@ -1,3 +1,0 @@
-platform :ios
-pod 'Novocaine', '~> 0.0.1'
-pod 'upnpx', '~> 1.2.4'
