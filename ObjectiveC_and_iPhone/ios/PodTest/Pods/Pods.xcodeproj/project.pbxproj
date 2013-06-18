@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F0BD76986E44C982E9F239 /* SocketServer_ObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79A18C2D60DE466996A1C883 /* SocketServer_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02220C866D144FBBADA8F9F4 /* MediaServer1BasicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1645EB86E59244DDBB9C41F4 /* MediaServer1BasicObject.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		029972311F3048DBB7979238 /* PodsDummy_Pods.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CED844BF1BA445FAF76212A /* PodsDummy_Pods.mm */; };
+		04115098BD5745DC934DD3FA /* SoapActionsConnectionManager1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EAB3732543E64FDFB4D058BB /* SoapActionsConnectionManager1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05F315B4F0074D92BE2D39D9 /* LastChangeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 872C81A00F3D46C3B7647E78 /* LastChangeParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		067CF263423A4923AF30E5FB /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 078E6CC6990047F582290826 /* RingBuffer.mm */; };
+		072EF62AD8FD41609181379D /* CocoaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B4C58DE8D40D6949E90E8 /* CocoaTools.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		08465C3C973F4102A9F6BED3 /* SoapActionsRenderingControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FB7C5136F140C8A4D6B4CE /* SoapActionsRenderingControl1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		094092CD845E402EBEE3BF68 /* MediaServer1ItemRes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C858A6463E4743DBB6265E02 /* MediaServer1ItemRes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D55F984315F4E72A6D5306B /* ssdp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 940A4203EFA04FE1B6A3258A /* ssdp.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		0E38C47F4A844A18A62FB4C9 /* socketserverconnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2056B545A2A4218B37D7E17 /* socketserverconnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1176DE1B7BAD4444B88970E1 /* ssdphttp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6968F6B693F04CCAA4F5D10A /* ssdphttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A0CC7629A5449B8B864B41 /* SoapActionsConnectionManager1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52529C42844F56BA1ED0DD /* SoapActionsConnectionManager1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		1215A61F8A3B407DB3C80E4F /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DF7ED656704A3D86017A0C /* tools.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		121FB1E8C6D14783BFBF8909 /* SoapActionsContentDirectory1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB0F0DE628541889BEABA9D /* SoapActionsContentDirectory1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B59F9E9F274DEE955E4A49 /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8992858E409747F09C5C4F37 /* SoapActionsDigitalSecurityCameraSettings1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		1532F51ADAF146FE8F5E364D /* ssdpdbobserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAE2E60538641B6B8A6C5B3 /* ssdpdbobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158E2BD0EC724D5481B4512C /* SoapActionsMediaManagement1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFD7EF51009D424DA369A2F6 /* SoapActionsMediaManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1786802C48FA430188F93DFE /* InternetGateway2Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CD3ACF1AF62486E8A9AAD70 /* InternetGateway2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D3484443F04D0587DAD853 /* SoapActionsSwitchPower1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0AC1D6B2E04102B9837D7B /* SoapActionsSwitchPower1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19218E325FD047D784178F79 /* MediaRenderer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7FF7BBEEF4C0F82C0D19E /* MediaRenderer1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		19877C6037984AF5BFF8A43C /* SoapActionsAVTransport1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71207AD7FEB94A6AA1E54B9C /* SoapActionsAVTransport1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A93AE59612A45F2AC6B40E0 /* SoapActionsDeviceProtection1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B5A7AD372284C819DE7FC4C /* SoapActionsDeviceProtection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB5170C73414A36942BCA80 /* ssdpmsearch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4073D2937BFD4C5C992F3FBB /* ssdpmsearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AED913DD2584A1F8F2B1A3C /* SoapActionsSwitchPower1.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D82F0CB16F4404AFBC06DC /* SoapActionsSwitchPower1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		1BD7D0BAEAA342C9A0790B7F /* SoapActionsWANIPv6FirewallControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = E289CD20C1064D35B05A2A2A /* SoapActionsWANIPv6FirewallControl1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		1C51DC2DAC1F471185FD0415 /* SoapActionsInputConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5415224773B4BC487B1D574 /* SoapActionsInputConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CCFC65269D9470E8968B6C7 /* ssdptools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D54B4865C224491BAB8EA66 /* ssdptools.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		1DF3323315DB4A3487F67913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2C4CE3DC41498194B72A90 /* Foundation.framework */; };
+		2015493181634D029CA1098D /* BinaryLight1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E20B9E8D71D47889340B274 /* BinaryLight1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FC32BF47324B12A148BB83 /* StateVariableList.m in Sources */ = {isa = PBXBuildFile; fileRef = AB41DC74EBD64300B71209AC /* StateVariableList.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		2506CD295C844ECC923FA106 /* SoapActionsLayer3Forwarding1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF2CFABBDC4840679D192717 /* SoapActionsLayer3Forwarding1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268D38FF59CC462F81EDE5DA /* MediaServer1ContainerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3350DAC3D70240C8850F869B /* MediaServer1ContainerObject.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		29F6CBC667A248C78FA958EB /* SoapActionsRenderingControl1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D3BCF9714443B7BA9A98D9 /* SoapActionsRenderingControl1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF55D255DC94C888E844297 /* SoapActionsCallManagement1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40AE47C016D44D29BDDAC4BC /* SoapActionsCallManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB3D65AA3264C379543C60C /* ssdpnotifyalive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDAAD14C66F845EBB0A513B7 /* ssdpnotifyalive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EDB8D6A390C4668B045E07E /* TelephonyServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D28D0984474102A89AFAA1 /* TelephonyServer1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		311C92E78E7945ECB7E7E1F4 /* DigitalSecurityCamera1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E0290281D6AB45FAAD73E231 /* DigitalSecurityCamera1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318AE11BCD91435AADB65280 /* StateVariable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 486C22EED5184A7399677ED5 /* StateVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C9870BB281431EA3DF2B8A /* ssdp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EC7DC862D8F4A5E910037AB /* ssdp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D1DF70498543FAAB4954EB /* SocketServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA05414D7DCC491EBC325F74 /* SocketServer_ObjC.mm */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		35273EDBB5684EF783FFF485 /* InternetGateway2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD4820FD5BB4F7CAF464BF0 /* InternetGateway2Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		38DD65A964DB4F31965ADB5D /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = B66920F1CFC643AA9E6F0AAC /* Novocaine.m */; };
+		39FEB1D977164A6A8E540B1C /* SoapActionsWANIPv6FirewallControl1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12FB089B87CC4E9399636162 /* SoapActionsWANIPv6FirewallControl1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6C52DF70A14382A9563128 /* MediaServer1BasicObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75AE6B5E823D4CD3868B4634 /* MediaServer1BasicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA92819FBCD43FCAFF8ACFC /* ssdpmessage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3949AFDFD4342D2BDC3DE3E /* ssdpmessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C0729C778054AD2900D49AF /* ServiceFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3EE5890837C4A86AB1AB701 /* ServiceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6A4365577042BCB11558D7 /* ssdpdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39FEB3CBD0E048C0AF902253 /* ssdpdb.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		3DDE613DAAA34770A757A882 /* BasicParserAsset.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33DA012F9CED45029806C2DC /* BasicParserAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8831B0F5F84E1BBCE5A048 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10213D52604C718CC3C64B /* OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		449C00983FFC41BB84858DFE /* SoapActionsContentDirectory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE16ACC8F3C45A5A4A06C60 /* SoapActionsContentDirectory1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		46C301374CAD4EDB968209C8 /* UPnPEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A12DC2EA1F1A4CF5BDF0E8F9 /* UPnPEventParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		473E289E2C2247C4BE9137A0 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAE30FA08F3341F1BD1819B7 /* main.mm */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		47702A0AD9D844E292082168 /* ssdpnotify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4B37E5A12894EBCB6F2D254 /* ssdpnotify.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		48CDC0208BF741488115EC1A /* TelephonyServer1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9D1567B37D347B9B64ECA98 /* TelephonyServer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E681D658B842D691315D29 /* RingBuffer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBA52B9C86354C65A8CC2072 /* RingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9DB8093CF04C23919FBFB1 /* SoapAction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A137DF478FF4E84837DF9B6 /* SoapAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4B6D36877948A7B02416D6 /* BasicServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AEC826B7554FEC85541B50 /* BasicServiceParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		4D2F1478BDD1494F8D415962 /* SoapActionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320946E12434CD0A66E181F /* SoapActionFactory.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		4E9711FB0B6242B3A4791CFE /* SoapActionsWANPPPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD89B61F4914C1489A1EF3B /* SoapActionsWANPPPConnection1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		510D39357CDD4081BA9549FB /* basichttpobserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E88335F092604DE19ADAE2B1 /* basichttpobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F3C718B2EF4EA487823211 /* AudioFileReader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BE70F0C5CC4C3E8C0A405D /* AudioFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C4C72DF27A400DAFC2613C /* socketserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11382BC05B8C4253A9EB45DC /* socketserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536A94F615EB49D2843617BD /* ssdpmsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE9A3E93D4E02B30707A8 /* ssdpmsearch.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		5436E5C287DB4A58B87EB8EC /* BasicParserAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001538B62024C09A84E28B9 /* BasicParserAsset.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		54B891E3710449AF9140FC4D /* LastChangeParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFAFEC9AF7924BA697501D24 /* LastChangeParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5551580143264D46BDC83547 /* UPnPEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB9DFDA1C44EAFB0B61F5A /* UPnPEvents.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		57911E6A13664FF180CE966D /* BasicUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D75A81422B4657996303E6 /* BasicUPnPDevice.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		5B7AC40D67674FB18070922F /* SoapActionsDimming1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC2BE30CC1FA4D9FBDAB5572 /* SoapActionsDimming1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C567E9A6DF14C1AAAFBEDDA /* SoapActionsWANDSLLinkConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F0D4E518E6146C7821C5286 /* SoapActionsWANDSLLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D21A7023403437CA9973E3E /* MediaServerBasicObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1116887CCBE442B5A42B78B0 /* MediaServerBasicObjectParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECA900E89E94E2D803AC09D /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EAF67BD67B46649FC759BC /* AudioFileWriter.m */; };
+		614927E4CF574997B4E65F6A /* ssdpnotify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B308DA6F2C58476AB31EF4B4 /* ssdpnotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6156E032711848BDA08E6E28 /* SoapActionsWANDSLLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7E7E9A3374AE38C78DA16 /* SoapActionsWANDSLLinkConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		61BB448C9786424FA042DB75 /* BasicDeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF370623F34341A5D22038 /* BasicDeviceParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		6242A944E29948428F9ACD30 /* ssdpnotifybye.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1E7910AE18649D0AE43CE6E /* ssdpnotifybye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627BC1EEED2D4CBC9D7F8516 /* DeviceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E9713F1D081B433482FB8437 /* DeviceFactory.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		6343E543C382482B8FB1C2CA /* UPnPEventParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 635CF9CB22C04292B0E619B3 /* UPnPEventParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D9BA7BA6A343C3BD7C098E /* SoapActionsWANIPConnection1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 018E7F21A30F423A85454972 /* SoapActionsWANIPConnection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6596AA962B5247988A6A7F1D /* StateVariableRange.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5042952282244D29B9965E9B /* StateVariableRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659C2FCEDABF4DD09D24D719 /* WANConnection1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA9A707CC24C49509B528FC8 /* WANConnection1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67007DABF569486BB2C33102 /* MediaServer1ItemObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417A92CFF9904893B196B563 /* MediaServer1ItemObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A2BADE7F2F4901AEF5156C /* basichttpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4080F75F8A3F4C5AA9D60528 /* basichttpserver.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		693223AF790B4A5495FC95C9 /* BinaryLight1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C803251784813B5FF74FB /* BinaryLight1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		6B0F518614474FE781BC29A2 /* WAN2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17081B30F54A0AB79B3147 /* WAN2Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		6F6E7BDD174E44FC939884E3 /* SoapActionsWANIPConnection2.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B85C14754CBBB4441686 /* SoapActionsWANIPConnection2.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		714388C0D1E4428D836D2ECC /* SoapActionsWANCableLinkConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 240460540AB9438DB88A2DD6 /* SoapActionsWANCableLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720C175D4C564D8AA93FFB37 /* UPnPDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E318817F37F40EA9945C528 /* UPnPDB.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		7444652895E343E393D61128 /* StateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD193447FC4184A72EE1D7 /* StateVariable.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		760BD4C69C614D64A33C7F19 /* MediaServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082EA0C49514ED8B79C6C5B /* MediaServer1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		7622843603194E6A9E82C8A4 /* SSDPDB_ObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82E41661445B4BF69196BD86 /* SSDPDB_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7811225497DD4BD5910F39C2 /* SoapActionsMessaging1.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F9E8DDB8142BA88A88C9C /* SoapActionsMessaging1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		7A2A302020A143AB99DEF9AE /* SoapActionsConfigurationManagement1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 132BC15FD0EC4335813D5E91 /* SoapActionsConfigurationManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD53AF1F91A432D965827E9 /* AudioFileWriter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7DCB7F5B8CB843B6BFE5FB1C /* AudioFileWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B7A2E4BF4464BAAA2251770 /* httpsession.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31E4E00268404713B54DDD7B /* httpsession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D52CA185B724A1AA1C80151 /* MediaServer1ItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DAA34214194FDEBF2AFB67 /* MediaServer1ItemObject.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		7FD863A4C89E4E0980150CA9 /* ssdptools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E8D87714DEF4425A3048D02 /* ssdptools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81601026AA014E13BED7ED3A /* ssdpnotifyupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96893BD219014AFFA6905802 /* ssdpnotifyupdate.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		82A7F55DA59940B79B7A9199 /* UPnPEvents.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 860000C6723D47F29B1EAAA8 /* UPnPEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8310977ED1BE487B9E51F943 /* ssdpsearchreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 219775309B564308BEC88D0A /* ssdpsearchreq.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		8457A248F8E54F7D83B42BBB /* UPnPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B2CDF9A2FA4C70AABA5C3E /* UPnPManager.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		85A480CFC3C94A5F9DF9587B /* DimmableLight1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5352FA5787441B4B8120CCE /* DimmableLight1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86732B8D02644B1E932F15C9 /* CocoaTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF17BB49F714439FBD2CFC97 /* CocoaTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		874A743E60D4474D943B8466 /* ssdpdbdevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD4FAE12EA8445F95A91E27 /* ssdpdbdevice.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		87DF66D5331543F0A76D5053 /* MediaPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1D3DDDA2D49A2A219B513 /* MediaPlaylist.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		880A90F3740C4D9EB1B99FE2 /* httpsession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B310771455542AD9AE065D0 /* httpsession.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		8813535481CD46B09D4AE7FE /* TelephonyClient1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C179371788D4D5A954B5734 /* TelephonyClient1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		88C8E558E2F84FBAAED632D6 /* BasicUPnPService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3544D1A3C0704CEA99867C8C /* BasicUPnPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A418FA6FDE240F7A3C69149 /* SoapActionsInputConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC57429E9C84C8497BDD8CC /* SoapActionsInputConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		8B6B753C03CB478BAB14060C /* SoapActionsMessaging1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21CF34EA39364A4D8241EC8C /* SoapActionsMessaging1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4EAF2FFC15445DBFC6109C /* DimmableLigh1tDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D1811A0339C14E52A72C0AC5 /* DimmableLigh1tDevice.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		8C9F72A6DEB34A4EBD23F7B4 /* SoapActionsWANCommonInterfaceConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D840CE235424E509FE29E6B /* SoapActionsWANCommonInterfaceConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE063B5A8AD42868B8E84D0 /* ssdpmessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98A0ABA9DD3B40A68E1C7AD4 /* ssdpmessage.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		8DD38FDF7CEB4321AC554372 /* tools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C72FE6A906E46E9948852AB /* tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2298B583AB46ACAA8A54F9 /* SoapActionsDigitalSecurityCameraStillImage1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F86E6AA9583F4CAFA6468FF9 /* SoapActionsDigitalSecurityCameraStillImage1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F91EA1E9B764D918069EE87 /* BasicParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14D6AF93445E4DEABED09ED0 /* BasicParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD003C16AFA4FF1860F0A6A /* SoapActionsDeviceProtection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C4F31E8F5465E926DEC08 /* SoapActionsDeviceProtection1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		93534DB16DF04951947E2B24 /* MediaPlaylist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0956E9894A784CFD8D83DC54 /* MediaPlaylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B394CE457A4B22A5EB2447 /* socketserverconnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C57E2A8338B54539B7BEC812 /* socketserverconnection.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		95115F69635A468A8CF41480 /* BasicDeviceParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3F42119175E4FDF8474F709 /* BasicDeviceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A6990AA6964A29ABB026FB /* StateVariableRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3FCC2DE0F4571B85D6ACC /* StateVariableRange.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		9AA8B4C56CA545BD8D57A6A1 /* TelephonyClient1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD61C5F8C8C24ABB96336F38 /* TelephonyClient1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCAB55D6E1A4BD5A7FAFF8E /* ssdpdb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CE369E4B2BC46BB8DC27AA6 /* ssdpdb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0DE73ECAFC240D1A12496E1 /* MediaServer1ContainerObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 745E17423C7A4A43911D138A /* MediaServer1ContainerObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A18B193D34C84D1AB2D7C378 /* SoapActionsAVTransport1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E52370EF7ED456D9012B755 /* SoapActionsAVTransport1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		A207140C4D5B46458D8FDFBF /* SoapActionsLANHostConfigManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA4B9BDB6E4DFEA0559610 /* SoapActionsLANHostConfigManagement1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		A41A2B5B57AC4598AF2B8C78 /* BasicUPnPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A456D1CC224048A6AAE326 /* BasicUPnPService.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		A660B0B161B94B898664DE73 /* SoapActionsWANIPConnection2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B5103A0752E44C2A174F197 /* SoapActionsWANIPConnection2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9247A47003042948D180C6D /* ssdpsearchresp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 617211FAD5814E5190BE25A7 /* ssdpsearchresp.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		A97AECFF3A234317AE5FA736 /* SoapActionsWANIPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F02A8A213074A0E99414DEF /* SoapActionsWANIPConnection1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		AA48CFB07FCD4C3A903C38E7 /* BasicServiceParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 563F06059FF84114BBBDB04C /* BasicServiceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACCE173BD654EF880F3ECFF /* SoapActionsMediaManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = 440391DFE8A44A3EB130D089 /* SoapActionsMediaManagement1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		AD8A89BC39EB484B9F8C025E /* DigitalSecurityCamera1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2870EA335D4D7C874DCBA3 /* DigitalSecurityCamera1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		AE8D7C99A9F34318A994F02E /* SoapActionsLayer3Forwarding1.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B9689A7FCB4FAB990DB513 /* SoapActionsLayer3Forwarding1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		AF58BE00F363414DB1C2B883 /* socketserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11555D1B246049F7866B426C /* socketserver.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		B4295F20D25E4134A9BCD2D7 /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DED163BAD941299E9CD99D /* SoapActionsDigitalSecurityCameraStillImage1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		B42EF6011E4E45989468245B /* SoapActionsConfigurationManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = F5082CFF354249F084F0ACB5 /* SoapActionsConfigurationManagement1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		B4C16D97BDE64077B302DCC1 /* BasicUPnPDevice.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A773A39649944659F595837 /* BasicUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51DC69B3CCF42F2B19CF204 /* MediaServer1ItemRes.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F0354F1CA4BDC93424E04 /* MediaServer1ItemRes.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		B5B73FD7DBC049608F83AEF5 /* upnp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 471B583DFDDE486BA54E3CA6 /* upnp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B749757240024EA795636898 /* SoapActionsRendering.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60A80C3C24904A22B13F8EA5 /* SoapActionsRendering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B787CAF09CC0431FB9E231AD /* SoapActionsDigitalSecurityCameraMotionImage1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CA67E421D4C415C89435040 /* SoapActionsDigitalSecurityCameraMotionImage1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA88900F580C4CCDBF6407D1 /* WANConnection2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90D8827E7B49E9AD42C87E /* WANConnection2Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		BAB493CE6BD84265A3D4F346 /* MediaRenderer1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF0273242AEE4B50B9FBD6EA /* MediaRenderer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB5B2F696DA469499FB5E46 /* OrderedDictionary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2A7187357994D3F8FCF8F25 /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA043327FC04D6CBD3A35C8 /* Novocaine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4AB144FF7EE14A419C6771D6 /* Novocaine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBFAF8D9F6E4B4CA34E6271 /* ssdpnotifybye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E215FEC3CD8A4FBDB5715256 /* ssdpnotifybye.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		BEF3F17969764E77A041CFB4 /* MediaServerBasicObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 856DDAFA940649EDAC512BC9 /* MediaServerBasicObjectParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		C03396B4E7B04057BE16519A /* StateVariableList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BC51682A0AD4A488B388571 /* StateVariableList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27177F8A26647A887CC2F54 /* BasicHTTPServer_ObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E27EE191ECE4FFABB045EEF /* BasicHTTPServer_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C283E2EA52384631BFCC6580 /* socketServerobserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3756592F64404812B5A7B33D /* socketServerobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C330C5A26C46420A821A4A21 /* LAN1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA7102571A504FF8A6F20F70 /* LAN1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52A07D77FF845AA8F7B5E6F /* SoapActionsDigitalSecurityCameraSettings1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9670CD86168403BBB48C5AA /* SoapActionsDigitalSecurityCameraSettings1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BA31E138EC4B2490B589C5 /* BasicHTTPServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8B60934681A4764A21E71DD /* BasicHTTPServer_ObjC.mm */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		C67BAAECED2D4DABA18B5F42 /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01A08AD0D9FA429CBB3AE7CD /* AudioFileReader.mm */; };
+		C797AEE7A7E0495F939EB3B9 /* osal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F27D5EA81FB4E8BBF553AE8 /* osal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C810B8998A164785944B1091 /* SoapActionsWANPOTSLinkConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93EA5127F5EB4E3491C0EF2E /* SoapActionsWANPOTSLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98D254373A34A9593B50BC2 /* SoapActionsDimming1.m in Sources */ = {isa = PBXBuildFile; fileRef = 41522CF0DF2647F99A6FECB1 /* SoapActionsDimming1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		C9A8CBC9A27A468E9757FF7D /* upnp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E83C2D0F2C542679BB7754A /* upnp.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		CDF05365E5884820B11FB7E9 /* ssdpobserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD4510A5B4344965AE6AF228 /* ssdpobserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE84FC1001B846D4A22A3DA7 /* ssdpnotifyalive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C3C8A862824436B1215E6F /* ssdpnotifyalive.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		CEC005B4465A4EE3863A8557 /* SoapActionsWANEthernetLinkConfig1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 513354678CED4DD48029DD3F /* SoapActionsWANEthernetLinkConfig1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E9BCCA30F0430F9604C0D7 /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA2D050F754352B2AF722C /* SoapActionsDigitalSecurityCameraMotionImage1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		DA677AD182BC4B1CBEB41B8D /* WAN2Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA830415465045108719B18F /* WAN2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4CCBBABF084223B8D2A6C4 /* basichttpserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D86D6BB65204B9AB05D9E86 /* basichttpserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD570C115B964983BE165CA5 /* SoapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C280DBD16F9F431998B6FBD4 /* SoapAction.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		DDFD2F90D0224D7A8A012F0A /* DeviceFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EDFF246C210B441F8C9D12CD /* DeviceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B2F4E4798405B9F3172D4 /* ssdpparser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B68AEB041FC43328D547DD2 /* ssdpparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF168D5A130C4969B26C26FE /* SoapActionsCallManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B90F16E3BB429C954FA357 /* SoapActionsCallManagement1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		E061A4D8A7D948498EF6FEA4 /* MediaServer1Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9DC4B9C88D54B7586A2F704 /* MediaServer1Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E215BAAE07E34BF18EE1117D /* SoapActionsRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 7750006C50964FCC92EC7BAB /* SoapActionsRendering.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		E72A8078A1FD4F3A8B496C9B /* ssdpnotifyupdate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D706BA9A3774697A073B950 /* ssdpnotifyupdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74AC1120B2249FF8BF7F603 /* SoapActionsWANPPPConnection1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4E12D958FB84B438652A2AD /* SoapActionsWANPPPConnection1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82F4A8BE6A04B8D8EA8556E /* SoapActionsWANEthernetLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E48783E9041FF8F63EE4E /* SoapActionsWANEthernetLinkConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		EA13AD704CDD4BBCA2CAC15F /* UPnPDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BE3676916EC46939CE29401 /* UPnPDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC0EC2EB907B42FFAF956360 /* ssdpparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1BA69E0D26B48F9BB39ECA1 /* ssdpparser.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		EC52D562AC8247ED9D8B9820 /* SoapActionsLANHostConfigManagement1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BB004CD1D094FDCB4BC813A /* SoapActionsLANHostConfigManagement1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5871F530514ED7A8910EA0 /* SoapActionsWANCommonInterfaceConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C0F78B4D841D18B31EC0A /* SoapActionsWANCommonInterfaceConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		ED0DDDABDB414FB9B8C90CB1 /* WANConnection2Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C87283F85A23478798784576 /* WANConnection2Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE463763CA854936A5AC371E /* SoapActionsWANCableLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B3E52B912F4060B6F10A68 /* SoapActionsWANCableLinkConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		EF684487D10B47D3839015E1 /* ssdpdbdevice.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BEE53F40D924C39834AE6BE /* ssdpdbdevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1060B6B9FAE44CA89DED6DA /* ServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FBECF481917A454682673F18 /* ServiceFactory.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		F2BB7CA4741648C5BF8F4921 /* iphoneport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D2DD080D98243839ACEF18B /* iphoneport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50C3B5084A847C9A1C984E6 /* ssdpsearchreq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2DCC1380F844C37BFA4FEE7 /* ssdpsearchreq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C39E0FADCD414BB937F741 /* UPnPManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7855DAA4FE34F41B38BA13E /* UPnPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F721327420C94CB3ABD3E4FE /* BasicParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA36746232445FDA24E988B /* BasicParser.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		F7787999F467468EBBAF53D2 /* WANConnection1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A00837E579495C928E593D /* WANConnection1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		F800462A148149C78DA3274F /* ssdpsearchresp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA9888CD9A8497C9E92D001 /* ssdpsearchresp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA82DAF348A54302A9D69127 /* ssdphttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74AEAED24C4A461BA3DD78FA /* ssdphttp.cpp */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		FD538F46CEF74151B254AC74 /* SSDPDB_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = E7364F3D24124443AAC330A9 /* SSDPDB_ObjC.mm */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		FD899F3B42354867A98669BE /* SoapActionFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83EF30CD2ECD4DFA9AE974D6 /* SoapActionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0378923513491C95F2651B /* LAN1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 1221D75EA246440FABCD5E46 /* LAN1Device.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+		FF05F68284ED42E890C94B29 /* SoapActionsWANPOTSLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D9C2FB133148AE80B09F8E /* SoapActionsWANPOTSLinkConfig1.m */; settings = {COMPILER_FLAGS = "-Wno-format"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF8933E51C98447DBFEF4D8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				51F3C718B2EF4EA487823211 /* AudioFileReader.h in CopyFiles */,
+				7AD53AF1F91A432D965827E9 /* AudioFileWriter.h in CopyFiles */,
+				BEA043327FC04D6CBD3A35C8 /* Novocaine.h in CopyFiles */,
+				48E681D658B842D691315D29 /* RingBuffer.h in CopyFiles */,
+				95115F69635A468A8CF41480 /* BasicDeviceParser.h in CopyFiles */,
+				C27177F8A26647A887CC2F54 /* BasicHTTPServer_ObjC.h in CopyFiles */,
+				8F91EA1E9B764D918069EE87 /* BasicParser.h in CopyFiles */,
+				3DDE613DAAA34770A757A882 /* BasicParserAsset.h in CopyFiles */,
+				AA48CFB07FCD4C3A903C38E7 /* BasicServiceParser.h in CopyFiles */,
+				B4C16D97BDE64077B302DCC1 /* BasicUPnPDevice.h in CopyFiles */,
+				88C8E558E2F84FBAAED632D6 /* BasicUPnPService.h in CopyFiles */,
+				2015493181634D029CA1098D /* BinaryLight1Device.h in CopyFiles */,
+				86732B8D02644B1E932F15C9 /* CocoaTools.h in CopyFiles */,
+				DDFD2F90D0224D7A8A012F0A /* DeviceFactory.h in CopyFiles */,
+				311C92E78E7945ECB7E7E1F4 /* DigitalSecurityCamera1Device.h in CopyFiles */,
+				85A480CFC3C94A5F9DF9587B /* DimmableLight1Device.h in CopyFiles */,
+				1786802C48FA430188F93DFE /* InternetGateway2Device.h in CopyFiles */,
+				C330C5A26C46420A821A4A21 /* LAN1Device.h in CopyFiles */,
+				54B891E3710449AF9140FC4D /* LastChangeParser.h in CopyFiles */,
+				93534DB16DF04951947E2B24 /* MediaPlaylist.h in CopyFiles */,
+				BAB493CE6BD84265A3D4F346 /* MediaRenderer1Device.h in CopyFiles */,
+				3A6C52DF70A14382A9563128 /* MediaServer1BasicObject.h in CopyFiles */,
+				A0DE73ECAFC240D1A12496E1 /* MediaServer1ContainerObject.h in CopyFiles */,
+				E061A4D8A7D948498EF6FEA4 /* MediaServer1Device.h in CopyFiles */,
+				67007DABF569486BB2C33102 /* MediaServer1ItemObject.h in CopyFiles */,
+				094092CD845E402EBEE3BF68 /* MediaServer1ItemRes.h in CopyFiles */,
+				5D21A7023403437CA9973E3E /* MediaServerBasicObjectParser.h in CopyFiles */,
+				3C0729C778054AD2900D49AF /* ServiceFactory.h in CopyFiles */,
+				4B9DB8093CF04C23919FBFB1 /* SoapAction.h in CopyFiles */,
+				FD899F3B42354867A98669BE /* SoapActionFactory.h in CopyFiles */,
+				19877C6037984AF5BFF8A43C /* SoapActionsAVTransport1.h in CopyFiles */,
+				2AF55D255DC94C888E844297 /* SoapActionsCallManagement1.h in CopyFiles */,
+				7A2A302020A143AB99DEF9AE /* SoapActionsConfigurationManagement1.h in CopyFiles */,
+				04115098BD5745DC934DD3FA /* SoapActionsConnectionManager1.h in CopyFiles */,
+				121FB1E8C6D14783BFBF8909 /* SoapActionsContentDirectory1.h in CopyFiles */,
+				1A93AE59612A45F2AC6B40E0 /* SoapActionsDeviceProtection1.h in CopyFiles */,
+				B787CAF09CC0431FB9E231AD /* SoapActionsDigitalSecurityCameraMotionImage1.h in CopyFiles */,
+				C52A07D77FF845AA8F7B5E6F /* SoapActionsDigitalSecurityCameraSettings1.h in CopyFiles */,
+				8E2298B583AB46ACAA8A54F9 /* SoapActionsDigitalSecurityCameraStillImage1.h in CopyFiles */,
+				5B7AC40D67674FB18070922F /* SoapActionsDimming1.h in CopyFiles */,
+				1C51DC2DAC1F471185FD0415 /* SoapActionsInputConfig1.h in CopyFiles */,
+				EC52D562AC8247ED9D8B9820 /* SoapActionsLANHostConfigManagement1.h in CopyFiles */,
+				2506CD295C844ECC923FA106 /* SoapActionsLayer3Forwarding1.h in CopyFiles */,
+				158E2BD0EC724D5481B4512C /* SoapActionsMediaManagement1.h in CopyFiles */,
+				8B6B753C03CB478BAB14060C /* SoapActionsMessaging1.h in CopyFiles */,
+				B749757240024EA795636898 /* SoapActionsRendering.h in CopyFiles */,
+				29F6CBC667A248C78FA958EB /* SoapActionsRenderingControl1.h in CopyFiles */,
+				17D3484443F04D0587DAD853 /* SoapActionsSwitchPower1.h in CopyFiles */,
+				714388C0D1E4428D836D2ECC /* SoapActionsWANCableLinkConfig1.h in CopyFiles */,
+				8C9F72A6DEB34A4EBD23F7B4 /* SoapActionsWANCommonInterfaceConfig1.h in CopyFiles */,
+				5C567E9A6DF14C1AAAFBEDDA /* SoapActionsWANDSLLinkConfig1.h in CopyFiles */,
+				CEC005B4465A4EE3863A8557 /* SoapActionsWANEthernetLinkConfig1.h in CopyFiles */,
+				64D9BA7BA6A343C3BD7C098E /* SoapActionsWANIPConnection1.h in CopyFiles */,
+				A660B0B161B94B898664DE73 /* SoapActionsWANIPConnection2.h in CopyFiles */,
+				39FEB1D977164A6A8E540B1C /* SoapActionsWANIPv6FirewallControl1.h in CopyFiles */,
+				C810B8998A164785944B1091 /* SoapActionsWANPOTSLinkConfig1.h in CopyFiles */,
+				E74AC1120B2249FF8BF7F603 /* SoapActionsWANPPPConnection1.h in CopyFiles */,
+				7622843603194E6A9E82C8A4 /* SSDPDB_ObjC.h in CopyFiles */,
+				318AE11BCD91435AADB65280 /* StateVariable.h in CopyFiles */,
+				C03396B4E7B04057BE16519A /* StateVariableList.h in CopyFiles */,
+				6596AA962B5247988A6A7F1D /* StateVariableRange.h in CopyFiles */,
+				9AA8B4C56CA545BD8D57A6A1 /* TelephonyClient1Device.h in CopyFiles */,
+				48CDC0208BF741488115EC1A /* TelephonyServer1Device.h in CopyFiles */,
+				EA13AD704CDD4BBCA2CAC15F /* UPnPDB.h in CopyFiles */,
+				6343E543C382482B8FB1C2CA /* UPnPEventParser.h in CopyFiles */,
+				82A7F55DA59940B79B7A9199 /* UPnPEvents.h in CopyFiles */,
+				F6C39E0FADCD414BB937F741 /* UPnPManager.h in CopyFiles */,
+				DA677AD182BC4B1CBEB41B8D /* WAN2Device.h in CopyFiles */,
+				659C2FCEDABF4DD09D24D719 /* WANConnection1Device.h in CopyFiles */,
+				ED0DDDABDB414FB9B8C90CB1 /* WANConnection2Device.h in CopyFiles */,
+				C797AEE7A7E0495F939EB3B9 /* osal.h in CopyFiles */,
+				8DD38FDF7CEB4321AC554372 /* tools.h in CopyFiles */,
+				510D39357CDD4081BA9549FB /* basichttpobserver.h in CopyFiles */,
+				DB4CCBBABF084223B8D2A6C4 /* basichttpserver.h in CopyFiles */,
+				7B7A2E4BF4464BAAA2251770 /* httpsession.h in CopyFiles */,
+				52C4C72DF27A400DAFC2613C /* socketserver.h in CopyFiles */,
+				01F0BD76986E44C982E9F239 /* SocketServer_ObjC.h in CopyFiles */,
+				0E38C47F4A844A18A62FB4C9 /* socketserverconnection.h in CopyFiles */,
+				C283E2EA52384631BFCC6580 /* socketServerobserver.h in CopyFiles */,
+				31C9870BB281431EA3DF2B8A /* ssdp.h in CopyFiles */,
+				9CCAB55D6E1A4BD5A7FAFF8E /* ssdpdb.h in CopyFiles */,
+				EF684487D10B47D3839015E1 /* ssdpdbdevice.h in CopyFiles */,
+				1532F51ADAF146FE8F5E364D /* ssdpdbobserver.h in CopyFiles */,
+				1176DE1B7BAD4444B88970E1 /* ssdphttp.h in CopyFiles */,
+				3BA92819FBCD43FCAFF8ACFC /* ssdpmessage.h in CopyFiles */,
+				1AB5170C73414A36942BCA80 /* ssdpmsearch.h in CopyFiles */,
+				614927E4CF574997B4E65F6A /* ssdpnotify.h in CopyFiles */,
+				2CB3D65AA3264C379543C60C /* ssdpnotifyalive.h in CopyFiles */,
+				6242A944E29948428F9ACD30 /* ssdpnotifybye.h in CopyFiles */,
+				E72A8078A1FD4F3A8B496C9B /* ssdpnotifyupdate.h in CopyFiles */,
+				CDF05365E5884820B11FB7E9 /* ssdpobserver.h in CopyFiles */,
+				DE5B2F4E4798405B9F3172D4 /* ssdpparser.h in CopyFiles */,
+				F50C3B5084A847C9A1C984E6 /* ssdpsearchreq.h in CopyFiles */,
+				F800462A148149C78DA3274F /* ssdpsearchresp.h in CopyFiles */,
+				7FD863A4C89E4E0980150CA9 /* ssdptools.h in CopyFiles */,
+				B5B73FD7DBC049608F83AEF5 /* upnp.h in CopyFiles */,
+				BCB5B2F696DA469499FB5E46 /* OrderedDictionary.h in CopyFiles */,
+				F2BB7CA4741648C5BF8F4921 /* iphoneport.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		018E7F21A30F423A85454972 /* SoapActionsWANIPConnection1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANIPConnection1.h; path = upnpx/src/api/SoapActionsWANIPConnection1.h; sourceTree = SOURCE_ROOT; };
+		01A08AD0D9FA429CBB3AE7CD /* AudioFileReader.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = AudioFileReader.mm; path = Novocaine/Novocaine/AudioFileReader.mm; sourceTree = SOURCE_ROOT; };
+		01A456D1CC224048A6AAE326 /* BasicUPnPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicUPnPService.m; path = upnpx/src/upnp/BasicUPnPService.m; sourceTree = SOURCE_ROOT; };
+		078E6CC6990047F582290826 /* RingBuffer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = RingBuffer.mm; path = Novocaine/Novocaine/RingBuffer.mm; sourceTree = SOURCE_ROOT; };
+		07F6B85C14754CBBB4441686 /* SoapActionsWANIPConnection2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANIPConnection2.m; path = upnpx/src/upnp/SoapActionsWANIPConnection2.m; sourceTree = SOURCE_ROOT; };
+		0956E9894A784CFD8D83DC54 /* MediaPlaylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPlaylist.h; path = upnpx/src/api/MediaPlaylist.h; sourceTree = SOURCE_ROOT; };
+		0B5103A0752E44C2A174F197 /* SoapActionsWANIPConnection2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANIPConnection2.h; path = upnpx/src/api/SoapActionsWANIPConnection2.h; sourceTree = SOURCE_ROOT; };
+		0C72FE6A906E46E9948852AB /* tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tools.h; path = upnpx/src/common/tools.h; sourceTree = SOURCE_ROOT; };
+		0CE369E4B2BC46BB8DC27AA6 /* ssdpdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpdb.h; path = upnpx/src/ssdp/ssdpdb.h; sourceTree = SOURCE_ROOT; };
+		0F10213D52604C718CC3C64B /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = upnpx/src/upnp/OrderedDictionary.m; sourceTree = SOURCE_ROOT; };
+		1116887CCBE442B5A42B78B0 /* MediaServerBasicObjectParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServerBasicObjectParser.h; path = upnpx/src/api/MediaServerBasicObjectParser.h; sourceTree = SOURCE_ROOT; };
+		11382BC05B8C4253A9EB45DC /* socketserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socketserver.h; path = upnpx/src/eventserver/socketserver.h; sourceTree = SOURCE_ROOT; };
+		11555D1B246049F7866B426C /* socketserver.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = socketserver.cpp; path = upnpx/src/eventserver/socketserver.cpp; sourceTree = SOURCE_ROOT; };
+		1221D75EA246440FABCD5E46 /* LAN1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LAN1Device.m; path = upnpx/src/upnp/LAN1Device.m; sourceTree = SOURCE_ROOT; };
+		12FB089B87CC4E9399636162 /* SoapActionsWANIPv6FirewallControl1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANIPv6FirewallControl1.h; path = upnpx/src/api/SoapActionsWANIPv6FirewallControl1.h; sourceTree = SOURCE_ROOT; };
+		132BC15FD0EC4335813D5E91 /* SoapActionsConfigurationManagement1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsConfigurationManagement1.h; path = upnpx/src/api/SoapActionsConfigurationManagement1.h; sourceTree = SOURCE_ROOT; };
+		14D6AF93445E4DEABED09ED0 /* BasicParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicParser.h; path = upnpx/src/api/BasicParser.h; sourceTree = SOURCE_ROOT; };
+		1645EB86E59244DDBB9C41F4 /* MediaServer1BasicObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServer1BasicObject.m; path = upnpx/src/upnp/MediaServer1BasicObject.m; sourceTree = SOURCE_ROOT; };
+		166C4F31E8F5465E926DEC08 /* SoapActionsDeviceProtection1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsDeviceProtection1.m; path = upnpx/src/upnp/SoapActionsDeviceProtection1.m; sourceTree = SOURCE_ROOT; };
+		17D8012F1A2A47AE90FB690B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		1D52529C42844F56BA1ED0DD /* SoapActionsConnectionManager1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsConnectionManager1.m; path = upnpx/src/upnp/SoapActionsConnectionManager1.m; sourceTree = SOURCE_ROOT; };
+		1E27EE191ECE4FFABB045EEF /* BasicHTTPServer_ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicHTTPServer_ObjC.h; path = upnpx/src/api/BasicHTTPServer_ObjC.h; sourceTree = SOURCE_ROOT; };
+		1F02A8A213074A0E99414DEF /* SoapActionsWANIPConnection1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANIPConnection1.m; path = upnpx/src/upnp/SoapActionsWANIPConnection1.m; sourceTree = SOURCE_ROOT; };
+		1F0D4E518E6146C7821C5286 /* SoapActionsWANDSLLinkConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANDSLLinkConfig1.h; path = upnpx/src/api/SoapActionsWANDSLLinkConfig1.h; sourceTree = SOURCE_ROOT; };
+		1F27D5EA81FB4E8BBF553AE8 /* osal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osal.h; path = upnpx/src/common/osal.h; sourceTree = SOURCE_ROOT; };
+		20FB7C5136F140C8A4D6B4CE /* SoapActionsRenderingControl1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsRenderingControl1.m; path = upnpx/src/upnp/SoapActionsRenderingControl1.m; sourceTree = SOURCE_ROOT; };
+		219775309B564308BEC88D0A /* ssdpsearchreq.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpsearchreq.cpp; path = upnpx/src/ssdp/ssdpsearchreq.cpp; sourceTree = SOURCE_ROOT; };
+		21CF34EA39364A4D8241EC8C /* SoapActionsMessaging1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsMessaging1.h; path = upnpx/src/api/SoapActionsMessaging1.h; sourceTree = SOURCE_ROOT; };
+		240460540AB9438DB88A2DD6 /* SoapActionsWANCableLinkConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANCableLinkConfig1.h; path = upnpx/src/api/SoapActionsWANCableLinkConfig1.h; sourceTree = SOURCE_ROOT; };
+		3082EA0C49514ED8B79C6C5B /* MediaServer1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServer1Device.m; path = upnpx/src/upnp/MediaServer1Device.m; sourceTree = SOURCE_ROOT; };
+		31E4E00268404713B54DDD7B /* httpsession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = httpsession.h; path = upnpx/src/eventserver/httpsession.h; sourceTree = SOURCE_ROOT; };
+		3350DAC3D70240C8850F869B /* MediaServer1ContainerObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServer1ContainerObject.m; path = upnpx/src/upnp/MediaServer1ContainerObject.m; sourceTree = SOURCE_ROOT; };
+		33DA012F9CED45029806C2DC /* BasicParserAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicParserAsset.h; path = upnpx/src/api/BasicParserAsset.h; sourceTree = SOURCE_ROOT; };
+		3544D1A3C0704CEA99867C8C /* BasicUPnPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicUPnPService.h; path = upnpx/src/api/BasicUPnPService.h; sourceTree = SOURCE_ROOT; };
+		35EAF67BD67B46649FC759BC /* AudioFileWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AudioFileWriter.m; path = Novocaine/Novocaine/AudioFileWriter.m; sourceTree = SOURCE_ROOT; };
+		3756592F64404812B5A7B33D /* socketServerobserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socketServerobserver.h; path = upnpx/src/eventserver/socketServerobserver.h; sourceTree = SOURCE_ROOT; };
+		39FEB3CBD0E048C0AF902253 /* ssdpdb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpdb.cpp; path = upnpx/src/ssdp/ssdpdb.cpp; sourceTree = SOURCE_ROOT; };
+		3B310771455542AD9AE065D0 /* httpsession.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = httpsession.cpp; path = upnpx/src/eventserver/httpsession.cpp; sourceTree = SOURCE_ROOT; };
+		3BC57429E9C84C8497BDD8CC /* SoapActionsInputConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsInputConfig1.m; path = upnpx/src/upnp/SoapActionsInputConfig1.m; sourceTree = SOURCE_ROOT; };
+		3BE3676916EC46939CE29401 /* UPnPDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPnPDB.h; path = upnpx/src/api/UPnPDB.h; sourceTree = SOURCE_ROOT; };
+		3E20B9E8D71D47889340B274 /* BinaryLight1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryLight1Device.h; path = upnpx/src/api/BinaryLight1Device.h; sourceTree = SOURCE_ROOT; };
+		4073D2937BFD4C5C992F3FBB /* ssdpmsearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpmsearch.h; path = upnpx/src/ssdp/ssdpmsearch.h; sourceTree = SOURCE_ROOT; };
+		4080F75F8A3F4C5AA9D60528 /* basichttpserver.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = basichttpserver.cpp; path = upnpx/src/eventserver/basichttpserver.cpp; sourceTree = SOURCE_ROOT; };
+		40AE47C016D44D29BDDAC4BC /* SoapActionsCallManagement1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsCallManagement1.h; path = upnpx/src/api/SoapActionsCallManagement1.h; sourceTree = SOURCE_ROOT; };
+		41522CF0DF2647F99A6FECB1 /* SoapActionsDimming1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsDimming1.m; path = upnpx/src/upnp/SoapActionsDimming1.m; sourceTree = SOURCE_ROOT; };
+		417A92CFF9904893B196B563 /* MediaServer1ItemObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServer1ItemObject.h; path = upnpx/src/api/MediaServer1ItemObject.h; sourceTree = SOURCE_ROOT; };
+		440391DFE8A44A3EB130D089 /* SoapActionsMediaManagement1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsMediaManagement1.m; path = upnpx/src/upnp/SoapActionsMediaManagement1.m; sourceTree = SOURCE_ROOT; };
+		45D28D0984474102A89AFAA1 /* TelephonyServer1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TelephonyServer1Device.m; path = upnpx/src/upnp/TelephonyServer1Device.m; sourceTree = SOURCE_ROOT; };
+		471B583DFDDE486BA54E3CA6 /* upnp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = upnp.h; path = upnpx/src/ssdp/upnp.h; sourceTree = SOURCE_ROOT; };
+		486C22EED5184A7399677ED5 /* StateVariable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StateVariable.h; path = upnpx/src/api/StateVariable.h; sourceTree = SOURCE_ROOT; };
+		49A00837E579495C928E593D /* WANConnection1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WANConnection1Device.m; path = upnpx/src/upnp/WANConnection1Device.m; sourceTree = SOURCE_ROOT; };
+		4AB144FF7EE14A419C6771D6 /* Novocaine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Novocaine.h; path = Novocaine/Novocaine/Novocaine.h; sourceTree = SOURCE_ROOT; };
+		4AD89B61F4914C1489A1EF3B /* SoapActionsWANPPPConnection1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANPPPConnection1.m; path = upnpx/src/upnp/SoapActionsWANPPPConnection1.m; sourceTree = SOURCE_ROOT; };
+		4AE16ACC8F3C45A5A4A06C60 /* SoapActionsContentDirectory1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsContentDirectory1.m; path = upnpx/src/upnp/SoapActionsContentDirectory1.m; sourceTree = SOURCE_ROOT; };
+		4B68AEB041FC43328D547DD2 /* ssdpparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpparser.h; path = upnpx/src/ssdp/ssdpparser.h; sourceTree = SOURCE_ROOT; };
+		4BC51682A0AD4A488B388571 /* StateVariableList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StateVariableList.h; path = upnpx/src/api/StateVariableList.h; sourceTree = SOURCE_ROOT; };
+		4BEE53F40D924C39834AE6BE /* ssdpdbdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpdbdevice.h; path = upnpx/src/ssdp/ssdpdbdevice.h; sourceTree = SOURCE_ROOT; };
+		4C179371788D4D5A954B5734 /* TelephonyClient1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TelephonyClient1Device.m; path = upnpx/src/upnp/TelephonyClient1Device.m; sourceTree = SOURCE_ROOT; };
+		4C8E48783E9041FF8F63EE4E /* SoapActionsWANEthernetLinkConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANEthernetLinkConfig1.m; path = upnpx/src/upnp/SoapActionsWANEthernetLinkConfig1.m; sourceTree = SOURCE_ROOT; };
+		4CA67E421D4C415C89435040 /* SoapActionsDigitalSecurityCameraMotionImage1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsDigitalSecurityCameraMotionImage1.h; path = upnpx/src/api/SoapActionsDigitalSecurityCameraMotionImage1.h; sourceTree = SOURCE_ROOT; };
+		4D86D6BB65204B9AB05D9E86 /* basichttpserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basichttpserver.h; path = upnpx/src/eventserver/basichttpserver.h; sourceTree = SOURCE_ROOT; };
+		5042952282244D29B9965E9B /* StateVariableRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StateVariableRange.h; path = upnpx/src/api/StateVariableRange.h; sourceTree = SOURCE_ROOT; };
+		513354678CED4DD48029DD3F /* SoapActionsWANEthernetLinkConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANEthernetLinkConfig1.h; path = upnpx/src/api/SoapActionsWANEthernetLinkConfig1.h; sourceTree = SOURCE_ROOT; };
+		5320946E12434CD0A66E181F /* SoapActionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionFactory.m; path = upnpx/src/upnp/SoapActionFactory.m; sourceTree = SOURCE_ROOT; };
+		563F06059FF84114BBBDB04C /* BasicServiceParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicServiceParser.h; path = upnpx/src/api/BasicServiceParser.h; sourceTree = SOURCE_ROOT; };
+		59ED1FAC20B84CF89F12E957 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5A2870EA335D4D7C874DCBA3 /* DigitalSecurityCamera1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DigitalSecurityCamera1Device.m; path = upnpx/src/upnp/DigitalSecurityCamera1Device.m; sourceTree = SOURCE_ROOT; };
+		5B0AC1D6B2E04102B9837D7B /* SoapActionsSwitchPower1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsSwitchPower1.h; path = upnpx/src/api/SoapActionsSwitchPower1.h; sourceTree = SOURCE_ROOT; };
+		5CD3ACF1AF62486E8A9AAD70 /* InternetGateway2Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InternetGateway2Device.h; path = upnpx/src/api/InternetGateway2Device.h; sourceTree = SOURCE_ROOT; };
+		5CDA4B9BDB6E4DFEA0559610 /* SoapActionsLANHostConfigManagement1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsLANHostConfigManagement1.m; path = upnpx/src/upnp/SoapActionsLANHostConfigManagement1.m; sourceTree = SOURCE_ROOT; };
+		5CED844BF1BA445FAF76212A /* PodsDummy_Pods.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = PodsDummy_Pods.mm; sourceTree = SOURCE_ROOT; };
+		5D706BA9A3774697A073B950 /* ssdpnotifyupdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpnotifyupdate.h; path = upnpx/src/ssdp/ssdpnotifyupdate.h; sourceTree = SOURCE_ROOT; };
+		6001538B62024C09A84E28B9 /* BasicParserAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicParserAsset.m; path = upnpx/src/upnp/BasicParserAsset.m; sourceTree = SOURCE_ROOT; };
+		60A80C3C24904A22B13F8EA5 /* SoapActionsRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsRendering.h; path = upnpx/src/api/SoapActionsRendering.h; sourceTree = SOURCE_ROOT; };
+		617211FAD5814E5190BE25A7 /* ssdpsearchresp.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpsearchresp.cpp; path = upnpx/src/ssdp/ssdpsearchresp.cpp; sourceTree = SOURCE_ROOT; };
+		62BE70F0C5CC4C3E8C0A405D /* AudioFileReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioFileReader.h; path = Novocaine/Novocaine/AudioFileReader.h; sourceTree = SOURCE_ROOT; };
+		635CF9CB22C04292B0E619B3 /* UPnPEventParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPnPEventParser.h; path = upnpx/src/api/UPnPEventParser.h; sourceTree = SOURCE_ROOT; };
+		6968F6B693F04CCAA4F5D10A /* ssdphttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdphttp.h; path = upnpx/src/ssdp/ssdphttp.h; sourceTree = SOURCE_ROOT; };
+		6E318817F37F40EA9945C528 /* UPnPDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPnPDB.m; path = upnpx/src/upnp/UPnPDB.m; sourceTree = SOURCE_ROOT; };
+		6EC7FF7BBEEF4C0F82C0D19E /* MediaRenderer1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaRenderer1Device.m; path = upnpx/src/upnp/MediaRenderer1Device.m; sourceTree = SOURCE_ROOT; };
+		6F2C4CE3DC41498194B72A90 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FB7E7E9A3374AE38C78DA16 /* SoapActionsWANDSLLinkConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANDSLLinkConfig1.m; path = upnpx/src/upnp/SoapActionsWANDSLLinkConfig1.m; sourceTree = SOURCE_ROOT; };
+		6FCB9DFDA1C44EAFB0B61F5A /* UPnPEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPnPEvents.m; path = upnpx/src/upnp/UPnPEvents.m; sourceTree = SOURCE_ROOT; };
+		71207AD7FEB94A6AA1E54B9C /* SoapActionsAVTransport1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsAVTransport1.h; path = upnpx/src/api/SoapActionsAVTransport1.h; sourceTree = SOURCE_ROOT; };
+		71AEC826B7554FEC85541B50 /* BasicServiceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicServiceParser.m; path = upnpx/src/upnp/BasicServiceParser.m; sourceTree = SOURCE_ROOT; };
+		729A678AF56A48458556D4B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		732C0F78B4D841D18B31EC0A /* SoapActionsWANCommonInterfaceConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANCommonInterfaceConfig1.m; path = upnpx/src/upnp/SoapActionsWANCommonInterfaceConfig1.m; sourceTree = SOURCE_ROOT; };
+		745E17423C7A4A43911D138A /* MediaServer1ContainerObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServer1ContainerObject.h; path = upnpx/src/api/MediaServer1ContainerObject.h; sourceTree = SOURCE_ROOT; };
+		74AEAED24C4A461BA3DD78FA /* ssdphttp.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdphttp.cpp; path = upnpx/src/ssdp/ssdphttp.cpp; sourceTree = SOURCE_ROOT; };
+		75AE6B5E823D4CD3868B4634 /* MediaServer1BasicObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServer1BasicObject.h; path = upnpx/src/api/MediaServer1BasicObject.h; sourceTree = SOURCE_ROOT; };
+		7750006C50964FCC92EC7BAB /* SoapActionsRendering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsRendering.m; path = upnpx/src/upnp/SoapActionsRendering.m; sourceTree = SOURCE_ROOT; };
+		77DF7ED656704A3D86017A0C /* tools.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = tools.cpp; path = upnpx/src/common/tools.cpp; sourceTree = SOURCE_ROOT; };
+		79A18C2D60DE466996A1C883 /* SocketServer_ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketServer_ObjC.h; path = upnpx/src/eventserver/SocketServer_ObjC.h; sourceTree = SOURCE_ROOT; };
+		7A137DF478FF4E84837DF9B6 /* SoapAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapAction.h; path = upnpx/src/api/SoapAction.h; sourceTree = SOURCE_ROOT; };
+		7B5A7AD372284C819DE7FC4C /* SoapActionsDeviceProtection1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsDeviceProtection1.h; path = upnpx/src/api/SoapActionsDeviceProtection1.h; sourceTree = SOURCE_ROOT; };
+		7BB0F0DE628541889BEABA9D /* SoapActionsContentDirectory1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsContentDirectory1.h; path = upnpx/src/api/SoapActionsContentDirectory1.h; sourceTree = SOURCE_ROOT; };
+		7D54B4865C224491BAB8EA66 /* ssdptools.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdptools.cpp; path = upnpx/src/ssdp/ssdptools.cpp; sourceTree = SOURCE_ROOT; };
+		7DCB7F5B8CB843B6BFE5FB1C /* AudioFileWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioFileWriter.h; path = Novocaine/Novocaine/AudioFileWriter.h; sourceTree = SOURCE_ROOT; };
+		7E83C2D0F2C542679BB7754A /* upnp.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = upnp.cpp; path = upnpx/src/ssdp/upnp.cpp; sourceTree = SOURCE_ROOT; };
+		7FA9888CD9A8497C9E92D001 /* ssdpsearchresp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpsearchresp.h; path = upnpx/src/ssdp/ssdpsearchresp.h; sourceTree = SOURCE_ROOT; };
+		82E41661445B4BF69196BD86 /* SSDPDB_ObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPDB_ObjC.h; path = upnpx/src/api/SSDPDB_ObjC.h; sourceTree = SOURCE_ROOT; };
+		83EF30CD2ECD4DFA9AE974D6 /* SoapActionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionFactory.h; path = upnpx/src/api/SoapActionFactory.h; sourceTree = SOURCE_ROOT; };
+		856DDAFA940649EDAC512BC9 /* MediaServerBasicObjectParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServerBasicObjectParser.m; path = upnpx/src/upnp/MediaServerBasicObjectParser.m; sourceTree = SOURCE_ROOT; };
+		860000C6723D47F29B1EAAA8 /* UPnPEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPnPEvents.h; path = upnpx/src/api/UPnPEvents.h; sourceTree = SOURCE_ROOT; };
+		872C81A00F3D46C3B7647E78 /* LastChangeParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LastChangeParser.m; path = upnpx/src/upnp/LastChangeParser.m; sourceTree = SOURCE_ROOT; };
+		88DED163BAD941299E9CD99D /* SoapActionsDigitalSecurityCameraStillImage1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsDigitalSecurityCameraStillImage1.m; path = upnpx/src/upnp/SoapActionsDigitalSecurityCameraStillImage1.m; sourceTree = SOURCE_ROOT; };
+		8992858E409747F09C5C4F37 /* SoapActionsDigitalSecurityCameraSettings1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsDigitalSecurityCameraSettings1.m; path = upnpx/src/upnp/SoapActionsDigitalSecurityCameraSettings1.m; sourceTree = SOURCE_ROOT; };
+		8D840CE235424E509FE29E6B /* SoapActionsWANCommonInterfaceConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANCommonInterfaceConfig1.h; path = upnpx/src/api/SoapActionsWANCommonInterfaceConfig1.h; sourceTree = SOURCE_ROOT; };
+		8E52370EF7ED456D9012B755 /* SoapActionsAVTransport1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsAVTransport1.m; path = upnpx/src/upnp/SoapActionsAVTransport1.m; sourceTree = SOURCE_ROOT; };
+		8EC7DC862D8F4A5E910037AB /* ssdp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdp.h; path = upnpx/src/ssdp/ssdp.h; sourceTree = SOURCE_ROOT; };
+		93EA5127F5EB4E3491C0EF2E /* SoapActionsWANPOTSLinkConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANPOTSLinkConfig1.h; path = upnpx/src/api/SoapActionsWANPOTSLinkConfig1.h; sourceTree = SOURCE_ROOT; };
+		940A4203EFA04FE1B6A3258A /* ssdp.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdp.cpp; path = upnpx/src/ssdp/ssdp.cpp; sourceTree = SOURCE_ROOT; };
+		96893BD219014AFFA6905802 /* ssdpnotifyupdate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpnotifyupdate.cpp; path = upnpx/src/ssdp/ssdpnotifyupdate.cpp; sourceTree = SOURCE_ROOT; };
+		98A0ABA9DD3B40A68E1C7AD4 /* ssdpmessage.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpmessage.cpp; path = upnpx/src/ssdp/ssdpmessage.cpp; sourceTree = SOURCE_ROOT; };
+		9A773A39649944659F595837 /* BasicUPnPDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicUPnPDevice.h; path = upnpx/src/api/BasicUPnPDevice.h; sourceTree = SOURCE_ROOT; };
+		9BB004CD1D094FDCB4BC813A /* SoapActionsLANHostConfigManagement1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsLANHostConfigManagement1.h; path = upnpx/src/api/SoapActionsLANHostConfigManagement1.h; sourceTree = SOURCE_ROOT; };
+		9BC3FCC2DE0F4571B85D6ACC /* StateVariableRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StateVariableRange.m; path = upnpx/src/upnp/StateVariableRange.m; sourceTree = SOURCE_ROOT; };
+		9D2DD080D98243839ACEF18B /* iphoneport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iphoneport.h; path = upnpx/src/port/ios/iphoneport.h; sourceTree = SOURCE_ROOT; };
+		9E7B4C58DE8D40D6949E90E8 /* CocoaTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaTools.m; path = upnpx/src/upnp/CocoaTools.m; sourceTree = SOURCE_ROOT; };
+		9E8D87714DEF4425A3048D02 /* ssdptools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdptools.h; path = upnpx/src/ssdp/ssdptools.h; sourceTree = SOURCE_ROOT; };
+		A12DC2EA1F1A4CF5BDF0E8F9 /* UPnPEventParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPnPEventParser.m; path = upnpx/src/upnp/UPnPEventParser.m; sourceTree = SOURCE_ROOT; };
+		A1B90F16E3BB429C954FA357 /* SoapActionsCallManagement1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsCallManagement1.m; path = upnpx/src/upnp/SoapActionsCallManagement1.m; sourceTree = SOURCE_ROOT; };
+		A2A7187357994D3F8FCF8F25 /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = upnpx/src/upnp/OrderedDictionary.h; sourceTree = SOURCE_ROOT; };
+		A2D75A81422B4657996303E6 /* BasicUPnPDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicUPnPDevice.m; path = upnpx/src/upnp/BasicUPnPDevice.m; sourceTree = SOURCE_ROOT; };
+		A2D82F0CB16F4404AFBC06DC /* SoapActionsSwitchPower1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsSwitchPower1.m; path = upnpx/src/upnp/SoapActionsSwitchPower1.m; sourceTree = SOURCE_ROOT; };
+		A2D9C2FB133148AE80B09F8E /* SoapActionsWANPOTSLinkConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANPOTSLinkConfig1.m; path = upnpx/src/upnp/SoapActionsWANPOTSLinkConfig1.m; sourceTree = SOURCE_ROOT; };
+		A4B37E5A12894EBCB6F2D254 /* ssdpnotify.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpnotify.cpp; path = upnpx/src/ssdp/ssdpnotify.cpp; sourceTree = SOURCE_ROOT; };
+		A83F9E8DDB8142BA88A88C9C /* SoapActionsMessaging1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsMessaging1.m; path = upnpx/src/upnp/SoapActionsMessaging1.m; sourceTree = SOURCE_ROOT; };
+		AB41DC74EBD64300B71209AC /* StateVariableList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StateVariableList.m; path = upnpx/src/upnp/StateVariableList.m; sourceTree = SOURCE_ROOT; };
+		ACD4820FD5BB4F7CAF464BF0 /* InternetGateway2Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InternetGateway2Device.m; path = upnpx/src/upnp/InternetGateway2Device.m; sourceTree = SOURCE_ROOT; };
+		AE7AE9A3E93D4E02B30707A8 /* ssdpmsearch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpmsearch.cpp; path = upnpx/src/ssdp/ssdpmsearch.cpp; sourceTree = SOURCE_ROOT; };
+		B05F0354F1CA4BDC93424E04 /* MediaServer1ItemRes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServer1ItemRes.m; path = upnpx/src/upnp/MediaServer1ItemRes.m; sourceTree = SOURCE_ROOT; };
+		B308DA6F2C58476AB31EF4B4 /* ssdpnotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpnotify.h; path = upnpx/src/ssdp/ssdpnotify.h; sourceTree = SOURCE_ROOT; };
+		B66920F1CFC643AA9E6F0AAC /* Novocaine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Novocaine.m; path = Novocaine/Novocaine/Novocaine.m; sourceTree = SOURCE_ROOT; };
+		B7B3E52B912F4060B6F10A68 /* SoapActionsWANCableLinkConfig1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANCableLinkConfig1.m; path = upnpx/src/upnp/SoapActionsWANCableLinkConfig1.m; sourceTree = SOURCE_ROOT; };
+		B9DC4B9C88D54B7586A2F704 /* MediaServer1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServer1Device.h; path = upnpx/src/api/MediaServer1Device.h; sourceTree = SOURCE_ROOT; };
+		BA90D8827E7B49E9AD42C87E /* WANConnection2Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WANConnection2Device.m; path = upnpx/src/upnp/WANConnection2Device.m; sourceTree = SOURCE_ROOT; };
+		BAA36746232445FDA24E988B /* BasicParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicParser.m; path = upnpx/src/upnp/BasicParser.m; sourceTree = SOURCE_ROOT; };
+		BAE30FA08F3341F1BD1819B7 /* main.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = upnpx/src/ssdp/main.mm; sourceTree = SOURCE_ROOT; };
+		BBAE2E60538641B6B8A6C5B3 /* ssdpdbobserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpdbobserver.h; path = upnpx/src/ssdp/ssdpdbobserver.h; sourceTree = SOURCE_ROOT; };
+		BD61C5F8C8C24ABB96336F38 /* TelephonyClient1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TelephonyClient1Device.h; path = upnpx/src/api/TelephonyClient1Device.h; sourceTree = SOURCE_ROOT; };
+		C280DBD16F9F431998B6FBD4 /* SoapAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapAction.m; path = upnpx/src/upnp/SoapAction.m; sourceTree = SOURCE_ROOT; };
+		C3949AFDFD4342D2BDC3DE3E /* ssdpmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpmessage.h; path = upnpx/src/ssdp/ssdpmessage.h; sourceTree = SOURCE_ROOT; };
+		C3F42119175E4FDF8474F709 /* BasicDeviceParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicDeviceParser.h; path = upnpx/src/api/BasicDeviceParser.h; sourceTree = SOURCE_ROOT; };
+		C57E2A8338B54539B7BEC812 /* socketserverconnection.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = socketserverconnection.cpp; path = upnpx/src/eventserver/socketserverconnection.cpp; sourceTree = SOURCE_ROOT; };
+		C858A6463E4743DBB6265E02 /* MediaServer1ItemRes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaServer1ItemRes.h; path = upnpx/src/api/MediaServer1ItemRes.h; sourceTree = SOURCE_ROOT; };
+		C87283F85A23478798784576 /* WANConnection2Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WANConnection2Device.h; path = upnpx/src/api/WANConnection2Device.h; sourceTree = SOURCE_ROOT; };
+		CA7102571A504FF8A6F20F70 /* LAN1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LAN1Device.h; path = upnpx/src/api/LAN1Device.h; sourceTree = SOURCE_ROOT; };
+		CA830415465045108719B18F /* WAN2Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAN2Device.h; path = upnpx/src/api/WAN2Device.h; sourceTree = SOURCE_ROOT; };
+		CA9A707CC24C49509B528FC8 /* WANConnection1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WANConnection1Device.h; path = upnpx/src/api/WANConnection1Device.h; sourceTree = SOURCE_ROOT; };
+		CBA52B9C86354C65A8CC2072 /* RingBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RingBuffer.h; path = Novocaine/Novocaine/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		CDD4FAE12EA8445F95A91E27 /* ssdpdbdevice.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpdbdevice.cpp; path = upnpx/src/ssdp/ssdpdbdevice.cpp; sourceTree = SOURCE_ROOT; };
+		CF17BB49F714439FBD2CFC97 /* CocoaTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaTools.h; path = upnpx/src/api/CocoaTools.h; sourceTree = SOURCE_ROOT; };
+		CFAFEC9AF7924BA697501D24 /* LastChangeParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LastChangeParser.h; path = upnpx/src/api/LastChangeParser.h; sourceTree = SOURCE_ROOT; };
+		CFD7EF51009D424DA369A2F6 /* SoapActionsMediaManagement1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsMediaManagement1.h; path = upnpx/src/api/SoapActionsMediaManagement1.h; sourceTree = SOURCE_ROOT; };
+		D04C803251784813B5FF74FB /* BinaryLight1Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BinaryLight1Device.m; path = upnpx/src/upnp/BinaryLight1Device.m; sourceTree = SOURCE_ROOT; };
+		D1811A0339C14E52A72C0AC5 /* DimmableLigh1tDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DimmableLigh1tDevice.m; path = upnpx/src/upnp/DimmableLigh1tDevice.m; sourceTree = SOURCE_ROOT; };
+		D1E7910AE18649D0AE43CE6E /* ssdpnotifybye.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpnotifybye.h; path = upnpx/src/ssdp/ssdpnotifybye.h; sourceTree = SOURCE_ROOT; };
+		D3EE5890837C4A86AB1AB701 /* ServiceFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceFactory.h; path = upnpx/src/api/ServiceFactory.h; sourceTree = SOURCE_ROOT; };
+		D5352FA5787441B4B8120CCE /* DimmableLight1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DimmableLight1Device.h; path = upnpx/src/api/DimmableLight1Device.h; sourceTree = SOURCE_ROOT; };
+		D5B9689A7FCB4FAB990DB513 /* SoapActionsLayer3Forwarding1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsLayer3Forwarding1.m; path = upnpx/src/upnp/SoapActionsLayer3Forwarding1.m; sourceTree = SOURCE_ROOT; };
+		D7D1D3DDDA2D49A2A219B513 /* MediaPlaylist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaPlaylist.m; path = upnpx/src/upnp/MediaPlaylist.m; sourceTree = SOURCE_ROOT; };
+		D8B60934681A4764A21E71DD /* BasicHTTPServer_ObjC.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = BasicHTTPServer_ObjC.mm; path = upnpx/src/eventserver/BasicHTTPServer_ObjC.mm; sourceTree = SOURCE_ROOT; };
+		DAAF370623F34341A5D22038 /* BasicDeviceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicDeviceParser.m; path = upnpx/src/upnp/BasicDeviceParser.m; sourceTree = SOURCE_ROOT; };
+		DC2BE30CC1FA4D9FBDAB5572 /* SoapActionsDimming1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsDimming1.h; path = upnpx/src/api/SoapActionsDimming1.h; sourceTree = SOURCE_ROOT; };
+		DDAAD14C66F845EBB0A513B7 /* ssdpnotifyalive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpnotifyalive.h; path = upnpx/src/ssdp/ssdpnotifyalive.h; sourceTree = SOURCE_ROOT; };
+		DF2CFABBDC4840679D192717 /* SoapActionsLayer3Forwarding1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsLayer3Forwarding1.h; path = upnpx/src/api/SoapActionsLayer3Forwarding1.h; sourceTree = SOURCE_ROOT; };
+		E0290281D6AB45FAAD73E231 /* DigitalSecurityCamera1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DigitalSecurityCamera1Device.h; path = upnpx/src/api/DigitalSecurityCamera1Device.h; sourceTree = SOURCE_ROOT; };
+		E0B2CDF9A2FA4C70AABA5C3E /* UPnPManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPnPManager.m; path = upnpx/src/upnp/UPnPManager.m; sourceTree = SOURCE_ROOT; };
+		E1BA69E0D26B48F9BB39ECA1 /* ssdpparser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpparser.cpp; path = upnpx/src/ssdp/ssdpparser.cpp; sourceTree = SOURCE_ROOT; };
+		E2056B545A2A4218B37D7E17 /* socketserverconnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socketserverconnection.h; path = upnpx/src/eventserver/socketserverconnection.h; sourceTree = SOURCE_ROOT; };
+		E215FEC3CD8A4FBDB5715256 /* ssdpnotifybye.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpnotifybye.cpp; path = upnpx/src/ssdp/ssdpnotifybye.cpp; sourceTree = SOURCE_ROOT; };
+		E289CD20C1064D35B05A2A2A /* SoapActionsWANIPv6FirewallControl1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsWANIPv6FirewallControl1.m; path = upnpx/src/upnp/SoapActionsWANIPv6FirewallControl1.m; sourceTree = SOURCE_ROOT; };
+		E2DCC1380F844C37BFA4FEE7 /* ssdpsearchreq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpsearchreq.h; path = upnpx/src/ssdp/ssdpsearchreq.h; sourceTree = SOURCE_ROOT; };
+		E4E12D958FB84B438652A2AD /* SoapActionsWANPPPConnection1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsWANPPPConnection1.h; path = upnpx/src/api/SoapActionsWANPPPConnection1.h; sourceTree = SOURCE_ROOT; };
+		E5415224773B4BC487B1D574 /* SoapActionsInputConfig1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsInputConfig1.h; path = upnpx/src/api/SoapActionsInputConfig1.h; sourceTree = SOURCE_ROOT; };
+		E7364F3D24124443AAC330A9 /* SSDPDB_ObjC.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SSDPDB_ObjC.mm; path = upnpx/src/ssdp/SSDPDB_ObjC.mm; sourceTree = SOURCE_ROOT; };
+		E7855DAA4FE34F41B38BA13E /* UPnPManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPnPManager.h; path = upnpx/src/api/UPnPManager.h; sourceTree = SOURCE_ROOT; };
+		E7FD193447FC4184A72EE1D7 /* StateVariable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StateVariable.m; path = upnpx/src/upnp/StateVariable.m; sourceTree = SOURCE_ROOT; };
+		E88335F092604DE19ADAE2B1 /* basichttpobserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basichttpobserver.h; path = upnpx/src/eventserver/basichttpobserver.h; sourceTree = SOURCE_ROOT; };
+		E9670CD86168403BBB48C5AA /* SoapActionsDigitalSecurityCameraSettings1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsDigitalSecurityCameraSettings1.h; path = upnpx/src/api/SoapActionsDigitalSecurityCameraSettings1.h; sourceTree = SOURCE_ROOT; };
+		E9713F1D081B433482FB8437 /* DeviceFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceFactory.m; path = upnpx/src/upnp/DeviceFactory.m; sourceTree = SOURCE_ROOT; };
+		E9D1567B37D347B9B64ECA98 /* TelephonyServer1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TelephonyServer1Device.h; path = upnpx/src/api/TelephonyServer1Device.h; sourceTree = SOURCE_ROOT; };
+		EAB3732543E64FDFB4D058BB /* SoapActionsConnectionManager1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsConnectionManager1.h; path = upnpx/src/api/SoapActionsConnectionManager1.h; sourceTree = SOURCE_ROOT; };
+		EDFF246C210B441F8C9D12CD /* DeviceFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceFactory.h; path = upnpx/src/api/DeviceFactory.h; sourceTree = SOURCE_ROOT; };
+		F0DAA34214194FDEBF2AFB67 /* MediaServer1ItemObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaServer1ItemObject.m; path = upnpx/src/upnp/MediaServer1ItemObject.m; sourceTree = SOURCE_ROOT; };
+		F1C3C8A862824436B1215E6F /* ssdpnotifyalive.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ssdpnotifyalive.cpp; path = upnpx/src/ssdp/ssdpnotifyalive.cpp; sourceTree = SOURCE_ROOT; };
+		F2C7922B56C842388050CF7E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		F5082CFF354249F084F0ACB5 /* SoapActionsConfigurationManagement1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsConfigurationManagement1.m; path = upnpx/src/upnp/SoapActionsConfigurationManagement1.m; sourceTree = SOURCE_ROOT; };
+		F86E6AA9583F4CAFA6468FF9 /* SoapActionsDigitalSecurityCameraStillImage1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsDigitalSecurityCameraStillImage1.h; path = upnpx/src/api/SoapActionsDigitalSecurityCameraStillImage1.h; sourceTree = SOURCE_ROOT; };
+		F8D3BCF9714443B7BA9A98D9 /* SoapActionsRenderingControl1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapActionsRenderingControl1.h; path = upnpx/src/api/SoapActionsRenderingControl1.h; sourceTree = SOURCE_ROOT; };
+		F9AA2D050F754352B2AF722C /* SoapActionsDigitalSecurityCameraMotionImage1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoapActionsDigitalSecurityCameraMotionImage1.m; path = upnpx/src/upnp/SoapActionsDigitalSecurityCameraMotionImage1.m; sourceTree = SOURCE_ROOT; };
+		FA05414D7DCC491EBC325F74 /* SocketServer_ObjC.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = SocketServer_ObjC.mm; path = upnpx/src/eventserver/SocketServer_ObjC.mm; sourceTree = SOURCE_ROOT; };
+		FBECF481917A454682673F18 /* ServiceFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceFactory.m; path = upnpx/src/upnp/ServiceFactory.m; sourceTree = SOURCE_ROOT; };
+		FD4510A5B4344965AE6AF228 /* ssdpobserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssdpobserver.h; path = upnpx/src/ssdp/ssdpobserver.h; sourceTree = SOURCE_ROOT; };
+		FF0273242AEE4B50B9FBD6EA /* MediaRenderer1Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaRenderer1Device.h; path = upnpx/src/api/MediaRenderer1Device.h; sourceTree = SOURCE_ROOT; };
+		FF17081B30F54A0AB79B3147 /* WAN2Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAN2Device.m; path = upnpx/src/upnp/WAN2Device.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3D6A17D75A4108B15BC8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF3323315DB4A3487F67913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152A11EDB638447F84D672B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729A678AF56A48458556D4B1 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26670D2FB6144BE1BC2E4B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7922B56C842388050CF7E /* Pods-resources.sh */,
+				59ED1FAC20B84CF89F12E957 /* Pods-prefix.pch */,
+				17D8012F1A2A47AE90FB690B /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4623EA755B354CC8BD954067 = {
+			isa = PBXGroup;
+			children = (
+				152A11EDB638447F84D672B1 /* Products */,
+				912EC116B07D45DDB4B53C4E /* Pods */,
+				BC6086AEAF384493957B72B5 /* Targets Support Files */,
+				76AA904FB297448692F1BF5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A32CF497D8E4AB3871AFAA3 /* Novocaine */ = {
+			isa = PBXGroup;
+			children = (
+				62BE70F0C5CC4C3E8C0A405D /* AudioFileReader.h */,
+				7DCB7F5B8CB843B6BFE5FB1C /* AudioFileWriter.h */,
+				4AB144FF7EE14A419C6771D6 /* Novocaine.h */,
+				CBA52B9C86354C65A8CC2072 /* RingBuffer.h */,
+				35EAF67BD67B46649FC759BC /* AudioFileWriter.m */,
+				B66920F1CFC643AA9E6F0AAC /* Novocaine.m */,
+				01A08AD0D9FA429CBB3AE7CD /* AudioFileReader.mm */,
+				078E6CC6990047F582290826 /* RingBuffer.mm */,
+			);
+			name = Novocaine;
+			sourceTree = "<group>";
+		};
+		76AA904FB297448692F1BF5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2C4CE3DC41498194B72A90 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E1ED378C88D4D0182979F8D /* upnpx */ = {
+			isa = PBXGroup;
+			children = (
+				C3F42119175E4FDF8474F709 /* BasicDeviceParser.h */,
+				1E27EE191ECE4FFABB045EEF /* BasicHTTPServer_ObjC.h */,
+				14D6AF93445E4DEABED09ED0 /* BasicParser.h */,
+				33DA012F9CED45029806C2DC /* BasicParserAsset.h */,
+				563F06059FF84114BBBDB04C /* BasicServiceParser.h */,
+				9A773A39649944659F595837 /* BasicUPnPDevice.h */,
+				3544D1A3C0704CEA99867C8C /* BasicUPnPService.h */,
+				3E20B9E8D71D47889340B274 /* BinaryLight1Device.h */,
+				CF17BB49F714439FBD2CFC97 /* CocoaTools.h */,
+				EDFF246C210B441F8C9D12CD /* DeviceFactory.h */,
+				E0290281D6AB45FAAD73E231 /* DigitalSecurityCamera1Device.h */,
+				D5352FA5787441B4B8120CCE /* DimmableLight1Device.h */,
+				5CD3ACF1AF62486E8A9AAD70 /* InternetGateway2Device.h */,
+				CA7102571A504FF8A6F20F70 /* LAN1Device.h */,
+				CFAFEC9AF7924BA697501D24 /* LastChangeParser.h */,
+				0956E9894A784CFD8D83DC54 /* MediaPlaylist.h */,
+				FF0273242AEE4B50B9FBD6EA /* MediaRenderer1Device.h */,
+				75AE6B5E823D4CD3868B4634 /* MediaServer1BasicObject.h */,
+				745E17423C7A4A43911D138A /* MediaServer1ContainerObject.h */,
+				B9DC4B9C88D54B7586A2F704 /* MediaServer1Device.h */,
+				417A92CFF9904893B196B563 /* MediaServer1ItemObject.h */,
+				C858A6463E4743DBB6265E02 /* MediaServer1ItemRes.h */,
+				1116887CCBE442B5A42B78B0 /* MediaServerBasicObjectParser.h */,
+				D3EE5890837C4A86AB1AB701 /* ServiceFactory.h */,
+				7A137DF478FF4E84837DF9B6 /* SoapAction.h */,
+				83EF30CD2ECD4DFA9AE974D6 /* SoapActionFactory.h */,
+				71207AD7FEB94A6AA1E54B9C /* SoapActionsAVTransport1.h */,
+				40AE47C016D44D29BDDAC4BC /* SoapActionsCallManagement1.h */,
+				132BC15FD0EC4335813D5E91 /* SoapActionsConfigurationManagement1.h */,
+				EAB3732543E64FDFB4D058BB /* SoapActionsConnectionManager1.h */,
+				7BB0F0DE628541889BEABA9D /* SoapActionsContentDirectory1.h */,
+				7B5A7AD372284C819DE7FC4C /* SoapActionsDeviceProtection1.h */,
+				4CA67E421D4C415C89435040 /* SoapActionsDigitalSecurityCameraMotionImage1.h */,
+				E9670CD86168403BBB48C5AA /* SoapActionsDigitalSecurityCameraSettings1.h */,
+				F86E6AA9583F4CAFA6468FF9 /* SoapActionsDigitalSecurityCameraStillImage1.h */,
+				DC2BE30CC1FA4D9FBDAB5572 /* SoapActionsDimming1.h */,
+				E5415224773B4BC487B1D574 /* SoapActionsInputConfig1.h */,
+				9BB004CD1D094FDCB4BC813A /* SoapActionsLANHostConfigManagement1.h */,
+				DF2CFABBDC4840679D192717 /* SoapActionsLayer3Forwarding1.h */,
+				CFD7EF51009D424DA369A2F6 /* SoapActionsMediaManagement1.h */,
+				21CF34EA39364A4D8241EC8C /* SoapActionsMessaging1.h */,
+				60A80C3C24904A22B13F8EA5 /* SoapActionsRendering.h */,
+				F8D3BCF9714443B7BA9A98D9 /* SoapActionsRenderingControl1.h */,
+				5B0AC1D6B2E04102B9837D7B /* SoapActionsSwitchPower1.h */,
+				240460540AB9438DB88A2DD6 /* SoapActionsWANCableLinkConfig1.h */,
+				8D840CE235424E509FE29E6B /* SoapActionsWANCommonInterfaceConfig1.h */,
+				1F0D4E518E6146C7821C5286 /* SoapActionsWANDSLLinkConfig1.h */,
+				513354678CED4DD48029DD3F /* SoapActionsWANEthernetLinkConfig1.h */,
+				018E7F21A30F423A85454972 /* SoapActionsWANIPConnection1.h */,
+				0B5103A0752E44C2A174F197 /* SoapActionsWANIPConnection2.h */,
+				12FB089B87CC4E9399636162 /* SoapActionsWANIPv6FirewallControl1.h */,
+				93EA5127F5EB4E3491C0EF2E /* SoapActionsWANPOTSLinkConfig1.h */,
+				E4E12D958FB84B438652A2AD /* SoapActionsWANPPPConnection1.h */,
+				82E41661445B4BF69196BD86 /* SSDPDB_ObjC.h */,
+				486C22EED5184A7399677ED5 /* StateVariable.h */,
+				4BC51682A0AD4A488B388571 /* StateVariableList.h */,
+				5042952282244D29B9965E9B /* StateVariableRange.h */,
+				BD61C5F8C8C24ABB96336F38 /* TelephonyClient1Device.h */,
+				E9D1567B37D347B9B64ECA98 /* TelephonyServer1Device.h */,
+				3BE3676916EC46939CE29401 /* UPnPDB.h */,
+				635CF9CB22C04292B0E619B3 /* UPnPEventParser.h */,
+				860000C6723D47F29B1EAAA8 /* UPnPEvents.h */,
+				E7855DAA4FE34F41B38BA13E /* UPnPManager.h */,
+				CA830415465045108719B18F /* WAN2Device.h */,
+				CA9A707CC24C49509B528FC8 /* WANConnection1Device.h */,
+				C87283F85A23478798784576 /* WANConnection2Device.h */,
+				1F27D5EA81FB4E8BBF553AE8 /* osal.h */,
+				0C72FE6A906E46E9948852AB /* tools.h */,
+				77DF7ED656704A3D86017A0C /* tools.cpp */,
+				E88335F092604DE19ADAE2B1 /* basichttpobserver.h */,
+				4D86D6BB65204B9AB05D9E86 /* basichttpserver.h */,
+				31E4E00268404713B54DDD7B /* httpsession.h */,
+				11382BC05B8C4253A9EB45DC /* socketserver.h */,
+				79A18C2D60DE466996A1C883 /* SocketServer_ObjC.h */,
+				E2056B545A2A4218B37D7E17 /* socketserverconnection.h */,
+				3756592F64404812B5A7B33D /* socketServerobserver.h */,
+				D8B60934681A4764A21E71DD /* BasicHTTPServer_ObjC.mm */,
+				FA05414D7DCC491EBC325F74 /* SocketServer_ObjC.mm */,
+				4080F75F8A3F4C5AA9D60528 /* basichttpserver.cpp */,
+				3B310771455542AD9AE065D0 /* httpsession.cpp */,
+				11555D1B246049F7866B426C /* socketserver.cpp */,
+				C57E2A8338B54539B7BEC812 /* socketserverconnection.cpp */,
+				8EC7DC862D8F4A5E910037AB /* ssdp.h */,
+				0CE369E4B2BC46BB8DC27AA6 /* ssdpdb.h */,
+				4BEE53F40D924C39834AE6BE /* ssdpdbdevice.h */,
+				BBAE2E60538641B6B8A6C5B3 /* ssdpdbobserver.h */,
+				6968F6B693F04CCAA4F5D10A /* ssdphttp.h */,
+				C3949AFDFD4342D2BDC3DE3E /* ssdpmessage.h */,
+				4073D2937BFD4C5C992F3FBB /* ssdpmsearch.h */,
+				B308DA6F2C58476AB31EF4B4 /* ssdpnotify.h */,
+				DDAAD14C66F845EBB0A513B7 /* ssdpnotifyalive.h */,
+				D1E7910AE18649D0AE43CE6E /* ssdpnotifybye.h */,
+				5D706BA9A3774697A073B950 /* ssdpnotifyupdate.h */,
+				FD4510A5B4344965AE6AF228 /* ssdpobserver.h */,
+				4B68AEB041FC43328D547DD2 /* ssdpparser.h */,
+				E2DCC1380F844C37BFA4FEE7 /* ssdpsearchreq.h */,
+				7FA9888CD9A8497C9E92D001 /* ssdpsearchresp.h */,
+				9E8D87714DEF4425A3048D02 /* ssdptools.h */,
+				471B583DFDDE486BA54E3CA6 /* upnp.h */,
+				BAE30FA08F3341F1BD1819B7 /* main.mm */,
+				E7364F3D24124443AAC330A9 /* SSDPDB_ObjC.mm */,
+				940A4203EFA04FE1B6A3258A /* ssdp.cpp */,
+				39FEB3CBD0E048C0AF902253 /* ssdpdb.cpp */,
+				CDD4FAE12EA8445F95A91E27 /* ssdpdbdevice.cpp */,
+				74AEAED24C4A461BA3DD78FA /* ssdphttp.cpp */,
+				98A0ABA9DD3B40A68E1C7AD4 /* ssdpmessage.cpp */,
+				AE7AE9A3E93D4E02B30707A8 /* ssdpmsearch.cpp */,
+				A4B37E5A12894EBCB6F2D254 /* ssdpnotify.cpp */,
+				F1C3C8A862824436B1215E6F /* ssdpnotifyalive.cpp */,
+				E215FEC3CD8A4FBDB5715256 /* ssdpnotifybye.cpp */,
+				96893BD219014AFFA6905802 /* ssdpnotifyupdate.cpp */,
+				E1BA69E0D26B48F9BB39ECA1 /* ssdpparser.cpp */,
+				219775309B564308BEC88D0A /* ssdpsearchreq.cpp */,
+				617211FAD5814E5190BE25A7 /* ssdpsearchresp.cpp */,
+				7D54B4865C224491BAB8EA66 /* ssdptools.cpp */,
+				7E83C2D0F2C542679BB7754A /* upnp.cpp */,
+				A2A7187357994D3F8FCF8F25 /* OrderedDictionary.h */,
+				DAAF370623F34341A5D22038 /* BasicDeviceParser.m */,
+				BAA36746232445FDA24E988B /* BasicParser.m */,
+				6001538B62024C09A84E28B9 /* BasicParserAsset.m */,
+				71AEC826B7554FEC85541B50 /* BasicServiceParser.m */,
+				A2D75A81422B4657996303E6 /* BasicUPnPDevice.m */,
+				01A456D1CC224048A6AAE326 /* BasicUPnPService.m */,
+				D04C803251784813B5FF74FB /* BinaryLight1Device.m */,
+				9E7B4C58DE8D40D6949E90E8 /* CocoaTools.m */,
+				E9713F1D081B433482FB8437 /* DeviceFactory.m */,
+				5A2870EA335D4D7C874DCBA3 /* DigitalSecurityCamera1Device.m */,
+				D1811A0339C14E52A72C0AC5 /* DimmableLigh1tDevice.m */,
+				ACD4820FD5BB4F7CAF464BF0 /* InternetGateway2Device.m */,
+				1221D75EA246440FABCD5E46 /* LAN1Device.m */,
+				872C81A00F3D46C3B7647E78 /* LastChangeParser.m */,
+				D7D1D3DDDA2D49A2A219B513 /* MediaPlaylist.m */,
+				6EC7FF7BBEEF4C0F82C0D19E /* MediaRenderer1Device.m */,
+				1645EB86E59244DDBB9C41F4 /* MediaServer1BasicObject.m */,
+				3350DAC3D70240C8850F869B /* MediaServer1ContainerObject.m */,
+				3082EA0C49514ED8B79C6C5B /* MediaServer1Device.m */,
+				F0DAA34214194FDEBF2AFB67 /* MediaServer1ItemObject.m */,
+				B05F0354F1CA4BDC93424E04 /* MediaServer1ItemRes.m */,
+				856DDAFA940649EDAC512BC9 /* MediaServerBasicObjectParser.m */,
+				0F10213D52604C718CC3C64B /* OrderedDictionary.m */,
+				FBECF481917A454682673F18 /* ServiceFactory.m */,
+				C280DBD16F9F431998B6FBD4 /* SoapAction.m */,
+				5320946E12434CD0A66E181F /* SoapActionFactory.m */,
+				8E52370EF7ED456D9012B755 /* SoapActionsAVTransport1.m */,
+				A1B90F16E3BB429C954FA357 /* SoapActionsCallManagement1.m */,
+				F5082CFF354249F084F0ACB5 /* SoapActionsConfigurationManagement1.m */,
+				1D52529C42844F56BA1ED0DD /* SoapActionsConnectionManager1.m */,
+				4AE16ACC8F3C45A5A4A06C60 /* SoapActionsContentDirectory1.m */,
+				166C4F31E8F5465E926DEC08 /* SoapActionsDeviceProtection1.m */,
+				F9AA2D050F754352B2AF722C /* SoapActionsDigitalSecurityCameraMotionImage1.m */,
+				8992858E409747F09C5C4F37 /* SoapActionsDigitalSecurityCameraSettings1.m */,
+				88DED163BAD941299E9CD99D /* SoapActionsDigitalSecurityCameraStillImage1.m */,
+				41522CF0DF2647F99A6FECB1 /* SoapActionsDimming1.m */,
+				3BC57429E9C84C8497BDD8CC /* SoapActionsInputConfig1.m */,
+				5CDA4B9BDB6E4DFEA0559610 /* SoapActionsLANHostConfigManagement1.m */,
+				D5B9689A7FCB4FAB990DB513 /* SoapActionsLayer3Forwarding1.m */,
+				440391DFE8A44A3EB130D089 /* SoapActionsMediaManagement1.m */,
+				A83F9E8DDB8142BA88A88C9C /* SoapActionsMessaging1.m */,
+				7750006C50964FCC92EC7BAB /* SoapActionsRendering.m */,
+				20FB7C5136F140C8A4D6B4CE /* SoapActionsRenderingControl1.m */,
+				A2D82F0CB16F4404AFBC06DC /* SoapActionsSwitchPower1.m */,
+				B7B3E52B912F4060B6F10A68 /* SoapActionsWANCableLinkConfig1.m */,
+				732C0F78B4D841D18B31EC0A /* SoapActionsWANCommonInterfaceConfig1.m */,
+				6FB7E7E9A3374AE38C78DA16 /* SoapActionsWANDSLLinkConfig1.m */,
+				4C8E48783E9041FF8F63EE4E /* SoapActionsWANEthernetLinkConfig1.m */,
+				1F02A8A213074A0E99414DEF /* SoapActionsWANIPConnection1.m */,
+				07F6B85C14754CBBB4441686 /* SoapActionsWANIPConnection2.m */,
+				E289CD20C1064D35B05A2A2A /* SoapActionsWANIPv6FirewallControl1.m */,
+				A2D9C2FB133148AE80B09F8E /* SoapActionsWANPOTSLinkConfig1.m */,
+				4AD89B61F4914C1489A1EF3B /* SoapActionsWANPPPConnection1.m */,
+				E7FD193447FC4184A72EE1D7 /* StateVariable.m */,
+				AB41DC74EBD64300B71209AC /* StateVariableList.m */,
+				9BC3FCC2DE0F4571B85D6ACC /* StateVariableRange.m */,
+				4C179371788D4D5A954B5734 /* TelephonyClient1Device.m */,
+				45D28D0984474102A89AFAA1 /* TelephonyServer1Device.m */,
+				6E318817F37F40EA9945C528 /* UPnPDB.m */,
+				A12DC2EA1F1A4CF5BDF0E8F9 /* UPnPEventParser.m */,
+				6FCB9DFDA1C44EAFB0B61F5A /* UPnPEvents.m */,
+				E0B2CDF9A2FA4C70AABA5C3E /* UPnPManager.m */,
+				FF17081B30F54A0AB79B3147 /* WAN2Device.m */,
+				49A00837E579495C928E593D /* WANConnection1Device.m */,
+				BA90D8827E7B49E9AD42C87E /* WANConnection2Device.m */,
+				9D2DD080D98243839ACEF18B /* iphoneport.h */,
+			);
+			name = upnpx;
+			sourceTree = "<group>";
+		};
+		912EC116B07D45DDB4B53C4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A32CF497D8E4AB3871AFAA3 /* Novocaine */,
+				7E1ED378C88D4D0182979F8D /* upnpx */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC6086AEAF384493957B72B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26670D2FB6144BE1BC2E4B10 /* Pods */,
+				5CED844BF1BA445FAF76212A /* PodsDummy_Pods.mm */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DAC8921E3F41FE9A0A44ED /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411424D884694F5193D83F8E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				CA95033BE9EB4BCA9A36F7FC /* Sources */,
+				BF8933E51C98447DBFEF4D8D /* CopyFiles */,
+				AB3D6A17D75A4108B15BC8BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 729A678AF56A48458556D4B1 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F9BA891F8E441DB714A286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 898AFF0FE01B4C11A6E3DAAB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4623EA755B354CC8BD954067;
+			productRefGroup = 152A11EDB638447F84D672B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DAC8921E3F41FE9A0A44ED /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA95033BE9EB4BCA9A36F7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECA900E89E94E2D803AC09D /* AudioFileWriter.m in Sources */,
+				38DD65A964DB4F31965ADB5D /* Novocaine.m in Sources */,
+				C67BAAECED2D4DABA18B5F42 /* AudioFileReader.mm in Sources */,
+				067CF263423A4923AF30E5FB /* RingBuffer.mm in Sources */,
+				1215A61F8A3B407DB3C80E4F /* tools.cpp in Sources */,
+				C5BA31E138EC4B2490B589C5 /* BasicHTTPServer_ObjC.mm in Sources */,
+				33D1DF70498543FAAB4954EB /* SocketServer_ObjC.mm in Sources */,
+				68A2BADE7F2F4901AEF5156C /* basichttpserver.cpp in Sources */,
+				880A90F3740C4D9EB1B99FE2 /* httpsession.cpp in Sources */,
+				AF58BE00F363414DB1C2B883 /* socketserver.cpp in Sources */,
+				94B394CE457A4B22A5EB2447 /* socketserverconnection.cpp in Sources */,
+				473E289E2C2247C4BE9137A0 /* main.mm in Sources */,
+				FD538F46CEF74151B254AC74 /* SSDPDB_ObjC.mm in Sources */,
+				0D55F984315F4E72A6D5306B /* ssdp.cpp in Sources */,
+				3D6A4365577042BCB11558D7 /* ssdpdb.cpp in Sources */,
+				874A743E60D4474D943B8466 /* ssdpdbdevice.cpp in Sources */,
+				FA82DAF348A54302A9D69127 /* ssdphttp.cpp in Sources */,
+				8CE063B5A8AD42868B8E84D0 /* ssdpmessage.cpp in Sources */,
+				536A94F615EB49D2843617BD /* ssdpmsearch.cpp in Sources */,
+				47702A0AD9D844E292082168 /* ssdpnotify.cpp in Sources */,
+				CE84FC1001B846D4A22A3DA7 /* ssdpnotifyalive.cpp in Sources */,
+				BEBFAF8D9F6E4B4CA34E6271 /* ssdpnotifybye.cpp in Sources */,
+				81601026AA014E13BED7ED3A /* ssdpnotifyupdate.cpp in Sources */,
+				EC0EC2EB907B42FFAF956360 /* ssdpparser.cpp in Sources */,
+				8310977ED1BE487B9E51F943 /* ssdpsearchreq.cpp in Sources */,
+				A9247A47003042948D180C6D /* ssdpsearchresp.cpp in Sources */,
+				1CCFC65269D9470E8968B6C7 /* ssdptools.cpp in Sources */,
+				C9A8CBC9A27A468E9757FF7D /* upnp.cpp in Sources */,
+				61BB448C9786424FA042DB75 /* BasicDeviceParser.m in Sources */,
+				F721327420C94CB3ABD3E4FE /* BasicParser.m in Sources */,
+				5436E5C287DB4A58B87EB8EC /* BasicParserAsset.m in Sources */,
+				4C4B6D36877948A7B02416D6 /* BasicServiceParser.m in Sources */,
+				57911E6A13664FF180CE966D /* BasicUPnPDevice.m in Sources */,
+				A41A2B5B57AC4598AF2B8C78 /* BasicUPnPService.m in Sources */,
+				693223AF790B4A5495FC95C9 /* BinaryLight1Device.m in Sources */,
+				072EF62AD8FD41609181379D /* CocoaTools.m in Sources */,
+				627BC1EEED2D4CBC9D7F8516 /* DeviceFactory.m in Sources */,
+				AD8A89BC39EB484B9F8C025E /* DigitalSecurityCamera1Device.m in Sources */,
+				8C4EAF2FFC15445DBFC6109C /* DimmableLigh1tDevice.m in Sources */,
+				35273EDBB5684EF783FFF485 /* InternetGateway2Device.m in Sources */,
+				FE0378923513491C95F2651B /* LAN1Device.m in Sources */,
+				05F315B4F0074D92BE2D39D9 /* LastChangeParser.m in Sources */,
+				87DF66D5331543F0A76D5053 /* MediaPlaylist.m in Sources */,
+				19218E325FD047D784178F79 /* MediaRenderer1Device.m in Sources */,
+				02220C866D144FBBADA8F9F4 /* MediaServer1BasicObject.m in Sources */,
+				268D38FF59CC462F81EDE5DA /* MediaServer1ContainerObject.m in Sources */,
+				760BD4C69C614D64A33C7F19 /* MediaServer1Device.m in Sources */,
+				7D52CA185B724A1AA1C80151 /* MediaServer1ItemObject.m in Sources */,
+				B51DC69B3CCF42F2B19CF204 /* MediaServer1ItemRes.m in Sources */,
+				BEF3F17969764E77A041CFB4 /* MediaServerBasicObjectParser.m in Sources */,
+				3E8831B0F5F84E1BBCE5A048 /* OrderedDictionary.m in Sources */,
+				F1060B6B9FAE44CA89DED6DA /* ServiceFactory.m in Sources */,
+				DD570C115B964983BE165CA5 /* SoapAction.m in Sources */,
+				4D2F1478BDD1494F8D415962 /* SoapActionFactory.m in Sources */,
+				A18B193D34C84D1AB2D7C378 /* SoapActionsAVTransport1.m in Sources */,
+				DF168D5A130C4969B26C26FE /* SoapActionsCallManagement1.m in Sources */,
+				B42EF6011E4E45989468245B /* SoapActionsConfigurationManagement1.m in Sources */,
+				11A0CC7629A5449B8B864B41 /* SoapActionsConnectionManager1.m in Sources */,
+				449C00983FFC41BB84858DFE /* SoapActionsContentDirectory1.m in Sources */,
+				8FD003C16AFA4FF1860F0A6A /* SoapActionsDeviceProtection1.m in Sources */,
+				D8E9BCCA30F0430F9604C0D7 /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */,
+				13B59F9E9F274DEE955E4A49 /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */,
+				B4295F20D25E4134A9BCD2D7 /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */,
+				C98D254373A34A9593B50BC2 /* SoapActionsDimming1.m in Sources */,
+				8A418FA6FDE240F7A3C69149 /* SoapActionsInputConfig1.m in Sources */,
+				A207140C4D5B46458D8FDFBF /* SoapActionsLANHostConfigManagement1.m in Sources */,
+				AE8D7C99A9F34318A994F02E /* SoapActionsLayer3Forwarding1.m in Sources */,
+				AACCE173BD654EF880F3ECFF /* SoapActionsMediaManagement1.m in Sources */,
+				7811225497DD4BD5910F39C2 /* SoapActionsMessaging1.m in Sources */,
+				E215BAAE07E34BF18EE1117D /* SoapActionsRendering.m in Sources */,
+				08465C3C973F4102A9F6BED3 /* SoapActionsRenderingControl1.m in Sources */,
+				1AED913DD2584A1F8F2B1A3C /* SoapActionsSwitchPower1.m in Sources */,
+				EE463763CA854936A5AC371E /* SoapActionsWANCableLinkConfig1.m in Sources */,
+				EC5871F530514ED7A8910EA0 /* SoapActionsWANCommonInterfaceConfig1.m in Sources */,
+				6156E032711848BDA08E6E28 /* SoapActionsWANDSLLinkConfig1.m in Sources */,
+				E82F4A8BE6A04B8D8EA8556E /* SoapActionsWANEthernetLinkConfig1.m in Sources */,
+				A97AECFF3A234317AE5FA736 /* SoapActionsWANIPConnection1.m in Sources */,
+				6F6E7BDD174E44FC939884E3 /* SoapActionsWANIPConnection2.m in Sources */,
+				1BD7D0BAEAA342C9A0790B7F /* SoapActionsWANIPv6FirewallControl1.m in Sources */,
+				FF05F68284ED42E890C94B29 /* SoapActionsWANPOTSLinkConfig1.m in Sources */,
+				4E9711FB0B6242B3A4791CFE /* SoapActionsWANPPPConnection1.m in Sources */,
+				7444652895E343E393D61128 /* StateVariable.m in Sources */,
+				23FC32BF47324B12A148BB83 /* StateVariableList.m in Sources */,
+				98A6990AA6964A29ABB026FB /* StateVariableRange.m in Sources */,
+				8813535481CD46B09D4AE7FE /* TelephonyClient1Device.m in Sources */,
+				2EDB8D6A390C4668B045E07E /* TelephonyServer1Device.m in Sources */,
+				720C175D4C564D8AA93FFB37 /* UPnPDB.m in Sources */,
+				46C301374CAD4EDB968209C8 /* UPnPEventParser.m in Sources */,
+				5551580143264D46BDC83547 /* UPnPEvents.m in Sources */,
+				8457A248F8E54F7D83B42BBB /* UPnPManager.m in Sources */,
+				6B0F518614474FE781BC29A2 /* WAN2Device.m in Sources */,
+				F7787999F467468EBBAF53D2 /* WANConnection1Device.m in Sources */,
+				BA88900F580C4CCDBF6407D1 /* WANConnection2Device.m in Sources */,
+				029972311F3048DBB7979238 /* PodsDummy_Pods.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92D53A54989645B184A5688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D8012F1A2A47AE90FB690B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD61BA860434027821D5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DC410B8F6E464CFC98CBDA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D8012F1A2A47AE90FB690B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDE085D7B46B4E2AB05EFC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411424D884694F5193D83F8E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC410B8F6E464CFC98CBDA2F /* Debug */,
+				92D53A54989645B184A5688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898AFF0FE01B4C11A6E3DAAB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD61BA860434027821D5B13 /* Debug */,
+				EDE085D7B46B4E2AB05EFC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F9BA891F8E441DB714A286 /* Project object */;
+}
