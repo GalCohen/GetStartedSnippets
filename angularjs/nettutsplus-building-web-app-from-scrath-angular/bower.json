@@ -1,0 +1,8 @@
+{
+  "name": "nettutsplus-building-web-app-from-scrath-angular",
+  "version": "0.0.0",
+  "dependencies": {
+    "console.image": "latest",
+    "jquery2": "~2.0.0"
+  }
+}
