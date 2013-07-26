@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>sharing data btwn ctrls</title>
+        <link rel="stylesheet" href="../bower_components/components-foundation/css/foundation.min.css">
+    </head>
+    <body>
+       <div ng-app="myApp">
+
+            <div ng-controller="AvengersCtrl">
+                <input type="text" name="" value="" placeholder="" ng-model="searchText">
+               <table>
+                        <tr ng-repeat="actor in avengers.cast | filter:searchText">
+                           <td>{{actor.name}}</td>
+                           <td>{{actor.character}}</td>
+                        </tr>
+                </table>
+            </div>
+
+        </div>
+        <script src="../bower_components/angular/angular.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
