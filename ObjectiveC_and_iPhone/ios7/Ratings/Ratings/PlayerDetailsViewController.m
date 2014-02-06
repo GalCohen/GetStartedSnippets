@@ -1,19 +1,18 @@
 //
-//  PlayersViewController.m
+//  PlayerDetailsViewController.m
 //  Ratings
 //
 //  Created by Gal Cohen on 2/6/14.
 //  Copyright (c) 2014 Gal Cohen. All rights reserved.
 //
 
-#import "PlayersViewController.h"
-#import "PlayerCell.h"
+#import "PlayerDetailsViewController.h"
 
-@interface PlayersViewController ()
+@interface PlayerDetailsViewController ()
 
 @end
 
-@implementation PlayersViewController
+@implementation PlayerDetailsViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -45,48 +44,43 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.players count];
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
-//    
-//    Player *player = (self.players)[indexPath.row];
-//    cell.textLabel.text = player.name;
-//    cell.detailTextLabel.text = player.game;
-//    
-//    return cell;
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
-//    
-//    Player *player = (self.players)[indexPath.row];
-//    
-//    UILabel *nameLabel = (UILabel *)[cell viewWithTag:100];
-//    nameLabel.text = player.name;
-//    
-//    UILabel *gameLabel = (UILabel *)[cell viewWithTag:101];
-//    gameLabel.text = player.game;
-//    
-//    UIImageView *ratingImageView = (UIImageView *)[cell viewWithTag:102];
-//    ratingImageView.image = [self imageForRating:player.rating];
-//    
-//    return cell;
-    
-    PlayerCell *cell = (PlayerCell *)[tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
-    
-    Player *player = (self.players)[indexPath.row];
-    cell.nameLabel.text = player.name;
-    cell.gameLabel.text = player.game;
-    cell.ratingImageView.image = [self imageForRating:player.rating];
+    // Configure the cell...
     
     return cell;
 }
+
+- (IBAction)cancel:(id)sender
+{
+    [self.delegate playerDetailsViewControllerDidCancel:self];
+}
+- (IBAction)done:(id)sender
+{
+    [self.delegate playerDetailsViewControllerDidSave:self];
+}
+
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (indexPath.section == 0) {
+//        [self.nameTextField becomeFirstResponder];
+//    }
+//}
 
 /*
 // Override to support conditional editing of the table view.
@@ -138,39 +132,5 @@
 }
 
  */
-
-- (UIImage *)imageForRating:(int)rating
-{
-    switch (rating) {
-        case 1: return [UIImage imageNamed:@"1StarSmall"];
-        case 2: return [UIImage imageNamed:@"2StarsSmall"];
-        case 3: return [UIImage imageNamed:@"3StarsSmall"];
-        case 4: return [UIImage imageNamed:@"4StarsSmall"];
-        case 5: return [UIImage imageNamed:@"5StarsSmall"];
-    }
-    return nil;
-}
-
-#pragma mark - PlayerDetailsViewControllerDelegate
-
-- (void)playerDetailsViewControllerDidCancel:(PlayerDetailsViewController *)controller
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)playerDetailsViewControllerDidSave:(PlayerDetailsViewController *)controller
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"AddPlayer"]) {
-        
-        UINavigationController *navigationController = segue.destinationViewController;
-        PlayerDetailsViewController *playerDetailsViewController = [navigationController viewControllers][0];
-        playerDetailsViewController.delegate = self;
-    }
-}
 
 @end
