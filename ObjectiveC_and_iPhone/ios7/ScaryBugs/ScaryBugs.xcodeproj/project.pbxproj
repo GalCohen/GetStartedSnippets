@@ -210,11 +210,11 @@
 			children = (
 				2A4FF0BF18A55D8100DFE49F /* RWTAppDelegate.h */,
 				2A4FF0C018A55D8100DFE49F /* RWTAppDelegate.m */,
-				2A4FF0C218A55D8100DFE49F /* Main.storyboard */,
 				2A4FF0C518A55D8100DFE49F /* RWTMasterViewController.h */,
 				2A4FF0C618A55D8100DFE49F /* RWTMasterViewController.m */,
 				2A4FF0C818A55D8100DFE49F /* RWTDetailViewController.h */,
 				2A4FF0C918A55D8100DFE49F /* RWTDetailViewController.m */,
+				2A4FF0C218A55D8100DFE49F /* Main.storyboard */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
