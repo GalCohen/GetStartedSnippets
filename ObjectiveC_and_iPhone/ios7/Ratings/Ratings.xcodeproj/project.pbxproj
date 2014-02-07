@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4FF0A318A5570400DFE49F /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FF0A218A5570300DFE49F /* GamePickerViewController.m */; };
 		2A50DAF918A4122A008F5973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A50DAF818A4122A008F5973 /* Foundation.framework */; };
 		2A50DAFB18A4122A008F5973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A50DAFA18A4122A008F5973 /* CoreGraphics.framework */; };
 		2A50DAFD18A4122A008F5973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A50DAFC18A4122A008F5973 /* UIKit.framework */; };
@@ -62,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4FF0A118A5570300DFE49F /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		2A4FF0A218A5570300DFE49F /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 		2A50DAF518A4122A008F5973 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A50DAF818A4122A008F5973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A50DAFA18A4122A008F5973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,17 +176,19 @@
 			isa = PBXGroup;
 			children = (
 				2A50DB2D18A41DFB008F5973 /* Images */,
+				2A50DB0A18A4122A008F5973 /* Main.storyboard */,
 				2A50DB0718A4122A008F5973 /* AppDelegate.h */,
 				2A50DB0818A4122A008F5973 /* AppDelegate.m */,
-				2A50DB0A18A4122A008F5973 /* Main.storyboard */,
-				2A54D00B18A439450011A65F /* PlayerDetailsViewController.h */,
-				2A54D00C18A439450011A65F /* PlayerDetailsViewController.m */,
-				2A50DB5E18A41FA4008F5973 /* PlayersViewController.h */,
-				2A50DB5F18A41FA4008F5973 /* PlayersViewController.m */,
 				2A50DB6118A420E8008F5973 /* Player.h */,
+				2A50DB6218A420E8008F5973 /* Player.m */,
 				2A50DB6418A43187008F5973 /* PlayerCell.h */,
 				2A50DB6518A43187008F5973 /* PlayerCell.m */,
-				2A50DB6218A420E8008F5973 /* Player.m */,
+				2A50DB5E18A41FA4008F5973 /* PlayersViewController.h */,
+				2A50DB5F18A41FA4008F5973 /* PlayersViewController.m */,
+				2A54D00B18A439450011A65F /* PlayerDetailsViewController.h */,
+				2A54D00C18A439450011A65F /* PlayerDetailsViewController.m */,
+				2A4FF0A118A5570300DFE49F /* GamePickerViewController.h */,
+				2A4FF0A218A5570300DFE49F /* GamePickerViewController.m */,
 				2A50DB0D18A4122A008F5973 /* ViewController.h */,
 				2A50DB0E18A4122A008F5973 /* ViewController.m */,
 				2A50DB1018A4122A008F5973 /* Images.xcassets */,
@@ -377,6 +382,7 @@
 				2A50DB6018A41FA4008F5973 /* PlayersViewController.m in Sources */,
 				2A50DB0918A4122A008F5973 /* AppDelegate.m in Sources */,
 				2A50DB0518A4122A008F5973 /* main.m in Sources */,
+				2A4FF0A318A5570400DFE49F /* GamePickerViewController.m in Sources */,
 				2A50DB6618A43187008F5973 /* PlayerCell.m in Sources */,
 				2A50DB6318A420E8008F5973 /* Player.m in Sources */,
 				2A54D00D18A439450011A65F /* PlayerDetailsViewController.m in Sources */,
