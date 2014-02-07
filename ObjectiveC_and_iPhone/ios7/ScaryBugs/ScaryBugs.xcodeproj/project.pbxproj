@@ -39,6 +39,9 @@
 		2A4FF10D18A5705A00DFE49F /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FF10518A5705A00DFE49F /* RWTUIImageExtras.m */; };
 		2A4FF10E18A5705A00DFE49F /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FF10718A5705A00DFE49F /* RWTRateView.m */; };
 		2A4FF10F18A5705A00DFE49F /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FF10918A5705A00DFE49F /* logo1.png */; };
+		2A4FF11318A5879400DFE49F /* iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FF11218A5879400DFE49F /* iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png */; };
+		2A4FF11618A588BB00DFE49F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FF11518A588BB00DFE49F /* SVProgressHUD.m */; };
+		2A4FF11818A588CF00DFE49F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4FF11718A588CF00DFE49F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +97,10 @@
 		2A4FF10718A5705A00DFE49F /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
 		2A4FF10818A5705A00DFE49F /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
 		2A4FF10918A5705A00DFE49F /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		2A4FF11218A5879400DFE49F /* iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png"; path = "../iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png"; sourceTree = "<group>"; };
+		2A4FF11418A588BB00DFE49F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2A4FF11518A588BB00DFE49F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2A4FF11718A588CF00DFE49F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4FF11818A588CF00DFE49F /* QuartzCore.framework in Frameworks */,
 				2A4FF0B318A55D8100DFE49F /* CoreGraphics.framework in Frameworks */,
 				2A4FF0B518A55D8100DFE49F /* UIKit.framework in Frameworks */,
 				2A4FF0B118A55D8100DFE49F /* Foundation.framework in Frameworks */,
@@ -142,6 +150,7 @@
 		2A4FF0AF18A55D8100DFE49F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A4FF11718A588CF00DFE49F /* QuartzCore.framework */,
 				2A4FF0B018A55D8100DFE49F /* Foundation.framework */,
 				2A4FF0B218A55D8100DFE49F /* CoreGraphics.framework */,
 				2A4FF0B418A55D8100DFE49F /* UIKit.framework */,
@@ -167,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2A4FF10218A5705A00DFE49F /* shockedface2_half.png */,
+				2A4FF11218A5879400DFE49F /* iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png */,
 				2A4FF10318A5705A00DFE49F /* shockedface2_full.png */,
 				2A4FF10418A5705A00DFE49F /* shockedface2_empty.png */,
 				2A4FF10918A5705A00DFE49F /* logo1.png */,
@@ -233,6 +243,8 @@
 		2A4FF11018A5707400DFE49F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2A4FF11418A588BB00DFE49F /* SVProgressHUD.h */,
+				2A4FF11518A588BB00DFE49F /* SVProgressHUD.m */,
 				2A4FF10718A5705A00DFE49F /* RWTRateView.m */,
 				2A4FF10818A5705A00DFE49F /* RWTRateView.h */,
 			);
@@ -334,6 +346,7 @@
 				2A4FF10018A56F2D00DFE49F /* wolfSpider.jpg in Resources */,
 				2A4FF10C18A5705A00DFE49F /* shockedface2_empty.png in Resources */,
 				2A4FF0FB18A56F2D00DFE49F /* centipedeThumb.jpg in Resources */,
+				2A4FF11318A5879400DFE49F /* iOS Simulator Screen shot Feb 7, 2014 4.28.32 PM.png in Resources */,
 				2A4FF10A18A5705A00DFE49F /* shockedface2_half.png in Resources */,
 				2A4FF0C418A55D8100DFE49F /* Main.storyboard in Resources */,
 				2A4FF0FD18A56F2D00DFE49F /* ladybugThumb.jpg in Resources */,
@@ -364,6 +377,7 @@
 				2A4FF10D18A5705A00DFE49F /* RWTUIImageExtras.m in Sources */,
 				2A4FF0EF18A55FC600DFE49F /* RWTScaryBugDoc.m in Sources */,
 				2A4FF10E18A5705A00DFE49F /* RWTRateView.m in Sources */,
+				2A4FF11618A588BB00DFE49F /* SVProgressHUD.m in Sources */,
 				2A4FF0BD18A55D8100DFE49F /* main.m in Sources */,
 				2A4FF0C718A55D8100DFE49F /* RWTMasterViewController.m in Sources */,
 				2A4FF0CA18A55D8100DFE49F /* RWTDetailViewController.m in Sources */,
