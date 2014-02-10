@@ -44,28 +44,6 @@
                                 <rect key="frame" x="182" y="149" width="143" height="123"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkG-ef-KOf">
-                                <rect key="frame" x="188" y="108" width="59" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="-1" backgroundImage="button_silver.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="ibaRemoveItem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f8b-io-XNj"/>
-                                    <action selector="ibaRemoveItemButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ypl-EB-DFm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xg-QG-y6b">
-                                <rect key="frame" x="262" y="108" width="58" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+1" backgroundImage="button_silver.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="ibaAddItem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dKQ-TY-V43"/>
-                                    <action selector="ibaAddItemButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tvR-IU-SXg"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0f-yh-neH">
                                 <rect key="frame" x="168" y="168" width="19" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,19 +92,39 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8as-9g-cyG">
+                                <rect key="frame" x="269" y="108" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+1" backgroundImage="button_silver.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ibaAddItem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wsJ-O6-JJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzB-zC-Fdu">
+                                <rect key="frame" x="187" y="110" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="-1" backgroundImage="button_silver.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ibaRemoveItem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Frz-4h-V0C"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="ibAddItemButton" destination="0xg-QG-y6b" id="1x4-s2-wOR"/>
+                        <outlet property="ibAddItemButton" destination="8as-9g-cyG" id="pAa-Ev-quL"/>
                         <outlet property="ibChalkboardLabel" destination="8DV-La-Vmt" id="k2I-cg-v2I"/>
                         <outlet property="ibCurrentItemImageView" destination="fcj-aB-ozg" id="Acr-Ea-oJE"/>
                         <outlet property="ibCurrentItemLabel" destination="Ges-w2-Qho" id="KCd-9J-OiX"/>
                         <outlet property="ibNextItemButton" destination="xf9-wX-Tw5" id="RnN-5n-Aqo"/>
                         <outlet property="ibPreviousItemButton" destination="b0f-yh-neH" id="1rD-Vf-nf1"/>
-                        <outlet property="ibRemoveItemButton" destination="kkG-ef-KOf" id="B27-l9-dLu"/>
+                        <outlet property="ibRemoveItemButton" destination="HzB-zC-Fdu" id="5yB-Pk-NBb"/>
                         <outlet property="ibTotalOrderButton" destination="dHb-NU-jdr" id="TKU-br-VVS"/>
                     </connections>
                 </viewController>

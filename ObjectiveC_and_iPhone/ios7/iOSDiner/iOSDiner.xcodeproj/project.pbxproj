@@ -63,6 +63,8 @@
 		2A5A801F18A926F2004726E2 /* total_field_stretch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A7FF518A926F2004726E2 /* total_field_stretch@2x.png */; };
 		2A5A802018A926F2004726E2 /* total_field.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A7FF618A926F2004726E2 /* total_field.png */; };
 		2A5A802118A926F2004726E2 /* total_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A7FF718A926F2004726E2 /* total_field@2x.png */; };
+		2AF8372E18A932EA006C5511 /* IODItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8372D18A932EA006C5511 /* IODItem.m */; };
+		2AF8373118A93311006C5511 /* IODOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8373018A93311006C5511 /* IODOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +139,10 @@
 		2A5A7FF518A926F2004726E2 /* total_field_stretch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "total_field_stretch@2x.png"; sourceTree = "<group>"; };
 		2A5A7FF618A926F2004726E2 /* total_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = total_field.png; sourceTree = "<group>"; };
 		2A5A7FF718A926F2004726E2 /* total_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "total_field@2x.png"; sourceTree = "<group>"; };
+		2AF8372C18A932EA006C5511 /* IODItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IODItem.h; sourceTree = "<group>"; };
+		2AF8372D18A932EA006C5511 /* IODItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IODItem.m; sourceTree = "<group>"; };
+		2AF8372F18A93311006C5511 /* IODOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IODOrder.h; sourceTree = "<group>"; };
+		2AF8373018A93311006C5511 /* IODOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IODOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,7 @@
 		2A5A7F9F18A924B0004726E2 /* iOSDiner */ = {
 			isa = PBXGroup;
 			children = (
+				2AF8372B18A9329D006C5511 /* Models */,
 				2A5A802218A9273F004726E2 /* Resources */,
 				2A5A7FAB18A924B0004726E2 /* Main.storyboard */,
 				2A5A7FA818A924B0004726E2 /* IODAppDelegate.h */,
@@ -292,6 +299,17 @@
 				2A5A7FF718A926F2004726E2 /* total_field@2x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		2AF8372B18A9329D006C5511 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8372C18A932EA006C5511 /* IODItem.h */,
+				2AF8372D18A932EA006C5511 /* IODItem.m */,
+				2AF8372F18A93311006C5511 /* IODOrder.h */,
+				2AF8373018A93311006C5511 /* IODOrder.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +455,8 @@
 				2A5A7FA618A924B0004726E2 /* main.m in Sources */,
 				2A5A7FB018A924B0004726E2 /* IODViewController.m in Sources */,
 				2A5A7FAA18A924B0004726E2 /* IODAppDelegate.m in Sources */,
+				2AF8373118A93311006C5511 /* IODOrder.m in Sources */,
+				2AF8372E18A932EA006C5511 /* IODItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +665,7 @@
 				2A5A7FCA18A924B0004726E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5A7FCB18A924B0004726E2 /* Build configuration list for PBXNativeTarget "iOSDinerTests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +674,7 @@
 				2A5A7FCD18A924B0004726E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
