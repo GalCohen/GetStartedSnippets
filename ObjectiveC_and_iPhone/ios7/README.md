@@ -7,3 +7,6 @@
 - TableViewAnimations: tableviews and animations
 - iOSDiner: web service call, blocks, storyboards 
 - strutsProblem: autolayout
+- TextKitNotepad: textkit tutorial. still broken
+- urlFetcher: using NSURLConnection
+
