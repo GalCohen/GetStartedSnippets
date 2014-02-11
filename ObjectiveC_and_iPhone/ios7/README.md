@@ -6,3 +6,4 @@
 - ScaryBugs: Storyboards and tableviews
 - TableViewAnimations: tableviews and animations
 - iOSDiner: web service call, blocks, storyboards 
+- strutsProblem: autolayout
