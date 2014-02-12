@@ -1,0 +1,10 @@
+PODS:
+  - Pixate (2.0.1)
+
+DEPENDENCIES:
+  - Pixate (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  Pixate: ced6ade02e1f202223abdab5494e25c28b562667
+
+COCOAPODS: 0.29.0
