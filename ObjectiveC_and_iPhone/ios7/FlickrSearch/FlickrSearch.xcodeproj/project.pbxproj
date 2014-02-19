@@ -46,6 +46,7 @@
 		2A5682AC18B53A4700DDCDAB /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5682AB18B53A4700DDCDAB /* FlickrPhotoCell.m */; };
 		2A5682AF18B5597600DDCDAB /* FlickrPhotoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5682AE18B5597600DDCDAB /* FlickrPhotoHeaderView.m */; };
 		2A5682B218B5654000DDCDAB /* FlickrPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5682B118B5654000DDCDAB /* FlickrPhotoViewController.m */; };
+		2A5682B418B56DDF00DDCDAB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5682B318B56DDF00DDCDAB /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		2A5682AE18B5597600DDCDAB /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
 		2A5682B018B5654000DDCDAB /* FlickrPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewController.h; sourceTree = "<group>"; };
 		2A5682B118B5654000DDCDAB /* FlickrPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoViewController.m; sourceTree = "<group>"; };
+		2A5682B318B56DDF00DDCDAB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5682B418B56DDF00DDCDAB /* MessageUI.framework in Frameworks */,
 				2A56824818B51AA600DDCDAB /* CoreGraphics.framework in Frameworks */,
 				2A56824A18B51AA600DDCDAB /* UIKit.framework in Frameworks */,
 				2A56824618B51AA600DDCDAB /* Foundation.framework in Frameworks */,
@@ -156,6 +159,7 @@
 		2A56824418B51AA600DDCDAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A5682B318B56DDF00DDCDAB /* MessageUI.framework */,
 				2A56824518B51AA600DDCDAB /* Foundation.framework */,
 				2A56824718B51AA600DDCDAB /* CoreGraphics.framework */,
 				2A56824918B51AA600DDCDAB /* UIKit.framework */,

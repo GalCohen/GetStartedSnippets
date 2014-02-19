@@ -14,8 +14,9 @@
 #import "FlickrPhotoCell.h"
 #import "FlickrPhotoHeaderView.h"
 #import "FlickrPhotoViewController.h"
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController () <UITextFieldDelegate , UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface ViewController () <UITextFieldDelegate , UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, MFMailComposeViewControllerDelegate>
 
 @property(nonatomic, weak) IBOutlet UIToolbar *toolbar;
 @property(nonatomic, weak) IBOutlet UIBarButtonItem *shareButton;
@@ -28,6 +29,8 @@
 @property(nonatomic, weak) IBOutlet UICollectionView *collectionView;
 
 @property (nonatomic) BOOL sharing;
+
+@property(nonatomic, strong) NSMutableArray *selectedPhotos;
 
 - (IBAction)shareButtonTapped:(id)sender;
 @end
@@ -53,6 +56,8 @@
     self.searchResults = [@{} mutableCopy];
     self.flickr = [[Flickr alloc] init];
     
+    self.selectedPhotos = [@[] mutableCopy];
+    
 //    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"FlickrCell"];
 }
 
@@ -64,8 +69,33 @@
 
 - (IBAction)shareButtonTapped:(id)sender {
     NSLog(@"search button tapped");
-    NSString *searchTerm = self.textField.text;
-    NSLog(@"%@", searchTerm);
+//    NSString *searchTerm = self.textField.text;
+//    NSLog(@"%@", searchTerm);
+    
+    UIBarButtonItem *shareButton = (UIBarButtonItem *)sender;
+    // 1
+    if (!self.sharing) {
+        self.sharing = YES;
+        [shareButton setStyle:UIBarButtonItemStyleDone];
+        [shareButton setTitle:@"Done"];
+        [self.collectionView setAllowsMultipleSelection:YES];
+    } else {
+        // 2
+        self.sharing = NO;
+        [shareButton setStyle:UIBarButtonItemStyleBordered];
+        [shareButton setTitle:@"Share"];
+        [self.collectionView setAllowsMultipleSelection:NO];
+        // 3
+        if ([self.selectedPhotos count] > 0) {
+            [self showMailComposerAndSend];
+        }
+        // 4
+        for(NSIndexPath *indexPath in self.collectionView.indexPathsForSelectedItems) {
+            [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+        }
+        [self.selectedPhotos removeAllObjects]; 
+    }
+    
 
 }
 
@@ -136,11 +166,17 @@
         [self.collectionView
          deselectItemAtIndexPath:indexPath animated:YES];
     } else {
-        // Todo: Multi-Selection
+        NSString *searchTerm = self.searches[indexPath.section];
+        FlickrPhoto *photo = self.searchResults[searchTerm][indexPath.row];
+        [self.selectedPhotos addObject:photo];
     }
 }
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
-    // TODO: Deselect item
+    if (self.sharing) {
+        NSString *searchTerm = self.searches[indexPath.section];
+        FlickrPhoto *photo = self.searchResults[searchTerm][indexPath.row];
+        [self.selectedPhotos removeObject:photo];
+    }
 }
 
 
@@ -168,5 +204,28 @@
     }
 }
 
+
+-(void)showMailComposerAndSend {
+    if ([MFMailComposeViewController canSendMail]) {
+        MFMailComposeViewController *mailer = [[MFMailComposeViewController alloc] init];
+        mailer.mailComposeDelegate = self;
+        [mailer setSubject:@"Check out these Flickr Photos"];
+        NSMutableString *emailBody = [NSMutableString string];
+        for(FlickrPhoto *flickrPhoto in self.selectedPhotos)
+        {
+            NSString *url = [Flickr flickrPhotoURLForFlickrPhoto: flickrPhoto size:@"m"];
+            [emailBody appendFormat:@"<div><img src='%@'></div><br>",url];
+        }
+        [mailer setMessageBody:emailBody isHTML:YES];
+        [self presentViewController:mailer animated:YES completion:^{}];
+    } else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Mail Failure" message:@"Your device doesn't support in-app email" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
+- (void)mailComposeController: (MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    [controller dismissViewControllerAnimated:YES completion:^{}];
+}
 
 @end
