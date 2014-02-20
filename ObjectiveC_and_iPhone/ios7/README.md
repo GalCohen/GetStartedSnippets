@@ -1,14 +1,15 @@
-- Tap Me: Simple app tutorial.
-- Higher or Lower Game: Objective C syntax review
-- PeopleDatabase: Objects and Inheritance
-- Vehicles: Inheritance, OOP, decorators, protocols
-- Ratings: Storyboards tutorial
-- ScaryBugs: Storyboards and tableviews
-- TableViewAnimations: tableviews and animations
-- iOSDiner: web service call, blocks, storyboards
-- strutsProblem: autolayout
-- TextKitNotepad: textkit tutorial. still broken
-- urlFetcher: using NSURLConnection
-- FlickrSearch: CollectionsView tutorials, using APIs
-- iRegex Starter: NSRegularExpression
-- Autocomplete demo - autocompleting from list of previous URLS, also example using webview
+- Tap Me               - Simple app tutorial.
+- Higher or Lower Game - Objective C syntax review
+- PeopleDatabase       - Objects and Inheritance
+- Vehicles             - Inheritance, OOP, decorators, protocols
+- Ratings              - Storyboards tutorial
+- ScaryBugs            - Storyboards and tableviews
+- TableViewAnimations  - tableviews and animations
+- iOSDiner             - web service call, blocks, storyboards
+- strutsProblem        - autolayout
+- TextKitNotepad       - textkit tutorial. still broken
+- urlFetcher           - using NSURLConnection
+- FlickrSearch         - CollectionsView tutorials, using APIs
+- iRegex Starter       -  NSRegularExpression
+- Autocomplete demo    - autocompleting from list of previous URLS, also example using webview
+- ClassicalPhotos      - NSOperations and NSOperationsQueue
