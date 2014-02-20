@@ -5,8 +5,10 @@
 - Ratings: Storyboards tutorial
 - ScaryBugs: Storyboards and tableviews
 - TableViewAnimations: tableviews and animations
-- iOSDiner: web service call, blocks, storyboards 
+- iOSDiner: web service call, blocks, storyboards
 - strutsProblem: autolayout
 - TextKitNotepad: textkit tutorial. still broken
 - urlFetcher: using NSURLConnection
-
+- FlickrSearch: CollectionsView tutorials, using APIs
+- iRegex Starter: NSRegularExpression
+- Autocomplete demo - autocompleting from list of previous URLS, also example using webview
