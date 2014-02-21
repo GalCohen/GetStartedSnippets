@@ -1,15 +1,61 @@
-- Tap Me               - Simple app tutorial.
-- Higher or Lower Game - Objective C syntax review
-- PeopleDatabase       - Objects and Inheritance
-- Vehicles             - Inheritance, OOP, decorators, protocols
-- Ratings              - Storyboards tutorial
-- ScaryBugs            - Storyboards and tableviews
-- TableViewAnimations  - tableviews and animations
-- iOSDiner             - web service call, blocks, storyboards
-- strutsProblem        - autolayout
-- TextKitNotepad       - textkit tutorial. still broken
-- urlFetcher           - using NSURLConnection
-- FlickrSearch         - CollectionsView tutorials, using APIs
-- iRegex Starter       -  NSRegularExpression
-- Autocomplete demo    - autocompleting from list of previous URLS, also example using webview
-- ClassicalPhotos      - NSOperations and NSOperationsQueue
+- **Higher or Lower Game**
+    - *Objective C syntax review*
+    - http://www.raywenderlich.com/38557/learn-to-code-ios-apps-1-welcome-to-programming
+- **PeopleDatabase**
+    - *Objects and Inheritance*
+    - http://www.raywenderlich.com/40293/learn-to-code-ios-apps-2-strings-arrays-objects-and-classes
+- **Tap Me**
+    - *Simple app tutorial.*
+    - http://www.raywenderlich.com/25561/learn-to-code-ios-apps-3-your-first-app
+    - http://www.raywenderlich.com/27191/learn-to-code-ios-apps-4-making-it-beautiful
+- **Vehicles**
+    - *Inheritance, OOP, decorators, protocols*
+    - http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1
+    - http://www.raywenderlich.com/45942/intro-object-oriented-design-part-2
+- **ScaryBugs**
+    - *Storyboards and tableviews*
+    - http://www.raywenderlich.com/1797/ios-tutorial-how-to-create-a-simple-iphone-app-part-1
+    - http://www.raywenderlich.com/1845/ios-tutorial-how-to-create-a-simple-iphone-app-tutorial-part-2
+    - http://www.raywenderlich.com/1888/ios-tutorial-how-to-create-a-simple-iphone-app-tutorial-part-3
+- **Ratings**
+    - *Storyboards tutorial*
+    - http://www.raywenderlich.com/50308/storyboards-tutorial-in-ios-7-part-1
+    - http://www.raywenderlich.com/50310/storyboards-tutorial-in-ios-7-part-2
+- **TableViewAnimations**
+    - *tableviews and animations*
+    - http://www.raywenderlich.com/49311/advanced-table-view-animations-tutorial-drop-in-cards
+- **iOSDiner**
+    - *blocks, web service call, storyboards*
+    - http://www.raywenderlich.com/9328/creating-a-diner-app-using-blocks-part-1
+    - http://www.raywenderlich.com/9438/how-to-use-blocks-in-ios-5-tutorial-part-2
+- **strutsProblem**
+    - not yet finished...
+    - *autolayout*
+    - http://www.raywenderlich.com/20881/beginning-auto-layout-part-1-of-2
+    - http://www.raywenderlich.com/20897/beginning-auto-layout-part-2-of-2
+    - http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1
+    - http://www.raywenderlich.com/50319/beginning-auto-layout-tutorial-in-ios-7-part-2
+- **TextKitNotepad**
+    - not yet finished...
+    - *textkit tutorial*
+    - http://www.raywenderlich.com/50151/text-kit-tutorial
+- **urlFetcher**
+    - *using NSURLConnection*
+    - http://nscookbook.com/2012/12/ios-programming-recipe-4-using-nsurlconnection/
+- **FlickrSearch**
+    - *CollectionsView tutorials, using APIs*
+    - http://www.raywenderlich.com/22324/beginning-uicollectionview-in-ios-6-part-12
+    - http://www.raywenderlich.com/22417/beginning-uicollectionview-in-ios-6-part-22
+- **iRegex Starter**
+    -  *NSRegularExpression*
+    - http://www.raywenderlich.com/30288/nsregularexpression-tutorial-and-cheat-sheet
+- **Autocomplete demo**
+    - *autocompleting from list of previous URLS, also example using webview*
+    - http://www.raywenderlich.com/336/auto-complete-tutorial-for-ios-how-to-auto-complete-with-custom-values
+- **ClassicalPhotos**
+    - *NSOperations and NSOperationsQueue and a bit of AFNetworking*
+    - http://www.raywenderlich.com/19788/how-to-use-nsoperations-and-nsoperationqueues
+- **MonkeyPinch**
+    - *Gestures sucn as pinch, drag, zoom, rotate and custom one.*
+    - *Also deceleration animation after draggin stops and sound effects*
+    - http://www.raywenderlich.com/6567/uigesturerecognizer-tutorial-in-ios-5-pinches-pans-and-more
