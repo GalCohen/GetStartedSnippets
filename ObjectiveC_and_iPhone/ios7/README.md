@@ -59,3 +59,7 @@
     - *Gestures sucn as pinch, drag, zoom, rotate and custom one.*
     - *Also deceleration animation after draggin stops and sound effects*
     - http://www.raywenderlich.com/6567/uigesturerecognizer-tutorial-in-ios-5-pinches-pans-and-more
+- **ScrollViews**
+    - *Using UIScrollVIew to scroll and Zoom Content*
+    - *Includes paged and peeking examples*
+    - http://www.raywenderlich.com/10518/how-to-use-uiscrollview-to-scroll-and-zoom-content
