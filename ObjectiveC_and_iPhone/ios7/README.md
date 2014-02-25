@@ -69,3 +69,6 @@
 - **Contacts**
     - *saving data using NSUserDefaults*
     - http://code.tutsplus.com/tutorials/ios-sdk-working-with-nsuserdefaults--mobile-6039
+- **Delegates**
+    - *Custom Delegates, custom slider*
+    - http://code.tutsplus.com/tutorials/ios-sdk-custom-delegates--mobile-10848
