@@ -72,3 +72,6 @@
 - **Delegates**
     - *Custom Delegates, custom slider*
     - http://code.tutsplus.com/tutorials/ios-sdk-custom-delegates--mobile-10848
+- **ScaryBugs2**
+    - *NSCoding, serializing objects*
+    - http://www.raywenderlich.com/1914/nscoding-tutorial-for-ios-how-to-save-your-app-data

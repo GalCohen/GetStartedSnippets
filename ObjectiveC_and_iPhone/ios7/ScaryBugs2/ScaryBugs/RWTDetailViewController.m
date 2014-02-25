@@ -44,6 +44,7 @@
     if (self.detailItem) {
         self.titleField.text = self.detailItem.data.title;
         self.rateView.rating = self.detailItem.data.rating;
+        NSLog(@"rating?? %@", self.rateView);
         self.imageView.image = self.detailItem.fullImage;
     }
 }
@@ -146,7 +147,6 @@
 
 - (IBAction)titleFieldTextChanged:(id)sender {
      self.detailItem.data.title = self.titleField.text;
-//    self.detailItem.data.title = @"lol";
     NSLog(@"this happened:%@", self.detailItem.data.title);
     [self.detailItem saveData];
 }
@@ -164,7 +164,7 @@
 
 - (void)rateView:(RWTRateView *)rateView ratingDidChange:(float)rating {
     self.detailItem.data.rating = rating;
-    NSLog(@"%f", self.detailItem.data.rating);
+    NSLog(@"thisssssssssssssssssss %f", self.detailItem.data.rating);
     [self.detailItem saveData];
 
 }

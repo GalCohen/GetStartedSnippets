@@ -91,11 +91,6 @@
                                 <rect key="frame" x="20" y="127" width="280" height="336"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="PSR-ge-fsB" customClass="RWTRateView">
-                                <rect key="frame" x="20" y="479" width="280" height="69"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FCq-M9-5mb">
                                 <rect key="frame" x="20" y="122" width="280" height="336"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,13 +102,18 @@
                                     <action selector="addPictureTapped:" destination="Ah7-4n-0Wa" eventType="touchUpInside" id="u7E-jg-PfF"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" id="BOg-TH-3o9" customClass="RWTRateView">
+                                <rect key="frame" x="19" y="471" width="280" height="77"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="imageView" destination="Ogh-P5-bHf" id="zo8-aq-qlm"/>
-                        <outlet property="rateView" destination="PSR-ge-fsB" id="gZC-Fs-hW2"/>
+                        <outlet property="rateView" destination="BOg-TH-3o9" id="ftF-9Z-o1k"/>
                         <outlet property="titleField" destination="xGx-Cy-Zq7" id="MNG-mj-QnC"/>
                     </connections>
                 </viewController>
