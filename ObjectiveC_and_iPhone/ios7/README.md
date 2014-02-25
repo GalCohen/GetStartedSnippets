@@ -63,3 +63,6 @@
     - *Using UIScrollVIew to scroll and Zoom Content*
     - *Includes paged and peeking examples*
     - http://www.raywenderlich.com/10518/how-to-use-uiscrollview-to-scroll-and-zoom-content
+- **CandySearch**
+    - *implementing a search bar*
+    - http://www.raywenderlich.com/16873/how-to-add-search-into-a-table-view

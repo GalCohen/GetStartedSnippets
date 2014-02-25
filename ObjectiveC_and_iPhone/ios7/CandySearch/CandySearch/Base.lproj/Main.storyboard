@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ndg-kX-hel">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Candy Table View Controller - CandySearch-->
+        <scene sceneID="R2h-w2-hGf">
+            <objects>
+                <tableViewController id="nws-JK-SfC" customClass="CandyTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hLA-ch-EYp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsScopeBar="YES" id="s1U-UI-R4m">
+                            <rect key="frame" x="0.0" y="64" width="320" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>All</string>
+                                <string>Chocolate</string>
+                                <string>Hard</string>
+                                <string>Other</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="nws-JK-SfC" id="VnY-5V-aYq"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="MNa-aF-hZ1">
+                                <rect key="frame" x="0.0" y="174" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MNa-aF-hZ1" id="D9f-gn-Tec">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="xJa-ae-Tee" kind="push" identifier="candyDetail" id="V2V-82-KTO"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nws-JK-SfC" id="oZ1-yW-kRi"/>
+                            <outlet property="delegate" destination="nws-JK-SfC" id="Kdw-Jt-qUp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="CandySearch" id="ObA-MV-1QM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="bY3-xk-wqq">
+                            <connections>
+                                <action selector="goToSearch:" destination="nws-JK-SfC" id="fy1-PL-NEl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="candySearchBar" destination="s1U-UI-R4m" id="brO-Xi-GI8"/>
+                        <outlet property="searchDisplayController" destination="20d-ZP-2YW" id="JEx-3Y-2oP"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWk-z7-jma" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="7mx-ZI-dgi">
+                    <connections>
+                        <outlet property="delegate" destination="nws-JK-SfC" id="uVy-3R-CTU"/>
+                        <outlet property="searchContentsController" destination="nws-JK-SfC" id="kJu-A3-jcQ"/>
+                        <outlet property="searchResultsDataSource" destination="nws-JK-SfC" id="2OD-95-5UA"/>
+                        <outlet property="searchResultsDelegate" destination="nws-JK-SfC" id="Ewh-jS-2mi"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="20d-ZP-2YW">
+                    <connections>
+                        <outlet property="delegate" destination="nws-JK-SfC" id="wue-Zl-zof"/>
+                        <outlet property="searchBar" destination="s1U-UI-R4m" id="OEw-tK-YX8"/>
+                        <outlet property="searchContentsController" destination="nws-JK-SfC" id="MbK-gD-4K8"/>
+                        <outlet property="searchResultsDataSource" destination="nws-JK-SfC" id="t8d-Y0-T41"/>
+                        <outlet property="searchResultsDelegate" destination="nws-JK-SfC" id="f55-Br-PFI"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="556" y="75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zWc-mi-r0j">
+            <objects>
+                <viewController id="xJa-ae-Tee" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yks-Px-iTX"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZSU-aE-ElB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="igK-Jh-Zh6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V3Y-M3-Xd2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ko-hO-hFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NMf-WT-WhX">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="ndg-kX-hel" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X32-GN-69S">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nws-JK-SfC" kind="relationship" relationship="rootViewController" id="sTU-AE-pf2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qax-6B-vr8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104" y="75"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
