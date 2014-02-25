@@ -12,6 +12,9 @@
     - *Inheritance, OOP, decorators, protocols*
     - http://www.raywenderlich.com/45940/intro-object-oriented-design-part-1
     - http://www.raywenderlich.com/45942/intro-object-oriented-design-part-2
+- **QuoteGen**
+    - *Reading from plists, simple app example*
+    - http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6
 - **ScaryBugs**
     - *Storyboards and tableviews*
     - http://www.raywenderlich.com/1797/ios-tutorial-how-to-create-a-simple-iphone-app-part-1
