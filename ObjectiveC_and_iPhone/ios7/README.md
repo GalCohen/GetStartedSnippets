@@ -66,3 +66,6 @@
 - **CandySearch**
     - *implementing a search bar*
     - http://www.raywenderlich.com/16873/how-to-add-search-into-a-table-view
+- **Contacts**
+    - *saving data using NSUserDefaults*
+    - http://code.tutsplus.com/tutorials/ios-sdk-working-with-nsuserdefaults--mobile-6039
