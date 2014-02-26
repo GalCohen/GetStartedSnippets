@@ -78,3 +78,6 @@
 - **ScaryBugs2**
     - *NSCoding, serializing objects*
     - http://www.raywenderlich.com/1914/nscoding-tutorial-for-ios-how-to-save-your-app-data
+- **Notifications**
+    - *using NSNotificationCenter*
+    - http://code.tutsplus.com/tutorials/ios-sdk-nsnotification--mobile-10619
