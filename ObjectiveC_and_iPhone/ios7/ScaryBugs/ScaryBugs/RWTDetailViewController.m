@@ -47,13 +47,16 @@
         self.rateView.rating = self.detailItem.data.rating;
         self.imageView.image = self.detailItem.fullImage;
     }
+    NSLog(@"rating?? %@", self.rateView);
+    NSLog(@"rating?? %f", self.rateView.rating);
 }
 
 - (void)viewDidLoad
 {
+    [self configureView];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    
 }
 
 - (void)didReceiveMemoryWarning
