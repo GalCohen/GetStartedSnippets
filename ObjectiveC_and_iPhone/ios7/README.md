@@ -81,3 +81,7 @@
 - **Notifications**
     - *using NSNotificationCenter*
     - http://code.tutsplus.com/tutorials/ios-sdk-nsnotification--mobile-10619
+- **CoreImageFun**
+    - *using CoreImage for filters*
+    - *Saving and loading images*
+    - http://www.raywenderlich.com/50197/uikit-dynamics-tutorial
