@@ -85,3 +85,9 @@
     - *using CoreImage for filters*
     - *Saving and loading images*
     - http://www.raywenderlich.com/50197/uikit-dynamics-tutorial
+- **BlueLibrary**
+    - *Design patterns: MVC, singleton, decorator (delegation and categories), facade, adapter, memento, Observer, command *
+    - *KVO, NSNotifications, categories, delegates*
+    - *Archiving with NSCoder*
+    - *Target-Action and NSInvocation*
+    - http://www.raywenderlich.com/46988/ios-design-patterns
