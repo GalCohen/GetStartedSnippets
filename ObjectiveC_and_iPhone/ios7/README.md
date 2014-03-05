@@ -100,3 +100,6 @@
 - **Testing Objective-C**
     - *Unit testing usig XCTest framework*
     - http://www.verious.com/tutorial/ios-tutorial-testing-with-the-xctest-framework/
+- **CERangeSlider**
+    - *Building a custom control - two knob slider*
+    - http://www.raywenderlich.com/36288/how-to-make-a-custom-control
