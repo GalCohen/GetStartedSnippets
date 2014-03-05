@@ -97,3 +97,6 @@
 - **DynamicsPlayground**
     - *UIKit Dynamics*
     - http://www.raywenderlich.com/50197/uikit-dynamics-tutorial
+- **Testing Objective-C**
+    - *Unit testing usig XCTest framework*
+    - http://www.verious.com/tutorial/ios-tutorial-testing-with-the-xctest-framework/
