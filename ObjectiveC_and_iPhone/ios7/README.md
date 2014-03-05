@@ -94,3 +94,6 @@
 - **kivaJSONDemo**
     - *working with JSON*
     - http://www.raywenderlich.com/5492/working-with-json-in-ios-5
+- **DynamicsPlayground**
+    - *UIKit Dynamics*
+    - http://www.raywenderlich.com/50197/uikit-dynamics-tutorial
