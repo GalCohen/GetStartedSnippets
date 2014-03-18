@@ -8,6 +8,7 @@
 
 #import "SecondViewController.h"
 #import "ViewController.h"
+#import "StringReverserActivity.h"
 
 @interface SecondViewController () <UITextFieldDelegate>
 
@@ -62,12 +63,28 @@
     
     [self createTextField];
     [self createButton];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSArray *itemsToShare = @[
+                              @"Item 1",
+                              @"Item 2",
+                              @"Item 3"
+                              ];
+    
+    UIActivityViewController * activity = [[UIActivityViewController alloc] initWithActivityItems:itemsToShare applicationActivities:@[[StringReverserActivity new]]];
+    
+    [self presentViewController:activity animated:YES completion:nil];
 }
 
 #pragma mark - Go to First View Controller

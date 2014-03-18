@@ -23,6 +23,7 @@
 		2A4E064518D750CC00055E25 /* UIComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E064418D750CC00055E25 /* UIComponentsTests.m */; };
 		2A4E065018D8A77200055E25 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E064F18D8A77200055E25 /* SecondViewController.m */; };
 		2A4E065318D8A90900055E25 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E065218D8A90900055E25 /* NavigationViewController.m */; };
+		2A4E065618D8D0C600055E25 /* StringReverserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E065518D8D0C600055E25 /* StringReverserActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		2A4E064F18D8A77200055E25 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2A4E065118D8A90900055E25 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		2A4E065218D8A90900055E25 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		2A4E065418D8D0C600055E25 /* StringReverserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringReverserActivity.h; sourceTree = "<group>"; };
+		2A4E065518D8D0C600055E25 /* StringReverserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringReverserActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				2A4E065218D8A90900055E25 /* NavigationViewController.m */,
 				2A4E064E18D8A77200055E25 /* SecondViewController.h */,
 				2A4E064F18D8A77200055E25 /* SecondViewController.m */,
+				2A4E065418D8D0C600055E25 /* StringReverserActivity.h */,
+				2A4E065518D8D0C600055E25 /* StringReverserActivity.m */,
 				2A4E063118D750CB00055E25 /* Images.xcassets */,
 				2A4E062018D750CB00055E25 /* Supporting Files */,
 			);
@@ -264,6 +269,7 @@
 				2A4E065318D8A90900055E25 /* NavigationViewController.m in Sources */,
 				2A4E062A18D750CB00055E25 /* AppDelegate.m in Sources */,
 				2A4E062618D750CB00055E25 /* main.m in Sources */,
+				2A4E065618D8D0C600055E25 /* StringReverserActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
