@@ -103,3 +103,5 @@
 - **CERangeSlider**
     - *Building a custom control - two knob slider*
     - http://www.raywenderlich.com/36288/how-to-make-a-custom-control
+- **UIComponents**
+    - *Segmented Control, text field, buttons, alertviews, picker date piceker, all done programmatically*
