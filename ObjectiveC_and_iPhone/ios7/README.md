@@ -113,3 +113,6 @@
 - **UINavigation**
     - *UINavigationController, moving back and forth between viewcontrollers, etc.*
     - iOS7 Programming Cookbook
+- **Popovers with UIPopoverController**
+    - *Popovers on iphone and ipad*
+    - iOS7 Programming Cookbook
