@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 @property (nonatomic, strong) UIButton *displaySecondViewController;
+@property (nonatomic, strong) UIProgressView *progressView;
+@property (nonatomic, strong) UILabel *label;
 @end
 
 @implementation ViewController
@@ -123,6 +125,15 @@
     self.slider.minimumTrackTintColor = [UIColor redColor]; /* Set the tint color of the thumb */
     self.slider.maximumTrackTintColor = [UIColor greenColor]; /* Set the tint color of the maximum value */
     self.slider.thumbTintColor = [UIColor blackColor];
+    
+    
+    // Progress View
+    
+    [self createProgressView];
+    
+    
+    // Label with Styled Text
+    [self createStyledLabel];
 }
 
 - (void)didReceiveMemoryWarning
@@ -216,5 +227,55 @@
     [self presentViewController:secondController animated:NO completion:nil];
 }
 
+
+#pragma mark - Progress View
+
+- (void) createProgressView {
+    NSLog(@"WHERE IS THIS HAPPENING??");
+    self.progressView = [[UIProgressView alloc]
+                         initWithProgressViewStyle:UIProgressViewStyleBar];
+    [self.progressView setFrame:CGRectMake(10, 530, 100, 50)];
+    self.progressView.progress = 20.0f / 30.0f;
+    [self.view addSubview:self.progressView];
+}
+
+#pragma mark - UILabel and Styled Text
+
+- (NSAttributedString *) attributedText{
+    NSString *string = @"iOS SDK";
+    
+    NSMutableAttributedString *result = [[NSMutableAttributedString alloc] initWithString:string];
+    NSDictionary *attributesForFirstWord = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:30.0f],
+                                             NSForegroundColorAttributeName: [UIColor redColor],
+                                             NSBackgroundColorAttributeName: [UIColor blackColor]
+                                             };
+    
+    NSShadow *shadow = [NSShadow new];
+    shadow.shadowColor = [UIColor darkGrayColor];
+    shadow.shadowOffset = CGSizeMake(4.0f, 4.0f);
+    
+    NSDictionary *attributesForSecondWord = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:30.0f],
+                                             NSForegroundColorAttributeName: [UIColor whiteColor],
+                                             NSBackgroundColorAttributeName: [UIColor redColor],
+                                              NSShadowAttributeName: shadow
+                                             };
+    /* Find the string "iOS" in the whole string and sets its attribute */
+    [result setAttributes:attributesForFirstWord
+                    range:[string rangeOfString:@"iOS"]];
+    /* Do the same thing for the string "SDK" */
+    [result setAttributes:attributesForSecondWord
+                    range:[string rangeOfString:@"SDK"]];
+    
+    return [[NSAttributedString alloc] initWithAttributedString:result];
+}
+
+- (void) createStyledLabel {
+    self.label = [[UILabel alloc] init];
+    self.label.backgroundColor = [UIColor clearColor];
+    self.label.attributedText = [self attributedText];
+    [self.label setFrame:CGRectMake(200, 530, 100, 50)];
+    [self.label sizeToFit];
+    [self.view addSubview:self.label];
+}
 
 @end

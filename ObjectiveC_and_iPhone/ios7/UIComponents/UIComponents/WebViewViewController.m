@@ -8,31 +8,46 @@
 
 #import "WebViewViewController.h"
 
-@interface WebViewViewController ()
-
+@interface WebViewViewController () <UIWebViewDelegate>
+@property (nonatomic, strong) UIWebView* myWebView;
 @end
 
 @implementation WebViewViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    
+    // WebView
+    self.myWebView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    self.myWebView.scalesPageToFit = YES;
+    self.myWebView.delegate = self;
+    [self.view addSubview:self.myWebView];
+    NSURL *url = [NSURL URLWithString:@"http://www.1stdibs.com"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.myWebView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - WebViewDelegate
+
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{ [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
 @end

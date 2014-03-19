@@ -22,8 +22,13 @@
 		2A4E064318D750CC00055E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E064118D750CC00055E25 /* InfoPlist.strings */; };
 		2A4E064518D750CC00055E25 /* UIComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E064418D750CC00055E25 /* UIComponentsTests.m */; };
 		2A4E065018D8A77200055E25 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E064F18D8A77200055E25 /* SecondViewController.m */; };
-		2A4E065318D8A90900055E25 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E065218D8A90900055E25 /* NavigationViewController.m */; };
 		2A4E065618D8D0C600055E25 /* StringReverserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E065518D8D0C600055E25 /* StringReverserActivity.m */; };
+		2A55D60018D8F2B500BB4640 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55D5FF18D8F2B500BB4640 /* ThirdViewController.m */; };
+		2A55D60318D8FA6100BB4640 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55D60218D8FA6100BB4640 /* FourthViewController.m */; };
+		2A55D60518D8FC7300BB4640 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A55D60418D8FC7300BB4640 /* galaxy.png */; };
+		2A55D60818D9001000BB4640 /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A55D60618D9001000BB4640 /* frog.png */; };
+		2A55D60918D9001000BB4640 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A55D60718D9001000BB4640 /* elephant.png */; };
+		2A55D60C18D9E93100BB4640 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55D60B18D9E93100BB4640 /* WebViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +63,17 @@
 		2A4E064418D750CC00055E25 /* UIComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIComponentsTests.m; sourceTree = "<group>"; };
 		2A4E064E18D8A77200055E25 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2A4E064F18D8A77200055E25 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2A4E065118D8A90900055E25 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
-		2A4E065218D8A90900055E25 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		2A4E065418D8D0C600055E25 /* StringReverserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringReverserActivity.h; sourceTree = "<group>"; };
 		2A4E065518D8D0C600055E25 /* StringReverserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringReverserActivity.m; sourceTree = "<group>"; };
+		2A55D5FE18D8F2B500BB4640 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2A55D5FF18D8F2B500BB4640 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2A55D60118D8FA6100BB4640 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		2A55D60218D8FA6100BB4640 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		2A55D60418D8FC7300BB4640 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		2A55D60618D9001000BB4640 /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		2A55D60718D9001000BB4640 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		2A55D60A18D9E93100BB4640 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		2A55D60B18D9E93100BB4640 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,13 +138,20 @@
 				2A4E062B18D750CB00055E25 /* Main.storyboard */,
 				2A4E062E18D750CB00055E25 /* ViewController.h */,
 				2A4E062F18D750CB00055E25 /* ViewController.m */,
-				2A4E065118D8A90900055E25 /* NavigationViewController.h */,
-				2A4E065218D8A90900055E25 /* NavigationViewController.m */,
 				2A4E064E18D8A77200055E25 /* SecondViewController.h */,
 				2A4E064F18D8A77200055E25 /* SecondViewController.m */,
+				2A55D5FE18D8F2B500BB4640 /* ThirdViewController.h */,
+				2A55D5FF18D8F2B500BB4640 /* ThirdViewController.m */,
+				2A55D60118D8FA6100BB4640 /* FourthViewController.h */,
+				2A55D60218D8FA6100BB4640 /* FourthViewController.m */,
+				2A55D60A18D9E93100BB4640 /* WebViewViewController.h */,
+				2A55D60B18D9E93100BB4640 /* WebViewViewController.m */,
 				2A4E065418D8D0C600055E25 /* StringReverserActivity.h */,
 				2A4E065518D8D0C600055E25 /* StringReverserActivity.m */,
 				2A4E063118D750CB00055E25 /* Images.xcassets */,
+				2A55D60618D9001000BB4640 /* frog.png */,
+				2A55D60718D9001000BB4640 /* elephant.png */,
+				2A55D60418D8FC7300BB4640 /* galaxy.png */,
 				2A4E062018D750CB00055E25 /* Supporting Files */,
 			);
 			path = UIComponents;
@@ -243,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A55D60918D9001000BB4640 /* elephant.png in Resources */,
 				2A4E063218D750CB00055E25 /* Images.xcassets in Resources */,
+				2A55D60818D9001000BB4640 /* frog.png in Resources */,
 				2A4E062418D750CB00055E25 /* InfoPlist.strings in Resources */,
 				2A4E062D18D750CB00055E25 /* Main.storyboard in Resources */,
+				2A55D60518D8FC7300BB4640 /* galaxy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +288,11 @@
 			files = (
 				2A4E065018D8A77200055E25 /* SecondViewController.m in Sources */,
 				2A4E063018D750CB00055E25 /* ViewController.m in Sources */,
-				2A4E065318D8A90900055E25 /* NavigationViewController.m in Sources */,
+				2A55D60C18D9E93100BB4640 /* WebViewViewController.m in Sources */,
+				2A55D60018D8F2B500BB4640 /* ThirdViewController.m in Sources */,
 				2A4E062A18D750CB00055E25 /* AppDelegate.m in Sources */,
 				2A4E062618D750CB00055E25 /* main.m in Sources */,
+				2A55D60318D8FA6100BB4640 /* FourthViewController.m in Sources */,
 				2A4E065618D8D0C600055E25 /* StringReverserActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +502,7 @@
 				2A4E064A18D750CC00055E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A4E064B18D750CC00055E25 /* Build configuration list for PBXNativeTarget "UIComponentsTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +511,7 @@
 				2A4E064D18D750CC00055E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
