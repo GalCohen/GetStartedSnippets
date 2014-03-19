@@ -1,5 +1,5 @@
 //
-//  NavigationViewController.h
+//  ThirdViewController.h
 //  UIComponents
 //
 //  Created by Gal Cohen on 3/18/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavigationViewController : UINavigationController
+@interface ThirdViewController : UIViewController
 
 @end

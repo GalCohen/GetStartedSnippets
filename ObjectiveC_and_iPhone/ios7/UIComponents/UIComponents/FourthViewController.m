@@ -1,18 +1,18 @@
 //
-//  NavigationViewController.m
+//  FourthViewController.m
 //  UIComponents
 //
 //  Created by Gal Cohen on 3/18/14.
 //  Copyright (c) 2014 Gal Cohen. All rights reserved.
 //
 
-#import "NavigationViewController.h"
+#import "FourthViewController.h"
 
-@interface NavigationViewController ()
+@interface FourthViewController ()
 
 @end
 
-@implementation NavigationViewController
+@implementation FourthViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

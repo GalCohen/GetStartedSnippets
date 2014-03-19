@@ -106,6 +106,9 @@
 - **UIComponents**
     - *Segmented Control, text field, buttons, alertviews, picker date piceker, all done programmatically*
     - *ActivityView and Custom Activities by Subclassing ActivityView*
+    - *ImageView, ScrollView, TextView*
+    - *WebView, NetWorkActivityIndicator*
+    - *UILabel with styled text*
     - iOS7 Programming Cookbook
 - **UINavigation**
     - *UINavigationController, moving back and forth between viewcontrollers, etc.*
