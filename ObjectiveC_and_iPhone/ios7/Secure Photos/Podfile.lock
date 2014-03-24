@@ -1,0 +1,13 @@
+PODS:
+  - RNCryptor (2.2)
+  - SSKeychain (1.2.1)
+
+DEPENDENCIES:
+  - RNCryptor (~> 2.2)
+  - SSKeychain (~> 1.2)
+
+SPEC CHECKSUMS:
+  RNCryptor: 1420380792b33758d2414cf37af160ea2495e15c
+  SSKeychain: d18926838c2e7cd342e2a49e9f869858e49f035a
+
+COCOAPODS: 0.29.0

@@ -119,3 +119,6 @@
 - **DynamicsRecipes**
     - *UIDynamics: gravity, animations, collisions, etc,*
     - iOS7 Programming Cookbook
+- **Secure Photos**
+    - *KeyChain example*
+    - http://code.tutsplus.com/tutorials/securing-and-encrypting-data-on-ios--mobile-21263
