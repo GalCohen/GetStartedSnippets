@@ -128,4 +128,6 @@
 - **TextToSpeech**
     - *AVSpeechSynthesizer*
     - http://useyourloaf.com/blog/2014/01/08/synthesized-speech-from-text.html
-
+- **iOS7LocalNotificationsTutorial**
+    - *Local Alerts using UILocalNotification*
+    - http://www.ioscreator.com/tutorials/local-notifications-ios7
