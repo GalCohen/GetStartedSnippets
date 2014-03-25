@@ -125,4 +125,7 @@
 - **TwitterApp**
     - *Using twitter's integration to read tweets*
     - http://www.techotopia.com/index.php/An_iOS_7_Twitter_Integration_Tutorial_using_SLRequest
+- **TextToSpeech**
+    - *AVSpeechSynthesizer*
+    - http://useyourloaf.com/blog/2014/01/08/synthesized-speech-from-text.html
 
