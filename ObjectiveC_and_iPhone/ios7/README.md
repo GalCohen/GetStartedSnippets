@@ -122,3 +122,7 @@
 - **Secure Photos**
     - *KeyChain example*
     - http://code.tutsplus.com/tutorials/securing-and-encrypting-data-on-ios--mobile-21263
+- **TwitterApp**
+    - *Using twitter's integration to read tweets*
+    - http://www.techotopia.com/index.php/An_iOS_7_Twitter_Integration_Tutorial_using_SLRequest
+
