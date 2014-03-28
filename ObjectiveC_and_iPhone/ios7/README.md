@@ -145,3 +145,6 @@
     - *iBeacon*
     - http://code.tutsplus.com/tutorials/ios-7-sdk-core-bluetooth-theoretical-overview--mobile-20728
     - http://code.tutsplus.com/tutorials/ios-7-sdk-core-bluetooth-practical-lesson--mobile-20741
+- **iBeacon Hot and Cold**
+    - *iBeacon and core location*
+    - http://code.tutsplus.com/tutorials/ios-7-sdk-ibeacons-game--mobile-20711
