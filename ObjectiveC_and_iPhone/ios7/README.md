@@ -148,3 +148,6 @@
 - **iBeacon Hot and Cold**
     - *iBeacon and core location*
     - http://code.tutsplus.com/tutorials/ios-7-sdk-ibeacons-game--mobile-20711
+- **BeaconBroadcast, BeaconReceiver**
+    - *iBeacon*
+    - http://www.appcoda.com/ios7-programming-ibeacons-tutorial/
