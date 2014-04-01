@@ -11,7 +11,7 @@
 #import <Social/Social.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, AVSpeechSynthesizerDelegate>
+@interface ViewController : UIViewController 
 
 
 @property (weak, nonatomic) IBOutlet UITableView *tweetTableView;

@@ -12,8 +12,14 @@
 @interface TweetList : NSObject
 
 @property NSMutableArray* tweetList;
+@property BOOL isAtTheEnd;
 
 - (id) initWithJSON: (NSData*) json;
 - (void) printTweets;
+
+- (NSString*) getCurrentTweet;
+- (void) goToNextTweet;
+- (void) goToPreviousTweet;
+- (NSString*) getTweetAtIndex: (NSInteger)index;
 
 @end

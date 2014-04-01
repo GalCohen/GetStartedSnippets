@@ -12,7 +12,6 @@
 
 @property NSString* name;
 @property NSString* content;
-@property NSString* TTSReadableTweet;
 
 - (NSString*) getFullTweet;
 - (Tweet*) initWithName: (NSString*)name andContent:(NSString*) content;

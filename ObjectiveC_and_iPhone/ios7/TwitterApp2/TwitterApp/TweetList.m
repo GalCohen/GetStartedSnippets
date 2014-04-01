@@ -8,6 +8,12 @@
 
 #import "TweetList.h"
 
+@interface TweetList ()
+
+@property NSInteger currentTweetIndex;
+
+@end
+
 @implementation TweetList
 
 
@@ -18,8 +24,6 @@
         NSDictionary *jsonObject= [ NSJSONSerialization JSONObjectWithData:json
                                                                    options:NSJSONReadingMutableLeaves
                                                                      error:nil];
-        
-//        self.tweetList = jsonObject;
         self.tweetList  = [NSMutableArray new];
         
         for (NSDictionary* item in jsonObject) {
@@ -32,8 +36,8 @@
         }
     }
     
-    NSLog(@"%@", self.tweetList);
-    
+    self.currentTweetIndex = 0;
+    self.isAtTheEnd = NO;
     return self;
 }
 
@@ -41,9 +45,43 @@
 - (void) printTweets
 {
     for (Tweet* tweet in self.tweetList) {
-        NSLog(@"%@", [tweet getFullTweet]);
+        NSLog(@"%@", [tweet buildTTSReadableString]);
     }
 }
 
+
+- (NSString*) getCurrentTweet
+{
+    Tweet* tweet = self.tweetList[self.currentTweetIndex];
+    return [tweet buildTTSReadableString];
+}
+
+
+- (void) goToNextTweet
+{
+    self.currentTweetIndex++;
+    
+    if (self.currentTweetIndex > [self.tweetList count] - 1) {
+        self.currentTweetIndex = [self.tweetList count] - 1;
+         self.isAtTheEnd = YES;
+    }
+}
+
+
+- (void) goToPreviousTweet
+{
+    self.currentTweetIndex--;
+    
+    if (self.currentTweetIndex < 0) {
+        self.currentTweetIndex = 0;
+    }
+}
+
+
+- (NSString*) getTweetAtIndex: (NSInteger)index
+{
+    Tweet* tweet = self.tweetList[index];
+    return [tweet buildTTSReadableString];
+}
 
 @end

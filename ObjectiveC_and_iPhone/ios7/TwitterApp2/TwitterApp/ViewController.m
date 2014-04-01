@@ -9,9 +9,11 @@
 #import "ViewController.h"
 #import "TweetList.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate, AVSpeechSynthesizerDelegate>
 
 @property TweetList* tweetList;
+@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
+@property BOOL readingWholeList;
 
 @end
 
@@ -21,6 +23,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.synthesizer = [AVSpeechSynthesizer new];
+    [self.synthesizer setDelegate:self];
+    self.readingWholeList = NO;
     
     NSArray* jsonTest = @[
                           @{
@@ -184,12 +190,12 @@
 #pragma mark UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
     return self.dataSource.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [self.tweetTableView
@@ -227,14 +233,51 @@
 }
 
 
-- (IBAction)speakButtonPressed:(id)sender {
+- (IBAction)speakButtonPressed:(id)sender
+{
     NSLog(@"%s", __PRETTY_FUNCTION__);
+    self.readingWholeList = YES;
+    
+ 
+    [self readCurrentTweet];
+    
 }
 
 
-- (void) readTweet: (NSString* )text {
+- (void) readCurrentTweet
+{
+    
+    if (self.tweetList.isAtTheEnd) {
+        return;
+    }
+    NSString* text = [self.tweetList getCurrentTweet];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
+    [self.synthesizer speakUtterance:utterance];
+    
+    [self.tweetList goToNextTweet];
+}
+
+
+- (void)readTweet: (NSString* )text
+{
     NSLog(@"%s %@", __PRETTY_FUNCTION__, text);
+    self.readingWholeList = NO;
+    
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
+    
+    [self.synthesizer speakUtterance:utterance];
+
 }
 
+
+#pragma mark AVSpeechSynthesizerDelegate
+
+- (void)speechSynthesizer:(AVSpeechSynthesizer *)synthesizer didFinishSpeechUtterance:(AVSpeechUtterance *)utterance
+{
+    NSLog(@"Finished reading tweet");
+    if (self.readingWholeList) {
+        [self readCurrentTweet];
+    }
+}
 
 @end

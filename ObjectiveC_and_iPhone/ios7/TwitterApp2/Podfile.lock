@@ -1,0 +1,10 @@
+PODS:
+  - twitter-text-objc (1.6.1)
+
+DEPENDENCIES:
+  - twitter-text-objc (~> 1.6)
+
+SPEC CHECKSUMS:
+  twitter-text-objc: 667f26d0ad5c53cf8fcbc5ccb63d72ebfa3c6306
+
+COCOAPODS: 0.29.0
