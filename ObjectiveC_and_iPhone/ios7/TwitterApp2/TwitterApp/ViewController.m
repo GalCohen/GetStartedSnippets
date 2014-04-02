@@ -17,7 +17,6 @@
 @property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 @property BOOL readingWholeList;
 @property BOOL currentlyPlaying;
-//@property (strong, nonatomic) NSMutableArray* tweetIndexPaths;
 
 @end
 
@@ -29,8 +28,21 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.synthesizer = [AVSpeechSynthesizer new];
-//    self.tweetIndexPaths = [NSMutableArray new];
     [self.synthesizer setDelegate:self];
+    NSError *error = NULL;
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    
+    [session setCategory:AVAudioSessionCategoryPlayback error:&error];
+    if(error) {
+        // Do some error handling
+        NSLog(@"%@", error.description);
+    }
+    [session setActive:YES error:&error];
+    if (error) {
+        // Do some error handling
+        NSLog(@"%@", error.description);
+    }
+
     self.readingWholeList = NO;
     self.currentlyPlaying = NO;
     
@@ -200,9 +212,6 @@
 {
     static NSString *CellIdentifier = @"TweetCell";
     
-//    [self.tweetIndexPaths addObject:indexPath];
-    NSLog(@"%@", indexPath  );
-    
     TweetTableViewCell *cell = [self.tweetTableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
@@ -223,7 +232,7 @@
     NSString *ImageURL = tweet[@"user"][@"profile_image_url_https"];
 
     [cell.icon setImageWithURL:[NSURL URLWithString:ImageURL] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
-        NSLog(@"Image Loaded...");
+
     }];
     return cell;
 }
@@ -231,8 +240,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    self.currentlyPlaying = YES;
+    self.speakButton.title = @"Pause";
     [self readTweet:[self.tweetList getTweetAtIndex:indexPath.row]];
     [self scrollToTopRowAtIndexPath:indexPath.row];
+    self.tweetList.currentTweetIndex = indexPath.row;
+    [self.tweetList goToNextTweet];
 }
 
 
@@ -278,7 +292,8 @@
     self.readingWholeList = NO;
     
     AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
-    
+
+    [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];
     [self.synthesizer speakUtterance:utterance];
     
 }
@@ -288,6 +303,10 @@
 {
     
     if (self.tweetList.isAtTheEnd) {
+        return;
+    }
+    
+    if (!self.currentlyPlaying) {
         return;
     }
     

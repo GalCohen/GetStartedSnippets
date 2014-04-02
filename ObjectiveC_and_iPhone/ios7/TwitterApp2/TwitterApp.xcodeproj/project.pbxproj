@@ -226,6 +226,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Gal Cohen";
 				TargetAttributes = {
+					2AB897BA18E0D25E0080887A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					2AB897DB18E0D25E0080887A = {
 						TestTargetID = 2AB897BA18E0D25E0080887A;
 					};
