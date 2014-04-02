@@ -21,5 +21,6 @@
 - (void) goToNextTweet;
 - (void) goToPreviousTweet;
 - (NSString*) getTweetAtIndex: (NSInteger)index;
+@property NSInteger currentTweetIndex;
 
 @end

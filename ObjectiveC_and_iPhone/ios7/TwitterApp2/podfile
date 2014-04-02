@@ -1,1 +1,2 @@
 pod 'twitter-text-objc', '~> 1.6'
+pod 'SDWebImage', '~> 3.6'

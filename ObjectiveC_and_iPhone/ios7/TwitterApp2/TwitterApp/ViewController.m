@@ -8,12 +8,16 @@
 
 #import "ViewController.h"
 #import "TweetList.h"
+#import "TweetTableViewCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, AVSpeechSynthesizerDelegate>
 
 @property TweetList* tweetList;
 @property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 @property BOOL readingWholeList;
+@property BOOL currentlyPlaying;
+//@property (strong, nonatomic) NSMutableArray* tweetIndexPaths;
 
 @end
 
@@ -25,8 +29,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.synthesizer = [AVSpeechSynthesizer new];
+//    self.tweetIndexPaths = [NSMutableArray new];
     [self.synthesizer setDelegate:self];
     self.readingWholeList = NO;
+    self.currentlyPlaying = NO;
     
     NSArray* jsonTest = @[
                           @{
@@ -108,10 +114,10 @@
                           ];
     
     self.dataSource = jsonTest;
-    NSLog(@"%@", self.dataSource);
     [self.tweetTableView reloadData];
     [self getTimeLine];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -120,8 +126,8 @@
 }
 
 
-- (void)getTimeLine {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (void)getTimeLine
+{
     ACAccountStore *account = [[ACAccountStore alloc] init];
     ACAccountType *accountType = [account
                                   accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
@@ -165,11 +171,6 @@
                      
                      self.tweetList = [[TweetList alloc] initWithJSON:data];
                      [self.tweetList printTweets];
-//                    
-//                     NSString* jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                     
-//                     NSLog(@"%lu", (unsigned long)self.dataSource.count);
-//                     NSLog(@"%@", jsonString);
                      
                       if (self.dataSource.count != 0) {
                           dispatch_async(dispatch_get_main_queue(), ^{
@@ -186,75 +187,88 @@
      }];
 }
 
-#pragma mark -
+
 #pragma mark UITableViewDataSource
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return self.dataSource.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    NSLog(@"%s", __PRETTY_FUNCTION__);
-    static NSString *CellIdentifier = @"Cell";
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"TweetCell";
     
-    UITableViewCell *cell = [self.tweetTableView
-                             dequeueReusableCellWithIdentifier:CellIdentifier];
+//    [self.tweetIndexPaths addObject:indexPath];
+    NSLog(@"%@", indexPath  );
+    
+    TweetTableViewCell *cell = [self.tweetTableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc]
+        cell = [[TweetTableViewCell alloc]
                 initWithStyle:UITableViewCellStyleDefault
                 reuseIdentifier:CellIdentifier];
     }
     
     NSDictionary *tweet = self.dataSource[[indexPath row]];
     
-    cell.textLabel.text = tweet[@"text"];
+    cell.contentLabel.text = tweet[@"text"];
+    cell.nameLabel.text = tweet[@"user"][@"name"];
+    cell.screenNameLabel.text =  [NSString stringWithFormat:@"@%@", tweet[@"user"][@"screen_name"]];
+    
+    cell.contentLabel.frame = CGRectMake(20,75,285,600);
+    [cell.contentLabel sizeToFit];
+    
+    NSString *ImageURL = tweet[@"user"][@"profile_image_url_https"];
+
+    [cell.icon setImageWithURL:[NSURL URLWithString:ImageURL] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
+        NSLog(@"Image Loaded...");
+    }];
     return cell;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [self.tweetTableView cellForRowAtIndexPath:indexPath];
+    [self readTweet:[self.tweetList getTweetAtIndex:indexPath.row]];
+    [self scrollToTopRowAtIndexPath:indexPath.row];
+}
+
+
+- (void) scrollToTopRowAtIndexPath: (NSInteger) index
+{
+    // create C array of values for NSIndexPath
+    NSUInteger indexArr[] = {0, index};
+    NSIndexPath *indexPath = [NSIndexPath indexPathWithIndexes:indexArr length:2];
     
-    UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:@"Tweet Selected"
-                                 message:cell.textLabel.text
-                                 delegate:nil
-                                 cancelButtonTitle:@"OK"
-                                 otherButtonTitles:nil];
-    
-    // Display Alert Message
-    [messageAlert show];
-    
-    [self readTweet:cell.textLabel.text];
+    //move table to new entry
+    [self.tweetTableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionTop];
     
 }
 
+
+#pragma mark - Buttons
 
 - (IBAction)speakButtonPressed:(id)sender
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    self.readingWholeList = YES;
-    
- 
-    [self readCurrentTweet];
-    
-}
 
-
-- (void) readCurrentTweet
-{
-    
-    if (self.tweetList.isAtTheEnd) {
-        return;
+    if (!self.currentlyPlaying) {
+        self.readingWholeList = YES;
+        self.currentlyPlaying = YES;
+        if (self.synthesizer.isPaused) {
+            [self.synthesizer continueSpeaking];
+        } else {
+            [self readCurrentTweet];
+        }
+        self.speakButton.title = @"Pause";
+        
+    } else {
+        self.currentlyPlaying = NO;
+        [self.synthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryWord];
+        self.speakButton.title = @"Read!";
     }
-    NSString* text = [self.tweetList getCurrentTweet];
-    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
-    [self.synthesizer speakUtterance:utterance];
     
-    [self.tweetList goToNextTweet];
 }
 
 
@@ -266,8 +280,27 @@
     AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
     
     [self.synthesizer speakUtterance:utterance];
-
+    
 }
+
+
+- (void) readCurrentTweet
+{
+    
+    if (self.tweetList.isAtTheEnd) {
+        return;
+    }
+    
+    [self scrollToTopRowAtIndexPath:self.tweetList.currentTweetIndex];
+    
+    NSString* text = [self.tweetList getCurrentTweet];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
+    [self.synthesizer speakUtterance:utterance];
+    
+    
+    [self.tweetList goToNextTweet];
+}
+
 
 
 #pragma mark AVSpeechSynthesizerDelegate

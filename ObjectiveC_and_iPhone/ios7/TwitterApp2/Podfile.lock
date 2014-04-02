@@ -1,10 +1,15 @@
 PODS:
+  - SDWebImage (3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.6)
   - twitter-text-objc (1.6.1)
 
 DEPENDENCIES:
+  - SDWebImage (~> 3.6)
   - twitter-text-objc (~> 1.6)
 
 SPEC CHECKSUMS:
+  SDWebImage: 7eb273e54ca8a2e506ad9bd5e80c35b2a4d7c95e
   twitter-text-objc: 667f26d0ad5c53cf8fcbc5ccb63d72ebfa3c6306
 
 COCOAPODS: 0.29.0

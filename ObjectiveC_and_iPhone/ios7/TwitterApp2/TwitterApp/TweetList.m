@@ -10,7 +10,7 @@
 
 @interface TweetList ()
 
-@property NSInteger currentTweetIndex;
+
 
 @end
 

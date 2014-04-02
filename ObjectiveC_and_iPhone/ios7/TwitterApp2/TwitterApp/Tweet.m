@@ -62,9 +62,12 @@
         } else if (type == TwitterTextEntityURL) {
             result = [result stringByReplacingOccurrencesOfString:str withString: [self convertURLtoTTSString]];
             
+        } else if (type == TwitterTextEntitySymbol) {
+            NSLog(@"HHHHHHHHHHHHHHHHHHHHHHHHHHHHH %@", str);
         }
     }
     
+    result = [result stringByReplacingOccurrencesOfString:@"&amp;" withString: @"&"];
     result = [result stringByReplacingOccurrencesOfString:@"RT " withString: @"Retweet:"];
 
     result = [NSString stringWithFormat:@"From %@:%@",self.name, result];
