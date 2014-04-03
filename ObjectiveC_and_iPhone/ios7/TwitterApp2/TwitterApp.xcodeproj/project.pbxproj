@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2A8E41B518EC63E900450F40 /* TweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E41B418EC63E900450F40 /* TweetTableViewCell.m */; };
+		2A8E41FF18EDCFBB00450F40 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E41FE18EDCFBB00450F40 /* SettingsViewController.m */; };
+		2A8E420218EDF25D00450F40 /* AudioSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E420118EDF25D00450F40 /* AudioSynthesizer.m */; };
 		2AB2A7C118EA2257009EF885 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2A7C018EA2257009EF885 /* AVFoundation.framework */; };
 		2AB2A7C418EA22FD009EF885 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A7C318EA22FD009EF885 /* Tweet.m */; };
 		2AB2A7C718EA255A009EF885 /* TweetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A7C618EA255A009EF885 /* TweetList.m */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		2A8E41B318EC63E900450F40 /* TweetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTableViewCell.h; sourceTree = "<group>"; };
 		2A8E41B418EC63E900450F40 /* TweetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTableViewCell.m; sourceTree = "<group>"; };
+		2A8E41FD18EDCFBB00450F40 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2A8E41FE18EDCFBB00450F40 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2A8E420018EDF25D00450F40 /* AudioSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSynthesizer.h; sourceTree = "<group>"; };
+		2A8E420118EDF25D00450F40 /* AudioSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSynthesizer.m; sourceTree = "<group>"; };
 		2AB2A7C018EA2257009EF885 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2AB2A7C218EA22FD009EF885 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
 		2AB2A7C318EA22FD009EF885 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 				2AB2A7C318EA22FD009EF885 /* Tweet.m */,
 				2AB2A7C518EA255A009EF885 /* TweetList.h */,
 				2AB2A7C618EA255A009EF885 /* TweetList.m */,
+				2A8E420018EDF25D00450F40 /* AudioSynthesizer.h */,
+				2A8E420118EDF25D00450F40 /* AudioSynthesizer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -115,6 +123,8 @@
 			children = (
 				2AB897D318E0D25E0080887A /* ViewController.h */,
 				2AB897D418E0D25E0080887A /* ViewController.m */,
+				2A8E41FD18EDCFBB00450F40 /* SettingsViewController.h */,
+				2A8E41FE18EDCFBB00450F40 /* SettingsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -321,6 +331,8 @@
 				2AB2A7C718EA255A009EF885 /* TweetList.m in Sources */,
 				2AB2A7C418EA22FD009EF885 /* Tweet.m in Sources */,
 				2A8E41B518EC63E900450F40 /* TweetTableViewCell.m in Sources */,
+				2A8E41FF18EDCFBB00450F40 /* SettingsViewController.m in Sources */,
+				2A8E420218EDF25D00450F40 /* AudioSynthesizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

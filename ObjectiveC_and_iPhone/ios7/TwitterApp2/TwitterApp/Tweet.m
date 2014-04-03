@@ -18,14 +18,16 @@
 @implementation Tweet
 
 
-- (NSString*) getFullTweet {
+- (NSString*) getFullTweet
+{
     
     NSString *full = [NSString stringWithFormat:@"%@: %@",self.name, self.content];
     return full;
 }
 
 
-- (Tweet*) initWithName: (NSString*)name andContent:(NSString*) content {
+- (Tweet*) initWithName: (NSString*)name andContent:(NSString*) content
+{
     
     if (self = [super init]) {
         self.name = name;
@@ -36,7 +38,8 @@
 }
 
 
-- (NSString*) buildTTSReadableString {
+- (NSString*) buildTTSReadableString
+{
     
     // Used cached copy of text to speech string if available.
     if (self.ttsString) {
@@ -64,11 +67,17 @@
             
         } else if (type == TwitterTextEntitySymbol) {
             NSLog(@"HHHHHHHHHHHHHHHHHHHHHHHHHHHHH %@", str);
+     
+        } else if (type == TwitterTextEntityListName) {
+            NSLog(@"GGGGGGGGGGGGGGGGGGGG %@", str);
+    
         }
     }
-    
+
     result = [result stringByReplacingOccurrencesOfString:@"&amp;" withString: @"&"];
     result = [result stringByReplacingOccurrencesOfString:@"RT " withString: @"Retweet:"];
+    
+//    result = [self findAllImageURLs:result];
 
     result = [NSString stringWithFormat:@"From %@:%@",self.name, result];
     
@@ -78,7 +87,8 @@
 }
 
 
-- (NSString*) convertHashAndAtToTTSString: (NSString*)string {
+- (NSString*) convertHashAndAtToTTSString: (NSString*)string
+{
     
     NSRange prefixRange = NSMakeRange(0, 1);
     NSRange remainingRange = NSMakeRange(1, [string length]  - 1);
@@ -101,9 +111,46 @@
 }
 
 
-- (NSString*) convertURLtoTTSString{
-    return @"link";
+- (NSString*) convertURLtoTTSString
+{
+    return @":link";
 }
+
+
+//- (NSString*) convertImgUrlToTTSString
+//{
+//    
+//    return @":image";
+//}
+
+
+//- (NSString*) findAllImageURLs: (NSString*) string
+//{
+//
+//    // seperate tweet into array of words
+//    NSArray* words = [string componentsSeparatedByString:@" "];
+//    NSLog(@"%@", words);
+//    NSString* imgUrlStart = @"http://t.co/";
+//    
+//    // iterate over the array of words looking for words containing the twitter's image url
+//    for (int i = 0; i < [words count]; i++) {
+//        
+//        NSRange range = [words[i] rangeOfString:imgUrlStart];
+//        
+//        // check the range exists, meaning that a twitter image url is found within the word,
+//        if (range.location != NSNotFound) {
+//            
+//            // get the word from the original tweet based on the range found
+//            NSString* str = [string substringWithRange:range];
+//            NSLog(@"%@", str);
+//            // remove occurences of the image url in the original tweet replacing it with a text to speech readable version
+//            string = [string stringByReplacingOccurrencesOfString:str withString: [self convertImgUrlToTTSString]];
+//            
+//        }
+//    }
+//    
+//    return string;
+//}
 
 
 @end
