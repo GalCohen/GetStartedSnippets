@@ -30,8 +30,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.synthesizer  = [[AudioSynthesizer sharedManager] synthesizer];
+    self.synthesizer.delegate = self;
     
-    [self.synthesizer setDelegate:self];
     NSError *error = NULL;
     AVAudioSession *session = [AVAudioSession sharedInstance];
     
@@ -202,6 +202,13 @@
      }];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    self.synthesizer.delegate = self;
+
+}
 
 #pragma mark UITableViewDataSource
 
@@ -293,8 +300,6 @@
 {
     NSLog(@"%s %@", __PRETTY_FUNCTION__, text);
     self.readingWholeList = NO;
-    
-//    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
 
     [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];
     [self.synthesizer speakUtterance: [self buildUtteranceWithString:text]];
@@ -316,7 +321,6 @@
     [self scrollToTopRowAtIndexPath:self.tweetList.currentTweetIndex];
     
     NSString* text = [self.tweetList getCurrentTweet];
-//    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
     [self.synthesizer speakUtterance: [self buildUtteranceWithString:text]];
     
     

@@ -40,6 +40,9 @@
     // Do any additional setup after loading the view.
     
     AudioSynthesizer *audioSynth =  [AudioSynthesizer sharedManager];
+    self.synthesizer = audioSynth.synthesizer;
+    
+    
 //    [audioSynth restoreUserPreferences];
     self.segmentedSpeed.selectedSegmentIndex  = audioSynth.selectedSpeed;
     self.segmentedSpeed.selectedSegmentIndex  = audioSynth.selectedPitch;
@@ -67,15 +70,15 @@
 }
 
 
-- (AVSpeechSynthesizer *)synthesizer
-{
-    if (!_synthesizer)
-    {
-        _synthesizer = [[AudioSynthesizer sharedManager] synthesizer];
-        _synthesizer.delegate = self;
-    }
-    return _synthesizer;
-}
+//- (AVSpeechSynthesizer *)synthesizer
+//{
+//    if (!_synthesizer)
+//    {
+//        _synthesizer = [[AudioSynthesizer sharedManager] synthesizer];
+//        _synthesizer.delegate = self;
+//    }
+//    return _synthesizer;
+//}
 
 
 - (void)viewDidAppear:(BOOL)animated
@@ -85,6 +88,7 @@
     {
         self.sampleTextview.text = self.restoredTextToSpeak;
         self.restoredTextToSpeak = nil;
+        self.synthesizer.delegate = self;
     }
 }
 
