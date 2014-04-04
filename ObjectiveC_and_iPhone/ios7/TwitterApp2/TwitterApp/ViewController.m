@@ -11,6 +11,8 @@
 #import "TweetTableViewCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
+#import "AudioSynthesizer.h"
+
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, AVSpeechSynthesizerDelegate>
 
 @property TweetList* tweetList;
@@ -27,7 +29,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.synthesizer = [AVSpeechSynthesizer new];
+    self.synthesizer  = [[AudioSynthesizer sharedManager] synthesizer];
+    
     [self.synthesizer setDelegate:self];
     NSError *error = NULL;
     AVAudioSession *session = [AVAudioSession sharedInstance];
@@ -291,10 +294,10 @@
     NSLog(@"%s %@", __PRETTY_FUNCTION__, text);
     self.readingWholeList = NO;
     
-    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
+//    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
 
     [self.synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];
-    [self.synthesizer speakUtterance:utterance];
+    [self.synthesizer speakUtterance: [self buildUtteranceWithString:text]];
     
 }
 
@@ -313,13 +316,44 @@
     [self scrollToTopRowAtIndexPath:self.tweetList.currentTweetIndex];
     
     NSString* text = [self.tweetList getCurrentTweet];
-    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
-    [self.synthesizer speakUtterance:utterance];
+//    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
+    [self.synthesizer speakUtterance: [self buildUtteranceWithString:text]];
     
     
     [self.tweetList goToNextTweet];
 }
 
+#pragma mark - set Utterance
+
+- (AVSpeechUtterance*) buildUtteranceWithString: (NSString*) text
+{
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+
+    AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage: audioSynth.selectedLanguage];
+    AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString: text];
+    utterance.voice = voice;
+    
+    float adjustedRate = AVSpeechUtteranceDefaultSpeechRate * [audioSynth rateModifier];
+    if (adjustedRate > AVSpeechUtteranceMaximumSpeechRate)
+    {
+        adjustedRate = AVSpeechUtteranceMaximumSpeechRate;
+    }
+    
+    if (adjustedRate < AVSpeechUtteranceMinimumSpeechRate)
+    {
+        adjustedRate = AVSpeechUtteranceMinimumSpeechRate;
+    }
+    utterance.rate = adjustedRate;
+    
+    float pitchMultiplier = [audioSynth pitchModifier];
+    if ((pitchMultiplier >= 0.5) && (pitchMultiplier <= 2.0))
+    {
+        utterance.pitchMultiplier = pitchMultiplier;
+    }
+    NSLog(@"pitch:%f rate:%f text:%@ adjustedRate:%f ", utterance.pitchMultiplier, [audioSynth rateModifier], text, utterance.rate);
+
+    return utterance;
+}
 
 
 #pragma mark AVSpeechSynthesizerDelegate

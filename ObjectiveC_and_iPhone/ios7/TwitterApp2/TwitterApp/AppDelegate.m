@@ -7,13 +7,16 @@
 //
 
 #import "AppDelegate.h"
-#import <AVFoundation/AVFoundation.h>
+#import "AudioSynthesizer.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+     [[AudioSynthesizer sharedManager] restoreUserPreferences];
+    
     return YES;
 }
 							

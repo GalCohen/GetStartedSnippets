@@ -8,6 +8,7 @@
 
 #import "SettingsViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "AudioSynthesizer.h"
 
 @interface SettingsViewController () <UITextViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource, AVSpeechSynthesizerDelegate>
 
@@ -25,25 +26,6 @@
 @property (strong, nonatomic) NSDictionary *languageDictionary;
 @property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 
-typedef NS_ENUM(NSInteger, UYLSpeedControlIndex)
-{
-    UYLSpeedControlQuarterSpeed = 0,
-    UYLSpeedControlHalfSpeed = 1,
-    UYLSpeedControlNormalSpeed = 2,
-    UYLSpeedControlDoubleSpeed = 3
-};
-
-typedef NS_ENUM(NSInteger, UYLPitchControlIndex)
-{
-    UYLPitchControlDeepPitch = 0,
-    UYLPitchControlNormalPitch = 1,
-    UYLPitchControlHighPitch = 2
-};
-
-@property (assign, nonatomic) UYLSpeedControlIndex selectedSpeed;
-@property (assign, nonatomic) UYLPitchControlIndex selectedPitch;
-@property (strong, nonatomic) NSString *selectedLanguage;
-
 @property (strong, nonatomic) NSString *restoredTextToSpeak;
 
 @end
@@ -51,28 +33,22 @@ typedef NS_ENUM(NSInteger, UYLPitchControlIndex)
 
 @implementation SettingsViewController
 
-NSString *UYLPrefKeySelectedSpeed = @"UYLPrefKeySelectedSpeed";
-NSString *UYLPrefKeySelectedPitch = @"UYLPrefKeySelectedPitch";
-NSString *UYLPrefKeySelectedLanguage = @"UYLPrefKeySelectedLanguage";
-NSString *UYLKeySpeechText = @"UYLKeySpeechText";
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self restoreUserPreferences];
-    self.segmentedSpeed.selectedSegmentIndex = self.selectedSpeed;
-    self.segmentedPitch.selectedSegmentIndex = self.selectedPitch;
+    AudioSynthesizer *audioSynth =  [AudioSynthesizer sharedManager];
+//    [audioSynth restoreUserPreferences];
+    self.segmentedSpeed.selectedSegmentIndex  = audioSynth.selectedSpeed;
+    self.segmentedSpeed.selectedSegmentIndex  = audioSynth.selectedPitch;
     
-    NSUInteger index = [self.languageCodes indexOfObject:self.selectedLanguage];
+    NSUInteger index = [self.languageCodes indexOfObject: audioSynth.selectedLanguage];
     if (index != NSNotFound)
     {
-        [self.accentPicker selectRow:index inComponent:0 animated:NO];
+        [self.accentPicker selectRow:index inComponent:0 animated:YES];
     }
-
-    
     
 //    [[NSNotificationCenter defaultCenter] addObserver:self
 //                                             selector:@selector(keyboardWasShown:)
@@ -95,7 +71,7 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
 {
     if (!_synthesizer)
     {
-        _synthesizer = [[AVSpeechSynthesizer alloc] init];
+        _synthesizer = [[AudioSynthesizer sharedManager] synthesizer];
         _synthesizer.delegate = self;
     }
     return _synthesizer;
@@ -119,11 +95,13 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
     NSLog(@"%s", __PRETTY_FUNCTION__);
     if (self.sampleTextview.text && !self.synthesizer.isSpeaking)
     {
-        AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage:self.selectedLanguage];
+        AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+
+        AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage: audioSynth.selectedLanguage];
         AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc] initWithString:self.sampleTextview.text];
         utterance.voice = voice;
         
-        float adjustedRate = AVSpeechUtteranceDefaultSpeechRate * [self rateModifier];
+        float adjustedRate = AVSpeechUtteranceDefaultSpeechRate * [audioSynth rateModifier];
         if (adjustedRate > AVSpeechUtteranceMaximumSpeechRate)
         {
             adjustedRate = AVSpeechUtteranceMaximumSpeechRate;
@@ -135,63 +113,14 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
         }
         utterance.rate = adjustedRate;
         
-        float pitchMultiplier = [self pitchModifier];
+        float pitchMultiplier = [audioSynth pitchModifier];
         if ((pitchMultiplier >= 0.5) && (pitchMultiplier <= 2.0))
         {
             utterance.pitchMultiplier = pitchMultiplier;
         }
-        NSLog(@"pitch:%f rate:%f text:%@ adjustedRate:%f ", utterance.pitchMultiplier, [self rateModifier], self.sampleTextview.text, utterance.rate);
+        NSLog(@"pitch:%f rate:%f text:%@ adjustedRate:%f ", utterance.pitchMultiplier, [audioSynth rateModifier], self.sampleTextview.text, utterance.rate);
         [self.synthesizer speakUtterance:utterance];
     }
-}
-
-
-#pragma mark - rates
-
-- (float)rateModifier
-{
-    float rate = 1.0;
-    switch (self.selectedSpeed)
-    {
-        case UYLSpeedControlQuarterSpeed:
-            rate = 0.25;
-            break;
-        case UYLSpeedControlHalfSpeed:
-            rate = 0.5;
-            break;
-        case UYLSpeedControlNormalSpeed:
-            rate = 1.0;
-            break;
-        case UYLSpeedControlDoubleSpeed:
-            rate = 2.0;
-            break;
-        default:
-            rate = 1.0;
-            break;
-    }
-    return rate;
-}
-
-
-- (float)pitchModifier
-{
-    float pitch = 1.0;
-    switch (self.selectedPitch)
-    {
-        case UYLPitchControlDeepPitch:
-            pitch = 0.75;
-            break;
-        case UYLPitchControlNormalPitch:
-            pitch = 1.0;
-            break;
-        case UYLPitchControlHighPitch:
-            pitch = 1.5;
-            break;
-        default:
-            pitch = 1.0;
-            break;
-    }
-    return pitch;
 }
 
 
@@ -200,9 +129,11 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
 - (IBAction) segmentedPitchPressed:(UISegmentedControl *)paramSender
 {
     NSLog(@"%s", __PRETTY_FUNCTION__);
-    self.selectedPitch = paramSender.selectedSegmentIndex;
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+    
+    audioSynth.selectedPitch = paramSender.selectedSegmentIndex;
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
-    [preferences setInteger:self.selectedPitch forKey:UYLPrefKeySelectedPitch];
+    [preferences setInteger:audioSynth.selectedPitch forKey:audioSynth.UYLPrefKeySelectedPitch];
     [preferences synchronize];
 }
 
@@ -210,9 +141,12 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
 - (IBAction) segmentedSpeedPressed:(UISegmentedControl *)paramSender
 {
     NSLog(@"%s", __PRETTY_FUNCTION__);
-    self.selectedSpeed = paramSender.selectedSegmentIndex;
+
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+
+    audioSynth.selectedSpeed = paramSender.selectedSegmentIndex;
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
-    [preferences setInteger:self.selectedSpeed forKey:UYLPrefKeySelectedSpeed];
+    [preferences setInteger:audioSynth.selectedSpeed forKey:audioSynth.UYLPrefKeySelectedSpeed];
     [preferences synchronize];
 }
 
@@ -265,9 +199,12 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    self.selectedLanguage = [self.languageCodes objectAtIndex:row];
+
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+
+    audioSynth.selectedLanguage = [self.languageCodes objectAtIndex:row];
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
-    [preferences setObject:self.selectedLanguage forKey:UYLPrefKeySelectedLanguage];
+    [preferences setObject:audioSynth.selectedLanguage forKey:audioSynth.UYLPrefKeySelectedLanguage];
     [preferences synchronize];
 }
 
@@ -324,33 +261,18 @@ NSString *UYLKeySpeechText = @"UYLKeySpeechText";
 
 #pragma mark State Restoration
 
-- (void)restoreUserPreferences
-{
-    NSString *currentLanguageCode = [AVSpeechSynthesisVoice currentLanguageCode];
-    
-    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
-    NSDictionary *defaults = @{ UYLPrefKeySelectedPitch:[NSNumber numberWithInteger:UYLPitchControlNormalPitch],
-                                UYLPrefKeySelectedSpeed:[NSNumber numberWithInteger:UYLSpeedControlNormalSpeed],
-                                UYLPrefKeySelectedLanguage:currentLanguageCode
-                                };
-    [preferences registerDefaults:defaults];
-    
-    self.selectedPitch = [preferences integerForKey:UYLPrefKeySelectedPitch];
-    self.selectedSpeed = [preferences integerForKey:UYLPrefKeySelectedSpeed];
-    self.selectedLanguage = [preferences stringForKey:UYLPrefKeySelectedLanguage];
-}
-
-
 - (void)encodeRestorableStateWithCoder:(NSCoder *)coder
 {
-    [coder encodeObject:self.sampleTextview.text forKey:UYLKeySpeechText];
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+    [coder encodeObject:self.sampleTextview.text forKey:audioSynth.UYLKeySpeechText];
     [super encodeRestorableStateWithCoder:coder];
 }
 
 
 - (void)decodeRestorableStateWithCoder:(NSCoder *)coder
 {
-    self.restoredTextToSpeak = [coder decodeObjectForKey:UYLKeySpeechText];
+    AudioSynthesizer *audioSynth = [AudioSynthesizer sharedManager];
+    self.restoredTextToSpeak = [coder decodeObjectForKey:audioSynth.UYLKeySpeechText];
     [super decodeRestorableStateWithCoder:coder];
 }
 
