@@ -151,3 +151,6 @@
 - **BeaconBroadcast, BeaconReceiver**
     - *iBeacon*
     - http://www.appcoda.com/ios7-programming-ibeacons-tutorial/
+- **MPCDemo**
+    - *Multipeer Connectivity Demo*
+    - http://code.tutsplus.com/tutorials/exploring-the-multipeer-connectivity-framework-project-setup--mobile-23071
