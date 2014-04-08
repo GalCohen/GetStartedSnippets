@@ -120,7 +120,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jof-Eo-r8j">
-                                <rect key="frame" x="120" y="420" width="78" height="30"/>
+                                <rect key="frame" x="120" y="504" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Disconnect">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -129,12 +129,20 @@
                                     <action selector="disconnect:" destination="kkx-IO-PZE" eventType="touchUpInside" id="Rc5-Hn-RWR"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MxM-em-OmG">
+                                <rect key="frame" x="20" y="291" width="280" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Options" id="C4o-tz-3kI"/>
                     <connections>
                         <outlet property="swVisible" destination="n3e-bb-fJi" id="vjh-4t-laK"/>
+                        <outlet property="tvPlayerList" destination="MxM-em-OmG" id="MIY-Gv-Ugi"/>
                         <outlet property="txtPlayerName" destination="mAJ-bM-Qtw" id="rA4-tm-mtq"/>
                     </connections>
                 </viewController>

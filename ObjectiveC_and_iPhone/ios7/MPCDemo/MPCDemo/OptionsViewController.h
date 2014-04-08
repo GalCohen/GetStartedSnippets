@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MultipeerConnectivity/MultipeerConnectivity.h>
 
-@interface OptionsViewController : UIViewController <MCBrowserViewControllerDelegate>
+@interface OptionsViewController : UIViewController <MCBrowserViewControllerDelegate, UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *txtPlayerName;
 @property (weak, nonatomic) IBOutlet UISwitch *swVisible;

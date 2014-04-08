@@ -17,11 +17,14 @@
 
 @implementation OptionsViewController
 
+#pragma mark - ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.txtPlayerName.delegate = self;
     
     self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     
@@ -43,6 +46,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Actions
 
 - (IBAction)searchForPlayers:(id)sender {
     if (self.appDelegate.mpcHandler.session != nil) {
@@ -56,17 +60,16 @@
 }
 
 
-- (IBAction)disconnect:(id)sender
-{
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (IBAction)disconnect:(id)sender {
+    [self.appDelegate.mpcHandler.session disconnect];
 }
 
 
-- (IBAction)toggleVisibility:(id)sender
-{
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (IBAction)toggleVisibility:(id)sender {
+    [self.appDelegate.mpcHandler advertiseSelf:self.swVisible.isOn];
 }
 
+#pragma mark - MCBrowserViewController Delegates
 
 - (void)browserViewControllerDidFinish:(MCBrowserViewController *)browserViewController
 {
@@ -83,8 +86,8 @@
     
 }
 
-#pragma mark -
-#pragma mark Notification Handling
+#pragma mark - Notification Handling
+
 - (void)peerChangedStateWithNotification:(NSNotification *)notification {
     // Get the state of the peer.
     int state = [[[notification userInfo] objectForKey:@"state"] intValue];
@@ -104,6 +107,26 @@
         
         [self.tvPlayerList setText:allPlayers];
     }
+}
+
+
+#pragma mark - TextView Delegates
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self.txtPlayerName resignFirstResponder];
+    
+    if (self.appDelegate.mpcHandler.peerID != nil) {
+        [self.appDelegate.mpcHandler.session disconnect];
+        
+        self.appDelegate.mpcHandler.peerID = nil;
+        self.appDelegate.mpcHandler.session = nil;
+    }
+    
+    [self.appDelegate.mpcHandler setupPeerWithDisplayName:self.txtPlayerName.text];
+    [self.appDelegate.mpcHandler setupSession];
+    [self.appDelegate.mpcHandler advertiseSelf:self.swVisible.isOn];
+    
+    return YES;
 }
 
 
