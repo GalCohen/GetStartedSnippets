@@ -139,7 +139,7 @@
     - http://www.ioscreator.com/tutorials/ios-file-management 
 - **MissileCommand**
     - *SpriteKit*
-    -https://code.tutsplus.com/tutorials/build-missile-command-with-sprite-kit-project-setup--mobile-21645
+    - https://code.tutsplus.com/tutorials/build-missile-command-with-sprite-kit-project-setup--mobile-21645
     - https://code.tutsplus.com/tutorials/build-missile-command-with-sprite-kit-user-interaction--mobile-21659
 - **CBTutorial**
     - *iBeacon*
