@@ -154,3 +154,4 @@
 - **MPCDemo**
     - *Multipeer Connectivity Demo*
     - http://code.tutsplus.com/tutorials/exploring-the-multipeer-connectivity-framework-project-setup--mobile-23071
+    - http://code.tutsplus.com/tutorials/exploring-the-multipeer-connectivity-framework-game-logic--mobile-22660
