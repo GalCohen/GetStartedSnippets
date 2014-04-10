@@ -162,3 +162,7 @@
     - *Target-Action Pattern*
     - *random numbers*
     - http://www.raywenderlich.com/56885/custom-control-for-ios-tutorial-a-reusable-knob/
+- **Picnic**
+    - *UIView Animations*
+    - *Audio*
+    - http://www.raywenderlich.com/2454/uiview-tutorial-for-ios-how-to-use-uiview-animation
