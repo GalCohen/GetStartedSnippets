@@ -155,3 +155,10 @@
     - *Multipeer Connectivity Demo*
     - http://code.tutsplus.com/tutorials/exploring-the-multipeer-connectivity-framework-project-setup--mobile-23071
     - http://code.tutsplus.com/tutorials/exploring-the-multipeer-connectivity-framework-game-logic--mobile-22660
+- **KnobControl**
+    - *Custom controls using Core Graphics and Core Animation*
+    - *Key Value Observing (KVO)*
+    - * Custom Gestures using UIPanGestureRecognizer*
+    - *Target-Action Pattern*
+    - *random numbers*
+    - http://www.raywenderlich.com/56885/custom-control-for-ios-tutorial-a-reusable-knob/
