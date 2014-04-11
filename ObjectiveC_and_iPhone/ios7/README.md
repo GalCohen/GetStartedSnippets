@@ -169,3 +169,9 @@
 - **ArrestsPlotter**
     - *MapKit*
     - http://www.raywenderlich.com/21365/introduction-to-mapkit-in-ios-6-tutorial
+- **UIAnimationSamples**
+    - *UIView Animations*
+    - *CGAffineTransform*
+    - *xib files*
+    - *NSTimer*
+    - *http://www.raywenderlich.com/5478/uiview-animation-tutorial-practical-recipes*
