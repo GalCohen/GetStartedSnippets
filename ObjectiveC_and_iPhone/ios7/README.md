@@ -166,3 +166,6 @@
     - *UIView Animations*
     - *Audio*
     - http://www.raywenderlich.com/2454/uiview-tutorial-for-ios-how-to-use-uiview-animation
+- **ArrestsPlotter**
+    - *MapKit*
+    - http://www.raywenderlich.com/21365/introduction-to-mapkit-in-ios-6-tutorial
