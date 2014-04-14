@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A3154E918FC6F4D0046A9D1 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3154E818FC6F4D0046A9D1 /* UIView+Screenshot.m */; };
+		2A3154EF18FC82B90046A9D1 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3154EE18FC82B90046A9D1 /* BlurView.m */; };
 		96079CAF182E11B600AA28AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96079CAE182E11B600AA28AD /* Foundation.framework */; };
 		96079CB1182E11B600AA28AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96079CB0182E11B600AA28AD /* CoreGraphics.framework */; };
 		96079CB3182E11B600AA28AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96079CB2182E11B600AA28AD /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		2A3154E718FC6F4D0046A9D1 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
 		2A3154E818FC6F4D0046A9D1 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		2A3154ED18FC82B90046A9D1 /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
+		2A3154EE18FC82B90046A9D1 /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
 		96079CAB182E11B600AA28AD /* Video Blurring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Blurring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96079CAE182E11B600AA28AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96079CB0182E11B600AA28AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 				2A3154E818FC6F4D0046A9D1 /* UIView+Screenshot.m */,
 				96079CE3182E144800AA28AD /* DropDownMenuController.h */,
 				96079CE4182E144800AA28AD /* DropDownMenuController.m */,
+				2A3154ED18FC82B90046A9D1 /* BlurView.h */,
+				2A3154EE18FC82B90046A9D1 /* BlurView.m */,
 				96079CC3182E11B600AA28AD /* ViewController.h */,
 				96079CC4182E11B600AA28AD /* ViewController.m */,
 				96079CC0182E11B600AA28AD /* Main.storyboard */,
@@ -259,6 +264,7 @@
 				96079CBF182E11B600AA28AD /* AppDelegate.m in Sources */,
 				96079CBB182E11B600AA28AD /* main.m in Sources */,
 				2A3154E918FC6F4D0046A9D1 /* UIView+Screenshot.m in Sources */,
+				2A3154EF18FC82B90046A9D1 /* BlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

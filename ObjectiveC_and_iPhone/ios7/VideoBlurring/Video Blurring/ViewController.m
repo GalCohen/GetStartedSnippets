@@ -8,7 +8,7 @@
 
 @import MobileCoreServices;
 #import <GPUImage/GPUImage.h>
-
+#import "BlurView.h"
 #import "ViewController.h"
 
 
@@ -23,26 +23,35 @@
     
     GPUImageMovieWriter *_movieWriter;
     
-    UIView *_recordView;
+    BlurView *_recordView;
     UIButton *_recordButton;
     BOOL _recording;
     
-    UIView *_controlView;
+    BlurView *_controlView;
     UIButton *_controlButton;
     BOOL _playing;
     
     BOOL _isVideoLive;
     
     UITapGestureRecognizer *_tap;
+    
+    GPUImageiOSBlurFilter *_blurFilter;
+    GPUImageBuffer *_videoBuffer;
 }
 
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _blurFilter = [[GPUImageiOSBlurFilter alloc] init];
+    
+    _videoBuffer = [[GPUImageBuffer alloc] init];
+    [_videoBuffer setBufferSize:1];
+    
     
     _backgroundImageView = [[GPUImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.height, self.view.frame.size.width)];
     [self.view insertSubview:_backgroundImageView atIndex:0];
@@ -53,8 +62,10 @@
     _tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(prepareToHideInterface)];
     [self.view addGestureRecognizer:_tap];
     
-    _recordView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2 - 50, 250, 110, 60)];
-    _recordView.backgroundColor = [UIColor grayColor];
+//    _recordView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2 - 50, 250, 110, 60)];
+//    _recordView.backgroundColor = [UIColor grayColor];
+    _recordView = [[BlurView alloc] initWithFrame:
+                   CGRectMake(self.view.frame.size.height/2 - 50, 250, 110, 60)];
     
     _recordButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _recordButton.frame = CGRectMake(5, 5, 100, 50);
@@ -70,8 +81,10 @@
     [self.view addSubview:_recordView];
     
     
-    _controlView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2 - 40, 230, 80, 80)];
-    _controlView.backgroundColor = [UIColor grayColor];
+//    _controlView = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2 - 40, 230, 80, 80)];
+//    _controlView.backgroundColor = [UIColor grayColor];
+    _controlView = [[BlurView alloc] initWithFrame:
+                    CGRectMake(self.view.frame.size.height/2 - 40, 230, 80, 80)];
     
     _controlButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _controlButton.frame = CGRectMake(0, 0, 80, 80);
@@ -133,7 +146,11 @@
     _liveVideo = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPreset1280x720 cameraPosition:AVCaptureDevicePositionBack];
     _liveVideo.outputImageOrientation = UIInterfaceOrientationLandscapeLeft;
     
-    [_liveVideo addTarget:_backgroundImageView];
+    [_liveVideo addTarget:_videoBuffer];
+    [_videoBuffer addTarget:_backgroundImageView];
+    [_videoBuffer addTarget:_blurFilter];
+    [_blurFilter addTarget:_recordView];
+    
     [_liveVideo startCameraCapture];
     
     _recordView.hidden = NO;
