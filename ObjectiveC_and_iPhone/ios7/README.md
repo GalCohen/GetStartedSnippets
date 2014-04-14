@@ -175,3 +175,8 @@
     - *xib files*
     - *NSTimer*
     - *http://www.raywenderlich.com/5478/uiview-animation-tutorial-practical-recipes*
+- **VideoBlurring**
+    - *GPUImage library*
+    - *Core Mobile Services*
+    - *static blurs, live blurs*
+    - http://www.raywenderlich.com/60968/ios-7-blur-effects-gpuimage
