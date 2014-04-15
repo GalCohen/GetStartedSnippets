@@ -186,3 +186,6 @@
     - *Core Graphics*
     - http://www.raywenderlich.com/6581/how-to-create-a-pdf-with-quartz-2d-in-ios-5-tutorial-part-1
     - http://www.raywenderlich.com/6818/how-to-create-a-pdf-with-quartz-2d-in-ios-5-tutorial-part-2
+- **DrawFire**
+    - *UIKit Particle Systems*
+    - http://www.raywenderlich.com/6063/uikit-particle-systems-in-ios-5-tutorial
