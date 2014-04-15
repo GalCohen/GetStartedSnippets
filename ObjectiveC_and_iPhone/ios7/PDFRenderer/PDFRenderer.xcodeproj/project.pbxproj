@@ -23,6 +23,8 @@
 		2A31552818FC92A50046A9D1 /* PDFRendererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31552718FC92A50046A9D1 /* PDFRendererTests.m */; };
 		2A31553318FC93810046A9D1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31553218FC93810046A9D1 /* PDFViewController.m */; };
 		2A31553618FC94D60046A9D1 /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31553518FC94D60046A9D1 /* PDFRenderer.m */; };
+		2A31553818FD8D460046A9D1 /* ray-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A31553718FD8D460046A9D1 /* ray-logo.png */; };
+		2A31553A18FD9C430046A9D1 /* InvoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A31553918FD9C430046A9D1 /* InvoiceView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		2A31553218FC93810046A9D1 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		2A31553418FC94D60046A9D1 /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
 		2A31553518FC94D60046A9D1 /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
+		2A31553718FD8D460046A9D1 /* ray-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ray-logo.png"; sourceTree = "<group>"; };
+		2A31553918FD9C430046A9D1 /* InvoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +123,16 @@
 			isa = PBXGroup;
 			children = (
 				2A31550B18FC92A50046A9D1 /* AppDelegate.h */,
+				2A31550C18FC92A50046A9D1 /* AppDelegate.m */,
 				2A31553118FC93810046A9D1 /* PDFViewController.h */,
 				2A31553218FC93810046A9D1 /* PDFViewController.m */,
-				2A31550C18FC92A50046A9D1 /* AppDelegate.m */,
 				2A31550E18FC92A50046A9D1 /* Main.storyboard */,
 				2A31553418FC94D60046A9D1 /* PDFRenderer.h */,
 				2A31553518FC94D60046A9D1 /* PDFRenderer.m */,
+				2A31553918FD9C430046A9D1 /* InvoiceView.xib */,
 				2A31551118FC92A50046A9D1 /* ViewController.h */,
 				2A31551218FC92A50046A9D1 /* ViewController.m */,
+				2A31553718FD8D460046A9D1 /* ray-logo.png */,
 				2A31551418FC92A50046A9D1 /* Images.xcassets */,
 				2A31550318FC92A50046A9D1 /* Supporting Files */,
 			);
@@ -238,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A31553A18FD9C430046A9D1 /* InvoiceView.xib in Resources */,
 				2A31551518FC92A50046A9D1 /* Images.xcassets in Resources */,
+				2A31553818FD8D460046A9D1 /* ray-logo.png in Resources */,
 				2A31550718FC92A50046A9D1 /* InfoPlist.strings in Resources */,
 				2A31551018FC92A50046A9D1 /* Main.storyboard in Resources */,
 			);

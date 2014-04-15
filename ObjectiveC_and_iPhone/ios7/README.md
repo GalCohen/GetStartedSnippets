@@ -180,3 +180,9 @@
     - *Core Mobile Services*
     - *static blurs, live blurs*
     - http://www.raywenderlich.com/60968/ios-7-blur-effects-gpuimage
+- **PDFRenderer**
+    - *rendering text, images and xib files to pdf files*
+    - *Core Text*
+    - *Core Graphics*
+    - http://www.raywenderlich.com/6581/how-to-create-a-pdf-with-quartz-2d-in-ios-5-tutorial-part-1
+    - http://www.raywenderlich.com/6818/how-to-create-a-pdf-with-quartz-2d-in-ios-5-tutorial-part-2

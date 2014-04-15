@@ -15,6 +15,8 @@
 
 @implementation PDFViewController
 
+#pragma mark - Life Cycle
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,20 +28,32 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    
     NSString* filename = [self getPDFFileName];
     
-    [PDFRenderer drawText];
     [PDFRenderer drawPDF:filename];
-    
     [self showPDFFile];
+    
+    [super viewDidLoad];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 /*
@@ -52,6 +66,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 -(NSString*)getPDFFileName
 {
     NSString* fileName = @"Invoice.PDF";
@@ -90,7 +105,6 @@
     
     [self.view addSubview:webView];
 }
-
 
 
 @end

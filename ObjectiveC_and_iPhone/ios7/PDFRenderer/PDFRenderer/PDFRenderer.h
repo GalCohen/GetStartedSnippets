@@ -11,8 +11,7 @@
 
 @interface PDFRenderer : NSObject
 
-+(void)drawText;
-+(void)drawLineFromPoint:(CGPoint)from toPoint:(CGPoint)to;
++(void)drawText:(NSString*)textToDraw inFrame:(CGRect)frameRect;
 +(void)drawPDF:(NSString*)fileName;
 
 @end
