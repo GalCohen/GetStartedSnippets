@@ -10,7 +10,4 @@
 
 @interface MTViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
-
 @end
