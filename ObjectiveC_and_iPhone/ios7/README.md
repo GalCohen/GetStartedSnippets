@@ -192,5 +192,8 @@
 - **Sessions**
     - *NSURLSession*
     - *ProgressView*
+    - * backgroun downloads*
     - http://code.tutsplus.com/tutorials/networking-with-nsurlsession-part-1--mobile-21394
     - http://code.tutsplus.com/tutorials/networking-with-nsurlsession-part-2--mobile-21581
+    - http://code.tutsplus.com/tutorials/working-with-nsurlsession-part-3--mobile-21879
+    - http://code.tutsplus.com/tutorials/working-with-nsurlsession-part-4--mobile-22545
