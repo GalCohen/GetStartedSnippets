@@ -200,3 +200,7 @@
 - **SpriteKitSimpleGame**
     - *SpriteKit*
     - http://www.raywenderlich.com/42699/spritekit-tutorial-for-beginners
+- **AnimatedBear**
+    - *SpriteKit*
+    - *Image atlas, touch events, sprite animations*
+    - http://www.raywenderlich.com/45152/sprite-kit-tutorial-animations-and-texture-atlases
