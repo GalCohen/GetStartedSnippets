@@ -207,3 +207,8 @@
 - **DragDrop**
     - *Drag n Drop in SpriteKit*
     - http://www.raywenderlich.com/44270/sprite-kit-tutorial-how-to-drag-and-drop-sprites
+- **SpaceShooter**
+    - *SpriteKit, collisions, sprite atlases, gravity*
+    - *CoreMotion*
+    - http://www.raywenderlich.com/49625/sprite-kit-tutorial-space-shooter/
+
