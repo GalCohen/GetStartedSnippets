@@ -211,4 +211,7 @@
     - *SpriteKit, collisions, sprite atlases, gravity*
     - *CoreMotion*
     - http://www.raywenderlich.com/49625/sprite-kit-tutorial-space-shooter/
-
+- **RotaryWheel**
+    - *CoreGraphics* 
+    - *Custom UI control*
+    - http://www.raywenderlich.com/9864/how-to-create-a-rotating-wheel-control-with-uikit
