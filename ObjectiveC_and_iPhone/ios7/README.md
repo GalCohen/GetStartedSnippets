@@ -215,3 +215,6 @@
     - *CoreGraphics* 
     - *Custom UI control*
     - http://www.raywenderlich.com/9864/how-to-create-a-rotating-wheel-control-with-uikit
+- **SurfsUp**
+    - *Customizing components: labels, buttons, progressView, pageControl, stepper, segmented control, sliders, etc.**
+    - http://www.raywenderlich.com/21703/user-interface-customization-in-ios-6
