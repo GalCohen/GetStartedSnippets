@@ -1,0 +1,17 @@
+//
+//  MyLocation.h
+//  ArrestsPlotter
+//
+//  Created by Gal Cohen on 4/11/14.
+//  Copyright (c) 2014 Gal Cohen. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
+@interface MyLocation : NSObject <MKAnnotation>
+
+- (id)initWithName:(NSString*)name address:(NSString*)address coordinate:(CLLocationCoordinate2D)coordinate;
+- (MKMapItem*)mapItem;
+
+@end

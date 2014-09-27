@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08835D61614444878079ACB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95229B9AB6F409CA7EFD07D /* libPods.a */; };
+		2A0BB80D18E096CF00D77EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB80C18E096CF00D77EF8 /* Foundation.framework */; };
+		2A0BB80F18E096CF00D77EF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB80E18E096CF00D77EF8 /* CoreGraphics.framework */; };
+		2A0BB81118E096CF00D77EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB81018E096CF00D77EF8 /* UIKit.framework */; };
+		2A0BB81718E096CF00D77EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BB81518E096CF00D77EF8 /* InfoPlist.strings */; };
+		2A0BB81918E096CF00D77EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB81818E096CF00D77EF8 /* main.m */; };
+		2A0BB81D18E096CF00D77EF8 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB81C18E096CF00D77EF8 /* MTAppDelegate.m */; };
+		2A0BB82018E096CF00D77EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BB81E18E096CF00D77EF8 /* Main.storyboard */; };
+		2A0BB82318E096CF00D77EF8 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB82218E096CF00D77EF8 /* MTViewController.m */; };
+		2A0BB82518E096CF00D77EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BB82418E096CF00D77EF8 /* Images.xcassets */; };
+		2A0BB82C18E096CF00D77EF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB82B18E096CF00D77EF8 /* XCTest.framework */; };
+		2A0BB82D18E096CF00D77EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB80C18E096CF00D77EF8 /* Foundation.framework */; };
+		2A0BB82E18E096CF00D77EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB81018E096CF00D77EF8 /* UIKit.framework */; };
+		2A0BB83618E096CF00D77EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BB83418E096CF00D77EF8 /* InfoPlist.strings */; };
+		2A0BB83818E096CF00D77EF8 /* Secure_PhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB83718E096CF00D77EF8 /* Secure_PhotosTests.m */; };
+		2A0BB84218E096E000D77EF8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB84118E096E000D77EF8 /* MobileCoreServices.framework */; };
+		2A0BB84418E096E700D77EF8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0BB84318E096E700D77EF8 /* Security.framework */; };
+		2A0BB84718E0984B00D77EF8 /* MTPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB84618E0984B00D77EF8 /* MTPhotosViewController.m */; };
+		2A0BB84D18E0988E00D77EF8 /* MTPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BB84C18E0988E00D77EF8 /* MTPhotoCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0BB82F18E096CF00D77EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0BB80118E096CF00D77EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0BB80818E096CF00D77EF8;
+			remoteInfo = "Secure Photos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FC3C588EAC349CB8D52FB25 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2A0BB80918E096CF00D77EF8 /* Secure Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0BB80C18E096CF00D77EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A0BB80E18E096CF00D77EF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A0BB81018E096CF00D77EF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A0BB81418E096CF00D77EF8 /* Secure Photos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Secure Photos-Info.plist"; sourceTree = "<group>"; };
+		2A0BB81618E096CF00D77EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A0BB81818E096CF00D77EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A0BB81A18E096CF00D77EF8 /* Secure Photos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Secure Photos-Prefix.pch"; sourceTree = "<group>"; };
+		2A0BB81B18E096CF00D77EF8 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		2A0BB81C18E096CF00D77EF8 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		2A0BB81F18E096CF00D77EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A0BB82118E096CF00D77EF8 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		2A0BB82218E096CF00D77EF8 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+		2A0BB82418E096CF00D77EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A0BB82A18E096CF00D77EF8 /* Secure PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secure PhotosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0BB82B18E096CF00D77EF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A0BB83318E096CF00D77EF8 /* Secure PhotosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Secure PhotosTests-Info.plist"; sourceTree = "<group>"; };
+		2A0BB83518E096CF00D77EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A0BB83718E096CF00D77EF8 /* Secure_PhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Secure_PhotosTests.m; sourceTree = "<group>"; };
+		2A0BB84118E096E000D77EF8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2A0BB84318E096E700D77EF8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A0BB84518E0984B00D77EF8 /* MTPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPhotosViewController.h; sourceTree = "<group>"; };
+		2A0BB84618E0984B00D77EF8 /* MTPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPhotosViewController.m; sourceTree = "<group>"; };
+		2A0BB84B18E0988E00D77EF8 /* MTPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		2A0BB84C18E0988E00D77EF8 /* MTPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		D95229B9AB6F409CA7EFD07D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0BB80618E096CF00D77EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB84418E096E700D77EF8 /* Security.framework in Frameworks */,
+				2A0BB84218E096E000D77EF8 /* MobileCoreServices.framework in Frameworks */,
+				2A0BB80F18E096CF00D77EF8 /* CoreGraphics.framework in Frameworks */,
+				2A0BB81118E096CF00D77EF8 /* UIKit.framework in Frameworks */,
+				2A0BB80D18E096CF00D77EF8 /* Foundation.framework in Frameworks */,
+				08835D61614444878079ACB2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BB82718E096CF00D77EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB82C18E096CF00D77EF8 /* XCTest.framework in Frameworks */,
+				2A0BB82E18E096CF00D77EF8 /* UIKit.framework in Frameworks */,
+				2A0BB82D18E096CF00D77EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0BB80018E096CF00D77EF8 = {
+			isa = PBXGroup;
+			children = (
+				2A0BB81218E096CF00D77EF8 /* Secure Photos */,
+				2A0BB83118E096CF00D77EF8 /* Secure PhotosTests */,
+				2A0BB80B18E096CF00D77EF8 /* Frameworks */,
+				2A0BB80A18E096CF00D77EF8 /* Products */,
+				1FC3C588EAC349CB8D52FB25 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0BB80A18E096CF00D77EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB80918E096CF00D77EF8 /* Secure Photos.app */,
+				2A0BB82A18E096CF00D77EF8 /* Secure PhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0BB80B18E096CF00D77EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB84318E096E700D77EF8 /* Security.framework */,
+				2A0BB84118E096E000D77EF8 /* MobileCoreServices.framework */,
+				2A0BB80C18E096CF00D77EF8 /* Foundation.framework */,
+				2A0BB80E18E096CF00D77EF8 /* CoreGraphics.framework */,
+				2A0BB81018E096CF00D77EF8 /* UIKit.framework */,
+				2A0BB82B18E096CF00D77EF8 /* XCTest.framework */,
+				D95229B9AB6F409CA7EFD07D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A0BB81218E096CF00D77EF8 /* Secure Photos */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB81B18E096CF00D77EF8 /* MTAppDelegate.h */,
+				2A0BB81C18E096CF00D77EF8 /* MTAppDelegate.m */,
+				2A0BB81E18E096CF00D77EF8 /* Main.storyboard */,
+				2A0BB82118E096CF00D77EF8 /* MTViewController.h */,
+				2A0BB82218E096CF00D77EF8 /* MTViewController.m */,
+				2A0BB84518E0984B00D77EF8 /* MTPhotosViewController.h */,
+				2A0BB84618E0984B00D77EF8 /* MTPhotosViewController.m */,
+				2A0BB84B18E0988E00D77EF8 /* MTPhotoCollectionViewCell.h */,
+				2A0BB84C18E0988E00D77EF8 /* MTPhotoCollectionViewCell.m */,
+				2A0BB82418E096CF00D77EF8 /* Images.xcassets */,
+				2A0BB81318E096CF00D77EF8 /* Supporting Files */,
+			);
+			path = "Secure Photos";
+			sourceTree = "<group>";
+		};
+		2A0BB81318E096CF00D77EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB81418E096CF00D77EF8 /* Secure Photos-Info.plist */,
+				2A0BB81518E096CF00D77EF8 /* InfoPlist.strings */,
+				2A0BB81818E096CF00D77EF8 /* main.m */,
+				2A0BB81A18E096CF00D77EF8 /* Secure Photos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A0BB83118E096CF00D77EF8 /* Secure PhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB83718E096CF00D77EF8 /* Secure_PhotosTests.m */,
+				2A0BB83218E096CF00D77EF8 /* Supporting Files */,
+			);
+			path = "Secure PhotosTests";
+			sourceTree = "<group>";
+		};
+		2A0BB83218E096CF00D77EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BB83318E096CF00D77EF8 /* Secure PhotosTests-Info.plist */,
+				2A0BB83418E096CF00D77EF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0BB80818E096CF00D77EF8 /* Secure Photos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0BB83B18E096CF00D77EF8 /* Build configuration list for PBXNativeTarget "Secure Photos" */;
+			buildPhases = (
+				DD6283A085FA40609B431A50 /* Check Pods Manifest.lock */,
+				2A0BB80518E096CF00D77EF8 /* Sources */,
+				2A0BB80618E096CF00D77EF8 /* Frameworks */,
+				2A0BB80718E096CF00D77EF8 /* Resources */,
+				6F31B1895C954C86A153EC8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secure Photos";
+			productName = "Secure Photos";
+			productReference = 2A0BB80918E096CF00D77EF8 /* Secure Photos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0BB82918E096CF00D77EF8 /* Secure PhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0BB83E18E096CF00D77EF8 /* Build configuration list for PBXNativeTarget "Secure PhotosTests" */;
+			buildPhases = (
+				2A0BB82618E096CF00D77EF8 /* Sources */,
+				2A0BB82718E096CF00D77EF8 /* Frameworks */,
+				2A0BB82818E096CF00D77EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0BB83018E096CF00D77EF8 /* PBXTargetDependency */,
+			);
+			name = "Secure PhotosTests";
+			productName = "Secure PhotosTests";
+			productReference = 2A0BB82A18E096CF00D77EF8 /* Secure PhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0BB80118E096CF00D77EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gal Cohen";
+				TargetAttributes = {
+					2A0BB82918E096CF00D77EF8 = {
+						TestTargetID = 2A0BB80818E096CF00D77EF8;
+					};
+				};
+			};
+			buildConfigurationList = 2A0BB80418E096CF00D77EF8 /* Build configuration list for PBXProject "Secure Photos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0BB80018E096CF00D77EF8;
+			productRefGroup = 2A0BB80A18E096CF00D77EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0BB80818E096CF00D77EF8 /* Secure Photos */,
+				2A0BB82918E096CF00D77EF8 /* Secure PhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0BB80718E096CF00D77EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB82518E096CF00D77EF8 /* Images.xcassets in Resources */,
+				2A0BB81718E096CF00D77EF8 /* InfoPlist.strings in Resources */,
+				2A0BB82018E096CF00D77EF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BB82818E096CF00D77EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB83618E096CF00D77EF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F31B1895C954C86A153EC8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6283A085FA40609B431A50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0BB80518E096CF00D77EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB84718E0984B00D77EF8 /* MTPhotosViewController.m in Sources */,
+				2A0BB81918E096CF00D77EF8 /* main.m in Sources */,
+				2A0BB84D18E0988E00D77EF8 /* MTPhotoCollectionViewCell.m in Sources */,
+				2A0BB82318E096CF00D77EF8 /* MTViewController.m in Sources */,
+				2A0BB81D18E096CF00D77EF8 /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BB82618E096CF00D77EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0BB83818E096CF00D77EF8 /* Secure_PhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0BB83018E096CF00D77EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0BB80818E096CF00D77EF8 /* Secure Photos */;
+			targetProxy = 2A0BB82F18E096CF00D77EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A0BB81518E096CF00D77EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0BB81618E096CF00D77EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A0BB81E18E096CF00D77EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0BB81F18E096CF00D77EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A0BB83418E096CF00D77EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0BB83518E096CF00D77EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A0BB83918E096CF00D77EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A0BB83A18E096CF00D77EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0BB83C18E096CF00D77EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC3C588EAC349CB8D52FB25 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secure Photos/Secure Photos-Prefix.pch";
+				INFOPLIST_FILE = "Secure Photos/Secure Photos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A0BB83D18E096CF00D77EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC3C588EAC349CB8D52FB25 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secure Photos/Secure Photos-Prefix.pch";
+				INFOPLIST_FILE = "Secure Photos/Secure Photos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A0BB83F18E096CF00D77EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Secure Photos.app/Secure Photos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secure Photos/Secure Photos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Secure PhotosTests/Secure PhotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A0BB84018E096CF00D77EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Secure Photos.app/Secure Photos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Secure Photos/Secure Photos-Prefix.pch";
+				INFOPLIST_FILE = "Secure PhotosTests/Secure PhotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0BB80418E096CF00D77EF8 /* Build configuration list for PBXProject "Secure Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BB83918E096CF00D77EF8 /* Debug */,
+				2A0BB83A18E096CF00D77EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0BB83B18E096CF00D77EF8 /* Build configuration list for PBXNativeTarget "Secure Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BB83C18E096CF00D77EF8 /* Debug */,
+				2A0BB83D18E096CF00D77EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0BB83E18E096CF00D77EF8 /* Build configuration list for PBXNativeTarget "Secure PhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0BB83F18E096CF00D77EF8 /* Debug */,
+				2A0BB84018E096CF00D77EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0BB80118E096CF00D77EF8 /* Project object */;
+}

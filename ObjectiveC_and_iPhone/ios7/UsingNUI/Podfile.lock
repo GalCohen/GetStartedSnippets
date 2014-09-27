@@ -1,0 +1,13 @@
+PODS:
+  - CoreParse (1.1)
+  - NUI (0.5.2):
+    - CoreParse
+
+DEPENDENCIES:
+  - NUI (~> 0.5.2)
+
+SPEC CHECKSUMS:
+  CoreParse: 11f0ec66ac10a637fc16995b13ca372e2eeb61dc
+  NUI: 5603608a1491035a15c980532ee7ad0b4bb9f5e1
+
+COCOAPODS: 0.29.0
