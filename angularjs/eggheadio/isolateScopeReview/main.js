@@ -4,7 +4,7 @@ app.controller("AppCtrl", function  ($scope) {
     $scope.leaveVoicemail = function  (number, message) {
         alert("Number: " + number + " said: " + message);
     };
-})
+});
 
 app.directive("phone", function  () {
     return {
@@ -23,3 +23,4 @@ app.directive("phone", function  () {
         }
     };
 });
+
